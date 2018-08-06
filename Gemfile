@@ -29,4 +29,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # THEMES
-gem "jekyll-theme-hydejack"
+#gem "jekyll-theme-hydejack"
+
+# Github pages
+gem "github-pages", group: :jekyll_plugins
