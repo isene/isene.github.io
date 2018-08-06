@@ -30,7 +30,7 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # THEMES
 #gem "jekyll-theme-hydejack"
-gem "jekyll-theme-minimal"
+#gem "jekyll-theme-minimal"
 
 # Github pages
 gem "github-pages", group: :jekyll_plugins
