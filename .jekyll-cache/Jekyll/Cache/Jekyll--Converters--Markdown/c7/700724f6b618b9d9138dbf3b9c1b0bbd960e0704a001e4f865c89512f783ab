@@ -1,0 +1,19 @@
+I"�<p><strong>Increase your productivity. Create better ToDo lists. Describe projects and processes more consisely. Reduce any concept down to pure simplicity. Use HyperList.</strong></p>
+
+<p>You can put any description of anything down as a simple HyperList. On paper, on a board, in a document. HyperList itself is just a way to describe stuff - some rules and ways to make descriptions simpler. And now this method is released in a new version - 2.4.</p>
+
+<p>It has been more than 4 years since HyperList last saw an upgrade. The methodology is extraordinarily complete, and the latest added feature is perhaps minor: Check section 4.3.2.1 of the <a href="https://www.dropbox.com/s/u88hiepntca589w/hyperlist.pdf?raw=1">HyperList definition document</a> for the new relative reference feature.</p>
+
+<p>I have mixed feelings, seeing it has become this complete and stable… there is less opportunity to tinker and perfect it. Which is why I would like to encourage any and all suggestions for improvements.</p>
+
+<p>Here’s <a href="https://isene.org/onepagebooks/#1pb-7-describe-anything---simple-and-effective">a primer on HyperList</a>.</p>
+
+<p>And here is the <a href="https://isene.org/hyperlist/">home page for HyperList</a>.</p>
+
+<p>If you are using <a href="http://www.vim.org">VIM</a> as your text editor, you can use the <a href="https://github.com/isene/hyperlist.vim">HyperList plugin</a> to effectively handle your lists. It is one of the most feature packed VIM plugins ever created. In its latest release, I added a full tutorial that walks you through all the features of this plugin. It’s been 56 releases of this software since its inception more than 10 years ago (then named WOIM). A thanks goes to many who have contributed to the development (check the docs for credits).</p>
+
+<p><img src="https://isene.org/assets/onepagebooks/7-hyperlist/cover.jpg" alt="" /></p>
+
+<hr />
+<p>Link to this post: <a href="https://isene.org/2019/10/HyperList24.html">https://isene.org/2019/10/HyperList24.html</a></p>
+:ET

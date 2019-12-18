@@ -18,7 +18,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-#permalink: /:categories/:year-:month-:day/:title.html
 permalink: /:categories/:year/:month/:title.html
 
 # Amount of post to show on home page
@@ -37,8 +36,8 @@ comments:
 #  toc_levels: 1..6
 #  enable_coderay: false
 
-include:
-  - .htaccess
+#include:
+#  - .htaccess
 
 exclude:
   - "*.less"
