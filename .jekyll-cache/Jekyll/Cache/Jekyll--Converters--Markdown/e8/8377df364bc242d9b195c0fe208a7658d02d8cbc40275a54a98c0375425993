@@ -1,0 +1,44 @@
+I"U<p><a href="http://d6gaming.org/">Amar RPG</a> is a simple, yet realistisk Role-Playing Game. It is freely awailable over at <a href="http://d6gaming.org">http://d6gaming.org</a></p>
+
+<p>Amar is a community-driven game developed by several contributors on a wiki.
+Feel free to use it and to contribute with suggestions and improvements.</p>
+
+<h3 id="tools-for-the-amar-rpg">Tools for the Amar RPG</h3>
+
+<p>Here are a set of useful tools for running an Amar Role-Playing campaign. The tools are also useful if you are running other Role-Playing game systems.</p>
+
+<hr />
+
+<table><tr>
+<td><p style="text-align:center"><img src="/assets/img/amarcover.jpg" alt="Amar RPG cover" /></p></td>
+<td>
+<p><form name="new" method="post" action="/cgi-bin/html_enc_input.rb">
+<input type="submit" style="width:300px" name="new" value=" Generate random encounter " /></form></p>
+<p><form name="new" method="post" action="/cgi-bin/html_npc_input.rb">
+<input type="submit" style="width:300px" name="new" value=" Generate a detailed human NPC " /></form></p>
+<p><form name="new" method="post" action="/cgi-bin/html_town_input.rb">
+<input type="submit" style="width:300px" name="new" value=" Generate a random town " /></form></p>
+<p><form name="new" method="post" action="/cgi-bin/html_town_relations_input.rb">
+<input type="submit" style="width:300px" name="new" value=" Generate town relations " /></form></p>
+<p><form name="new" method="post" action="/cgi-bin/html_name_input.rb">
+<input type="submit" style="width:300px" name="new" value=" Generate random names " /></form></p>
+<p><form name="new" method="post" action="/cgi-bin/html_weather_input.rb">
+<input type="submit" style="width:300px" name="new" value=" Generate random weather " /></form></p>
+<p><form name="new" method="post" action="/cgi-bin/O6.rb">
+<input type="submit" style="width:300px" name="new" value=" Make open ended D6 rolls " /></form></p>
+</td>
+</tr></table>
+<hr />
+
+<p>Read <a href="/2018/08/Amar-Tools.html">this blog post</a> for a detailed escription of these tools.</p>
+
+<p>Upon pressing the top three buttons, you will be asked for certain inputs. You may select or enter values in any of the input fields. Those you don’t will be randomly generated.</p>
+
+<p>When you have selected/entered the values you want, press “Submit”, and the random encounter or detailed human NPC will be generated. If you are not happy with the result, but still want to keep those initial values, just press the button “Reload with same values”.</p>
+
+<p>When creating a random town, you will get a complete village/town/city populated with the right types of houses/shops and residents in each house. You will also get a graphical representation of the special relationships between the inhabitants. You can save your random town as a text file and edit it as you want. You can then upload your edited town to generate a new relationship map.</p>
+
+<p>The last three tools will give you random names for various races, randomly generating a month of weather (28 days) and 10 “Open Ended Dice Rolls”.</p>
+
+<p style="text-align:center"><img src="/assets/img/amar.png" alt="The Kingdom of Amar" /></p>
+:ET
