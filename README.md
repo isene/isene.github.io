@@ -1,69 +1,25 @@
-# GitHub Web Presentation
+# Slate+Simple Jekyll Theme
 
-A simple template for creating presentations on the web hosted by GitHub. You can also serve it locally if you don't want to upload your presentation online.
+Slate+Simple is a sleek and minimalistic theme for Jekyll blogs. It is based on the [Clean+Simple Theme](https://github.com/nathanrooy/Clean-and-Simple-Jekyll-Theme) by [Nathan Rooy](https://nathanrooy.github.io). 
 
-## Getting started
+[Live demo.](https://benradford.github.io)
 
-Fork the repo and edit `_config.yml` and then activate [GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) in the repo settings on the `master` branch.
+Slate+Simple is a light-on-dark theme that features crisp typography and includes featured images for posts. It is easily modified and provided under the MIT open source license to encourage community modifications and improvements. 
 
-This project depends on Ruby and github-pages gem.
+<figure>
+<img src="slate+simple_screenshot.png">
+</figure>
 
-### **1. Installing Ruby and dependencies:**
+YAML headers include support for:
 
-For Windows (using Chocolatey package manager):
+* title
+* subtitle
+* author
+* featured-image
+* date-string
+* categories
+* tags
 
-```bash
-$ choco install ruby
-...
-```
+Additionally, Slate+Simple supports [MathJax](https://www.mathjax.org) for beautiful equations and [Font Awesome](http://fontawesome.io/icons/). LaTeX math wrapped in `$$` will automatically compile to in-line or block images of formatted equations. Font awesome icons are included with the `i` tag. For example: `<i class='fa fa-github-alt'></i>`.
 
-For macOS (using Homebrew package manager):
 
-```bash
-$ brew install ruby
-...
-```
-
-For Ubuntu (using apt):
-
-```bash
-$ sudo apt-get install ruby-full
-...
-```
-
-After installing please verify the version by running:
-
-```bash
-$ ruby -v
-ruby 2.5.1p57 (2018-03-29 revision 63029) [x64-mingw32]
-```
-
-Life should be great right now, install the project dependencies
-```
-$ gem install github-pages
-...
-```
-
-### **2. Running the project**
-
-Clone the forked repository to your computer
-
-```bash
-$ git clone https://github.com/username/gh-presentation.git
-$ cd gh-presentation
-$ jekyll serve
-...
-```
-
-The site should now be served on http://localhost:4000 and it should be listening for changes in your markup.
-
-## **3. Creating content**
-
-To create new slides you will have to use [GitHub Markdown](https://guides.github.com/features/mastering-markdown/).
-
-All the slides are located under the `_posts` folder. To see an overview of all the slides you can use `esc` on your keyboard to get an idea of how the numbers (e.g. `1000-01-01-intro.md`) work on each slide.
-
-## **Upcoming features:**
-
-* Exporting to PDF
-* WebSockets for broadcasting the presentation to multiple users
