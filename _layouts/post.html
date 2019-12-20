@@ -50,9 +50,7 @@
             <!-- POST CONTENT -->
             <div class="entry-content">
                 {{ content }}
-				{% include JB/comments %}
             </div>
-
             <!--- DIVIDING LINE -->
             <hr>
 
@@ -71,6 +69,7 @@
             <div class="post-date">
                 {{ page.date-string }}
             </div>
+			{% include disqus.html %}
         </article>
     </div>
 	<!-- FOOTER -->
