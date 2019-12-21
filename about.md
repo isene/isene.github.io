@@ -4,17 +4,14 @@ title: Geir who?
 permalink: /about/
 ---
 
-<img src="/assets/img/geir.png" alt="Geir" width="250px" />
+<center><img src="/assets/img/geir.jpg" alt="Geir" width="400px" />
+<p>@: <a href="mailto:g@isene.com">g@isene.com</a>
+<br />#: +47 4550 2470</p>
+<p>My <a href="/assets/CV-GeirIsene.pdf">résumé/CV</a>
+<br />The <a href="https://en.wikipedia.org/wiki/Geir_Isene" target="_blank" rel="noopener noreferrer">Wikipedia page</a></p>
+</center>
 
-### Contact
-
- @: [g@isene.com](mailto:g@isene.com)
- 
- #: +47 4550 2470
-
-### About
-
-My [résumé/CV](/assets/CV-GeirIsene.pdf). The [Wikipedia page](https://en.wikipedia.org/wiki/Geir_Isene).
+<hr />
 
 I write – fact, fiction and poetry; I philosophize, build companies, speak to small and large groups on most any topic, make artwork, music and games, program computers and old calculators, do crazy stuff.
 
