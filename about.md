@@ -4,11 +4,16 @@ title: Geir who?
 permalink: /about/
 ---
 
-<center><img src="/assets/img/geir.jpg" alt="Geir" width="400px" />
-<p>@: <a href="mailto:g@isene.com">g@isene.com</a>
-<br />#: +47 4550 2470</p>
-<p>My <a href="/assets/CV-GeirIsene.pdf">résumé/CV</a>
-<br />The <a href="https://en.wikipedia.org/wiki/Geir_Isene" target="_blank" rel="noopener noreferrer">Wikipedia page</a></p>
+<center><img src="/assets/img/geir.jpg" alt="Geir" width="700px" />
+<div class="tablesmall">
+<table><tr>
+<td>@: <a href="mailto:g@isene.com">g@isene.com</a></td>
+<td>My <a href="/assets/CV-GeirIsene.pdf">résumé/CV</a></td>
+</tr><tr>
+<td>#: +47 4550 2470</td>
+<td>The <a href="https://en.wikipedia.org/wiki/Geir_Isene" target="_blank" rel="noopener noreferrer">Wikipedia page</a></td>
+</tr></table>
+</div>
 </center>
 
 <hr />
