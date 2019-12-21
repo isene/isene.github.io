@@ -1,20 +1,9 @@
----
-layout: post
-title: Geir who?
-permalink: /about/
----
-
-<center><img src="/assets/img/geir.jpg" alt="Geir" width="700px" />
-<div class="tablesmall">
+I"�<center><img src="/assets/img/geir.jpg" alt="Geir" width="700px" />
 <table><tr>
-<td>@: <a href="mailto:g@isene.com">g@isene.com</a></td>
-<td>My <a href="/assets/CV-GeirIsene.pdf">résumé/CV</a></td>
+<td>@: <a href="mailto:g@isene.com">g@isene.com</a></td><td>#: +47 4550 2470</td>
 </tr><tr>
-<td>#: +47 4550 2470</td>
-<td>The <a href="https://en.wikipedia.org/wiki/Geir_Isene" target="_blank" rel="noopener noreferrer">Wikipedia page</a></td>
-</tr></table>
-</div>
-</center>
+<td>My <a href="/assets/CV-GeirIsene.pdf">résumé/CV</a></td><td>The <a href="https://en.wikipedia.org/wiki/Geir_Isene" target="_blank" rel="noopener noreferrer">Wikipedia page</a></td></tr>
+&lt;/center&gt;
 
 <hr />
 
@@ -49,3 +38,5 @@ I use Linux (Ubuntu GNU/Linux) on my laptop with i3 as the window manager and co
 ### Sitemap
 
 Here is a [sitemap for isene.org](/sitemap.txt).
+</table></center>
+:ET
