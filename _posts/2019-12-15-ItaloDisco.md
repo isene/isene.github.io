@@ -12,7 +12,7 @@ As the father of Midnight Magic and the show's proponent of Italo Disco music, I
 
 The playlist goes from early, slower Italo Disco to later, more Hi Energy. Enjoy :-)
 
-<iframe width="700" height="394" src="https://www.youtube.com/embed/videoseries?list=PLaluBi_Q_FvE2wtv2FPutmLagXUZt8Mhr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id='3W6i5uDlOlI?list=PLaluBi_Q_FvE2wtv2FPutmLagXUZt8Mhr' %}
 
 ```
 - 1985
