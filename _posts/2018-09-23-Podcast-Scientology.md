@@ -6,7 +6,7 @@ image: /assets/posts/scientology.jpg
 tags: [Podcast, Scientology]
 ---
 
-<iframe src="https://anchor.fm/isene/embed/episodes/Episode-3---What-is-Scientology-e29d42" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/isene/embed/episodes/Episode-3---What-is-Scientology-e29d42" width="100%" frameborder="0" scrolling="no"></iframe>
 
 I am often approached by pupils and students doing an essay or presentation on Scientology in class. I point them to [my page here on Scientology](https://isene.org/scientology) with links to posts, articles, videos and even books I have written on the subject. But something was missing: A simple and short introduction to what it actually is.  
 

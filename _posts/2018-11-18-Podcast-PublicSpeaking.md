@@ -6,7 +6,7 @@ image: /assets/posts/publicspeaking.jpg
 tags: [Podcast, Business, Coaching]
 ---
 
-<iframe src="https://anchor.fm/isene/embed/episodes/Episode-15-1609---Learn-better-public-speaking--even-without-slides-e2jrc9" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/isene/embed/episodes/Episode-15-1609---Learn-better-public-speaking--even-without-slides-e2jrc9" width="100%" frameborder="0" scrolling="no"></iframe>
 
 To become a good public speaker, practice.
 

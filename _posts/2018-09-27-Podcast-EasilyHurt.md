@@ -6,7 +6,7 @@ image: /assets/posts/interested.jpg
 tags: [Podcast, Coaching, Philosophy]
 ---
 
-<iframe src="https://anchor.fm/isene/embed/episodes/Episode-5---If-you-are-easily-hurt--your-world-is-too-small-e2a339" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/isene/embed/episodes/Episode-5---If-you-are-easily-hurt--your-world-is-too-small-e2a339" width="100%" frameborder="0" scrolling="no"></iframe>
 
 If your whole life is centered around having a perfect body, then any criticism of your body will be a criticism of your whole world. If your life is all about your job, then taking a hit at work will see your world crumble.
 

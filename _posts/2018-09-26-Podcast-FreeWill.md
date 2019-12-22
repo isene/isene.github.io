@@ -6,7 +6,7 @@ image: /assets/onepagebooks/3-freewill/cover.jpg
 tags: [Podcast, Philosophy]
 ---
 
-<center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-4---Free-will-e29rtt" height="102px" width="700px" frameborder="0" scrolling="no"></iframe></center>
+<center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-4---Free-will-e29rtt" width="100%" frameborder="0" scrolling="no"></iframe></center>
 
 In this podcast I cover the essence of Free Will - the central argument most philosophers muddle or sidestep. Making it really simple, the whole subject boils down to one argument, one simple choice.
 

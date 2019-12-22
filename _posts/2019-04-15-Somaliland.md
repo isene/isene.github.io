@@ -30,35 +30,21 @@ And with this we can create jobs and sow the seeds for an emerging industry in t
 
 <b>THE VIDEOS</b>
 
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/3qDWE8TwFsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/YLD9tz5rjuI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/0jcNiWaD4Tc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/uXyOfS_mjuM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/2QcmKJpfH5k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/Oo5vNRfmkfY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/syw0tB4VTeo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/s-6PQ5sZdF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/VkYn-F51r0g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/zQHrcpm_cSg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/BBOg4wleDZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/5vyW7wKkvro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/ts-EXWfnFlA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/GFknshQGJAQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/DZ3mLG4XL_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
+{% include youtube.html id='3qDWE8TwFsY' %}
+{% include youtube.html id='YLD9tz5rjuI' %}
+{% include youtube.html id='0jcNiWaD4Tc' %}
+{% include youtube.html id='uXyOfS_mjuM' %}
+{% include youtube.html id='2QcmKJpfH5k' %}
+{% include youtube.html id='Oo5vNRfmkfY' %}
+{% include youtube.html id='syw0tB4VTeo' %}
+{% include youtube.html id='s-6PQ5sZdF8' %}
+{% include youtube.html id='VkYn-F51r0g' %}
+{% include youtube.html id='zQHrcpm_cSg' %}
+{% include youtube.html id='BBOg4wleDZ8' %}
+{% include youtube.html id='5vyW7wKkvro' %}
+{% include youtube.html id='ts-EXWfnFlA' %}
+{% include youtube.html id='GFknshQGJAQ' %}
+{% include youtube.html id='DZ3mLG4XL_E' %}
 
 ---
 Link to this post: <https://isene.org/2019/04/Somaliland.html>

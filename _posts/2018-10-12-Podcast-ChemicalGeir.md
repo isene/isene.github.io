@@ -6,7 +6,7 @@ image: /assets/onepagebooks/4-fail/cover.jpg
 tags: [Podcast, Science]
 ---
 
-<iframe src="https://anchor.fm/isene/embed/episodes/Episode-11-2241---Chemical-Geir-blowing-himself-up-e2ct5t" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/isene/embed/episodes/Episode-11-2241---Chemical-Geir-blowing-himself-up-e2ct5t" width="100%" frameborder="0" scrolling="no"></iframe>
 
 Stay curious. Experiment. Fail fast. Learn.
 

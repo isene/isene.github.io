@@ -6,7 +6,7 @@ image: /assets/art/thinking.jpg
 tags: [Podcast, Philosophy]
 ---
 
-<center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-7---Being-an-extrovert-or-introvert-and-being-in-the-zone-e2al2g" height="102px" width="700px" frameborder="0" scrolling="no"></iframe></center>
+<center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-7---Being-an-extrovert-or-introvert-and-being-in-the-zone-e2al2g" width="100%" frameborder="0" scrolling="no"></iframe></center>
 
 Are you an introvert or extrovert? Or somewhere in between? Why? And how
 do you get into the zone - that state where everything you do just flow

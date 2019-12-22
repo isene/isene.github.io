@@ -5,7 +5,7 @@ title: Podcast 18 - The value of improvisation in Role-Playing Games
 image: /assets/art/random.jpg
 tags: [Podcast, Amar RPG]
 ---
-<center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-18-1754---The-value-of-improvisation-in-Role-Playing-Games-e2sdlq" height="102px" width="700px" frameborder="0" scrolling="no"></iframe></center>
+<center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-18-1754---The-value-of-improvisation-in-Role-Playing-Games-e2sdlq" width="100%" frameborder="0" scrolling="no"></iframe></center>
 
 In RPGs and generally in life - improvisation is an invaluable skill that will help you in countless situations. But how do you balance improvisation, planning and the role-playing game system itself? What is the benefits of planning, and when do you simply "wing it"?
 

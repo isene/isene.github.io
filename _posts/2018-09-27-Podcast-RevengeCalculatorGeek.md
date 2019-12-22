@@ -6,7 +6,7 @@ image: /assets/img/hp-41.png
 tags: [Podcast, Geekery, HP-41]
 ---
 
-<center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-6-1816---Revenge-of-the-calculator-geek-e2a5gs" height="102px" width="700px" frameborder="0" scrolling="no"></iframe></center>
+<center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-6-1816---Revenge-of-the-calculator-geek-e2a5gs" width="100%" frameborder="0" scrolling="no"></iframe></center>
 
 After having been laughed at by the leader of the Calculator Group in the Norwegian Astronomical Society, I decided to take revenge.
 

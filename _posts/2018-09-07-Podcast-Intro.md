@@ -6,7 +6,7 @@ image: /assets/img/lighthouse_o.jpg
 tags: [Podcast, Amar RPG, Philosophy, Science]
 ---
 
-<iframe src="https://anchor.fm/isene/embed/episodes/isene-org-Introduction-to-Geirs-podcasts-e25prt/a-a56hn2" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/isene/embed/episodes/isene-org-Introduction-to-Geirs-podcasts-e25prt/a-a56hn2" width="100%" frameborder="0" scrolling="no"></iframe>
 
 This is my first podcast here at isene.org. I talk about the range of topics I may cover in my upcoming podcasts - anything from sex to astrophysics. Want me to cover something special? Want to challenge me? State your wish in the comment section below. It may come true :-)
 
