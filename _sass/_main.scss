@@ -406,3 +406,20 @@ h1 {
 	height: 100%;
 	border: 0;
 }
+
+/*--- FIELDS & BUTTONS -------------------------------------------------------*/
+
+.button {
+	background-color: #444; 
+	border: none;
+	color: white;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.field {
+	background-color: #ccc; 
+}
