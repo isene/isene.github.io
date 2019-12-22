@@ -32,29 +32,32 @@ Also, you might be interesting in reading these:
 
 ### Videos
 Here is J. Swift interviewing me on many aspects of Scientology:
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/J7QOAUcqyYc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+{% include youtube.html id='J7QOAUcqyYc' %}
 
 There are two interviews that Aaron Smith-Levin did with me in 2018:
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/ECbTZsPWS-k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/SUPCnUqiWA4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+{% include youtube.html id='ECbTZsPWS-k' %}
+<br />
+{% include youtube.html id='SUPCnUqiWA4' %}
 
 If you understand Norwegian, there are also videos from my lectures on Scientology at Menighetsfakultetet (Universitetet i Oslo):
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/J0qnajW63QI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/2BsERABR7Jc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+{% include youtube.html id='J0qnajW63QI' %}
+<br />
+{% include youtube.html id='2BsERABR7Jc' %}
 
 Then there are my appearances on Norwegian television:
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/NcDVjKtNHKg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/gGqajuAxnlI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/M9AA2oyLmEU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+{% include youtube.html id='NcDVjKtNHKg' %}
+<br />
+{% include youtube.html id='gGqajuAxnlI' %}
+<br />
+{% include youtube.html id='M9AA2oyLmEU' %}
 
 And my radio interview in Norwegian - by Dag Sørås:
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/XokmhVK9Ndc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+{% include youtube.html id='XokmhVK9Ndc' %}
 
 And also my book release (<a href="http://isene.me/1984-book/" rel="noopener" target="_blank">Nittenåttifire</a>):
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/Do1ezvoWS4s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+{% include youtube.html id='Do1ezvoWS4s' %}
 
 To really dive into details, you can [read all my posts on Scientology on my previous blog](http://isene.me/category/scientology/).
 
 Finally; Alan Watts sums perfectly sums up my current view on Scientology and any self improvement methodology:
-
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/fCSsiF3BQoQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+{% include youtube.html id='fCSsiF3BQoQ' %}
