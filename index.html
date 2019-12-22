@@ -14,7 +14,7 @@ layout: post-index
         <h1 class="entry-title">
             <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a>
         </h1>
-        <small>{{ post.date | date_to_string }} (<a style="color:grey" href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.id}}">0 comments</a>)</small>
+        <small>{{ post.date | date_to_string }} (<a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a>)</small>
         <h3 class="entry-subtitle">
             <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.subtitle }}</a>
         </h3>
