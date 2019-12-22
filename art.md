@@ -53,4 +53,5 @@ images:
 <a href="{{ image.image_path }}" target="_blank"><img src="{{ image.image_path }}" alt="{{ image.title}}" width="230" /></a>
 {% endfor %}
 </p>
-<center><iframe width="700" height="394" src="https://www.youtube.com/embed/SmC8ekwl6Gw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </center>
+{% include youtube.html id='SmC8ekwl6Gw' %}
+
