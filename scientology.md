@@ -16,7 +16,7 @@ My old [Scientology blog](http://elysianchakorta.wordpress.com) has detailed acc
 
 To start off, here is a podcast that answers the question, "What is Scientology?". It's Episode 3 of "Geir's Everything" - available on all major podcast platforms. In this episode I cover the basics of Scientology:
 
-<iframe src="https://anchor.fm/isene/embed/episodes/Episode-3---What-is-Scientology-e29d42" height="102px" width="700px" frameborder="0" scrolling="no"></iframe> 
+<iframe src="https://anchor.fm/isene/embed/episodes/Episode-3---What-is-Scientology-e29d42" width="100%" frameborder="0" scrolling="no"></iframe> 
 
 ### Books
 Some 6 months after I left, I compiled all my blog posts into a book called "[Six months in the open](http://www.scribd.com/doc/64406625/Six-Months-In-The-Open-Scientology)" (Scribd.com). Link to [direct download ](https://www.dropbox.com/s/dajp4utk9lj9u33/sixmonths.pdf?raw=1)(91 pages, 1.6 MB).
@@ -36,19 +36,15 @@ Here is J. Swift interviewing me on many aspects of Scientology:
 
 There are two interviews that Aaron Smith-Levin did with me in 2018:
 {% include youtube.html id='ECbTZsPWS-k' %}
-<br />
 {% include youtube.html id='SUPCnUqiWA4' %}
 
 If you understand Norwegian, there are also videos from my lectures on Scientology at Menighetsfakultetet (Universitetet i Oslo):
 {% include youtube.html id='J0qnajW63QI' %}
-<br />
 {% include youtube.html id='2BsERABR7Jc' %}
 
 Then there are my appearances on Norwegian television:
 {% include youtube.html id='NcDVjKtNHKg' %}
-<br />
 {% include youtube.html id='gGqajuAxnlI' %}
-<br />
 {% include youtube.html id='M9AA2oyLmEU' %}
 
 And my radio interview in Norwegian - by Dag Sørås:
