@@ -5,7 +5,7 @@ title: Podcast 12 - Women will be last to be replaced by robots and AI
 image: /assets/posts/wista2.jpg
 tags: [Podcast, Business, Shipping]
 ---
-<iframe src="https://anchor.fm/isene/embed/episodes/Eposide-12-2351---Women-will-be-last-to-be-replaced-by-robots-and-AI-e2g0m9" height="102px" width="700px" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://anchor.fm/isene/embed/episodes/Eposide-12-2351---Women-will-be-last-to-be-replaced-by-robots-and-AI-e2g0m9" width="100%" frameborder="0" scrolling="no"></iframe>
 
 Earlier today I held a workshop in Tromsø - north of the arctic circle - at the annual [WISTA conference](http://wistainternational2018.com/) (WISTA being the "[Women's International Shipping & Trading Association](https://www.wista.net/)"). The topic of my workshop was "<i>Digitization, robots and AI. Why women will be the last to be replaced by robots and AI</i>". I was having a fun three hours with 25 smart and inspiring women. And to sum it up, I decided to wrap it all into a podcast. 
 

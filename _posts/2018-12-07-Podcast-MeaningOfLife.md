@@ -6,7 +6,7 @@ image: /assets/posts/meaningoflife.jpg
 tags: [Podcast, Coaching]
 ---
 
-<center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-17-0514---What-is-the-meaning-of-life--What-is-your-greatest-asset-e2nf9f" height="102px" width="700px" frameborder="0" scrolling="no"></iframe></center><br />
+<center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-17-0514---What-is-the-meaning-of-life--What-is-your-greatest-asset-e2nf9f" width="100%" frameborder="0" scrolling="no"></iframe></center><br />
 
 <center><img src="https://isene.org/assets/posts/meaning.png" alt="What is the meaning of life?" /></center>
 
