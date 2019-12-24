@@ -8,10 +8,10 @@ permalink: /about/
 <div class="tablesmall">
 <table><tr>
 <td>@: <a href="mailto:g@isene.com">g@isene.com</a></td>
-<td>My <a href="/assets/CV-GeirIsene.pdf">résumé/CV</a></td>
+<td align="right"><a href="/assets/CV-GeirIsene.pdf">Résumé/CV</a></td>
 </tr><tr>
 <td>#: +47 4550 2470</td>
-<td>The <a href="https://en.wikipedia.org/wiki/Geir_Isene" target="_blank" rel="noopener noreferrer">Wikipedia page</a></td>
+<td align="right"><a href="https://en.wikipedia.org/wiki/Geir_Isene" target="_blank" rel="noopener noreferrer">Wikipedia page</a></td>
 </tr></table>
 </div>
 </center>
@@ -44,7 +44,7 @@ I can give talks about anything – from motivation, organizational and personal
 
 ### My tools (the geek stuff)
 
-I use Linux (Ubuntu GNU/Linux) on my laptop with i3 as the window manager and conky  as the systems monitor/information presenter. I write almost everything in VIM, and I use Mutt as mail client and weechat as the chat client (over ssh to one of my virtual servers over at DigitalOcean). Qutebrowser is my favorite browser. My programming languages of choice are Ruby and Raven (except programming the HP-41 in FOCAL, synthetics or Mcode). And as requested by Nils, here's [the LaTeX files for my CV](/assets/cv-geir-isene.zip).
+I use Linux (Ubuntu GNU/Linux) on my laptop with i3 as the window manager and conky  as the systems monitor/information presenter. I write almost everything in VIM with LaTeX for markup, and I use Mutt as mail client and weechat as the chat client (over ssh to one of my virtual servers over at DigitalOcean). Qutebrowser is my favorite browser. My programming languages of choice are Ruby and Raven (except programming the HP-41 in FOCAL/Synthetics/MCODE or whin programming VIM with VIMscript). And as requested by Nils, here's [the LaTeX files for my CV](/assets/cv-geir-isene.zip).
 
 ### Sitemap
 
