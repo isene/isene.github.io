@@ -103,7 +103,7 @@ hr {
     height: 1px; 
     border: 0; 
     border-top: 1px solid #666;
-	width: 700px;
+	max-width: 700px;
 }
 
 .shorthr hr { 
@@ -113,7 +113,7 @@ hr {
     height: 1px; 
     border: 0; 
     border-top: 1px solid #666;
-	width: 700px;
+	max-width: 700px;
 }
 
 /*--- FIGURES & IMAGES ------------------------------------------------------*/
@@ -136,11 +136,11 @@ svg:not(:root) {
 
 .pagination {
     a{
-        color: lighten($base-color,30);
+        color: lighten($base-color,50);
     }
     
     a:hover {
-        color: lighten($base-color,60);
+        color: lighten($base-color,80);
     }
     
     word-spacing: 10px;
@@ -330,8 +330,6 @@ header .entry-meta {
                 opacity: 0.9;
             }
         }
-
-        
 	}
 }
 
@@ -387,7 +385,7 @@ h1 {
 /*--- SPECIAL TABLES --------------------------------------------------------*/
 
 .tablesmall {
-	width: 80%;
+	width: 85%;
 }
 
 /*--- YOUTUBE WRAPPER -------------------------------------------------------*/
@@ -416,6 +414,7 @@ h1 {
 	border: none;
 	color: white;
 	padding: 5px 5px;
+	margin-top: 8px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
