@@ -11,7 +11,6 @@ a {
 	&:hover { 
 		color: lighten($link-color, 20); 
 		text-decoration: underline;
-		text-decoration-color: #777;
 	}
 
 	&:focus { 
@@ -136,11 +135,11 @@ svg:not(:root) {
 
 .pagination {
     a{
-        color: lighten($base-color,50);
+        color: lighten($link-color,50);
     }
     
     a:hover {
-        color: lighten($base-color,80);
+        color: lighten($link-color,80);
     }
     
     word-spacing: 10px;
@@ -161,7 +160,7 @@ svg:not(:root) {
 .navigation-bar {
     //word-spacing: 20px;
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 5px;
     padding: 0;
     text-align: center;
 
@@ -173,14 +172,12 @@ svg:not(:root) {
 
     a{
     	text-transform: uppercase;
-        //color: $base-color;
-        color: lighten($base-color,50);
+        color: lighten($link-color,40);
         font-weight: 100;
     }
     
     a:hover {
     	text-transform: uppercase;
-        color: lighten($base-color,80);
         font-weight: 100;
     }
 }
@@ -245,7 +242,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a 
 
     h1, a, div {
     	text-transform: uppercase;
-		color: lighten($base-color, 60);
+		color: lighten($link-color, 60);
 		letter-spacing: 5px;
 	}
 }
@@ -253,14 +250,14 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a 
 .post-date {
     font-size: 12px;
 	text-transform: uppercase;
-    color: lighten($base-color,50);
+    color: lighten($link-color,50);
 
 	a {
-		color: lighten($base-color,50);
+		color: lighten($link-color,50);
 	}
     
     a:hover{
-        color: lighten($base-color,20);
+        color: lighten($link-color,20);
     }
 }
 
@@ -345,11 +342,11 @@ header .entry-meta {
     font-size: 14px;
 
     a:link{
-        color: lighten($text-color,60);
+        color: lighten($link-color,60);
     }
     
 	a:hover {
-		color: lighten($text-color,80);
+		color: lighten($link-color,80);
 	}
 }
 
