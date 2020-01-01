@@ -12,11 +12,11 @@ layout: post-index
     <!-- POST TITLE -->
     <header>
         <h1 class="entry-title">
-            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a>
+            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" itemprop="url">{{ post.title }}</a>
         </h1>
-        <small>{{ post.date | date_to_string }} (<a style="color:grey" href="{{ site.url }}{{ post.url }}#disqus_thread">0 Comments</a>)</small>
+        <small>{{ post.date | date_to_string }} (<a style="color:$link-color" href="{{ site.url }}{{ post.url }}#disqus_thread">0 Comments</a>)</small>
         <h3 class="entry-subtitle">
-            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.subtitle }}</a>
+            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" itemprop="url">{{ post.subtitle }}</a>
         </h3>
     </header>
 
@@ -24,7 +24,7 @@ layout: post-index
     <div class="entry-content">
         {{ post.content }}
     </div>
-	<p>Jump to the comments section: <a style="color:grey" href="{{ site.url }}{{ post.url }}#disqus_thread">0 Comments</a></p>
+	<p>Jump to the comments section: <a style="color:$link-color" href="{{ site.url }}{{ post.url }}#disqus_thread">0 Comments</a></p>
     <!--- DIVIDING LINE -->
     <hr>
     
