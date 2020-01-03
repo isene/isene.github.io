@@ -16,19 +16,19 @@ Here are a set of useful tools for running an Amar Role-Playing campaign. The to
 <table><tr>
 <td><p style="text-align:center"><img src="/assets/img/amarcover.jpg" alt="Amar RPG cover" /></p></td>
 <td>
-<p><form name="new" method="post" action="/cgi-bin/html_enc_input.rb">
+<p><form name="new" method="post" action="https://128.199.49.139/cgi-bin/html_enc_input.rb">
 <input type="submit" style="width:300px" name="new" value=" Generate random encounter "></form></p>
-<p><form name="new" method="post" action="/cgi-bin/html_npc_input.rb">
+<p><form name="new" method="post" action="https://128.199.49.139/cgi-bin/html_npc_input.rb">
 <input type="submit" style="width:300px" name="new" value=" Generate a detailed human NPC "></form></p>
-<p><form name="new" method="post" action="/cgi-bin/html_town_input.rb">
+<p><form name="new" method="post" action="https://128.199.49.139/cgi-bin/html_town_input.rb">
 <input type="submit" style="width:300px" name="new" value=" Generate a random town "></form></p>
-<p><form name="new" method="post" action="/cgi-bin/html_town_relations_input.rb">
+<p><form name="new" method="post" action="https://128.199.49.139/cgi-bin/html_town_relations_input.rb">
 <input type="submit" style="width:300px" name="new" value=" Generate town relations "></form></p>
-<p><form name="new" method="post" action="/cgi-bin/html_name_input.rb">
+<p><form name="new" method="post" action="https://128.199.49.139/cgi-bin/html_name_input.rb">
 <input type="submit" style="width:300px" name="new" value=" Generate random names "></form></p>
-<p><form name="new" method="post" action="/cgi-bin/html_weather_input.rb">
+<p><form name="new" method="post" action="https://128.199.49.139/cgi-bin/html_weather_input.rb">
 <input type="submit" style="width:300px" name="new" value=" Generate random weather "></form></p>
-<p><form name="new" method="post" action="/cgi-bin/O6.rb">
+<p><form name="new" method="post" action="https://128.199.49.139/cgi-bin/O6.rb">
 <input type="submit" style="width:300px" name="new" value=" Make open ended D6 rolls "></form></p>
 </td>
 </tr></table>
