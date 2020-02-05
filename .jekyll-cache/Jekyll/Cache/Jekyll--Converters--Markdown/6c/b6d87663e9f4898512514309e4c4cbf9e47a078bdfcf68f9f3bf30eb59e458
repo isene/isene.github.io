@@ -1,4 +1,4 @@
-I"x<p><img src="/assets/img/hyperlist.png" alt="" /></p>
+I"~<p><img src="/assets/img/hyperlist.png" alt="" /></p>
 
 <h3 id="everything-concise-and-precise">Everything. Concise and precise.</h3>
 <p>HyperListS represents a way to describe anything – any state or any transition. It represents data in tree-structure lists with a very rich set of features. It can be used for any structuring of data, such as:</p>
@@ -89,7 +89,7 @@ Graphed as a State (mindmap):</p>
 
 <p><img src="/assets/img/test_trans1.png" width="200" /></p>
 
-<p>You may <a href="http://isene.org/hypergraph.html">graph your HyperLists with the online HyperGraph</a></p>
+<p>You may <a href="https://128.199.49.139/hypergraph.html">graph your HyperLists with the online HyperGraph</a></p>
 
 <p>HyperGraph is a <a href="http://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a> script with a lot of options. Download <a href="https://github.com/isene/hypergraph">HyperGraph here</a>. HyperGraph is a rather complex endeavour. It works but you may encounter some snags. If you do, drop me a line and I will fix.</p>
 :ET
