@@ -6,7 +6,7 @@ image: /assets/posts/dieoneday.jpg
 tags: [Business, Coaching]
 ---
 
-Inspired by my collegue Brendan Martin who made a methodology based on his name, I decided to do the same.
+Inspired by my collegue [Brendan Martin](https://www.brendanmartin.com/) who made a methodology based on his name, I decided to do the same.
 
 To brainstorm and envision a goal, you need four ingredients. The goal must be:
 
