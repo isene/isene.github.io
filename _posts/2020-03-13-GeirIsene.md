@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Realise impressive goals
-image: /assets/posts/dieoneday.jpg
+image: /assets/img/lighthouse_o.jpg
 tags: [Business, Coaching]
 ---
 

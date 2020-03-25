@@ -22,12 +22,18 @@ layout: post-index
 
     <!-- POST CONTENT -->
     <div class="entry-content">
-        {{ post.content }}
+        {% if post.image %}
+            {% if post.imageurl %}
+				<a href="{{ post.imageurl }}" target="_blank"><img class="imgtn" src="{{ post.image }}" /></a>
+            {% else %}
+				<a href="{{ post.image }}" target="_blank"><img class="imgtn" src="{{ post.image }}" /></a>
+            {% endif %}
+        {% endif %}
+
+		{{ post.content | strip_html | truncatewords: 75 }} <a href="{{ BASE_PATH }}{{ post.url }}">Read more!</a></p>
+		<!-- {{ post.content }} -->
     </div>
-	<p>Jump to the comments section: <a style="color:$link-color" href="{{ site.url }}{{ post.url }}#disqus_thread">0 Comments</a></p>
-    <!--- DIVIDING LINE -->
-    <hr>
-    
+
     <!-- POST TAGS -->
     <div class="inline-tags">
         <span>
