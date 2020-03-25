@@ -1,0 +1,118 @@
+I")'<p>After 41 years the venerable HP-41 has got a well deserved upgrade.</p>
+
+<p>When it was introduced to the market in the spring of 1979, the HP-41 calculator was heralded as “the most versatile machine ever”. The first alpha numeric handheld calculator with expansion ports for all kinds of programming extensions. With a magnetic card reader, cassette tape or floppy drive you could store programs and data. With the HP Interface loop (HP-IL) you could hook the machine up with dozens of devices from printers and plotters to electrical or chemical lab equipment. Even to a modem or other computers. It opened up a World of possibilities from the palm of your hand. This revolutionary pocket calculator was used on board the Space Shuttle and was standard on every Concorde air plane.</p>
+
+<p><img src="/assets/posts/DM41X.jpg" alt="" /></p>
+
+<p>Over the years, the HP-41 family of equipment was expanded - until Hewlett Packard discontinued the production of the calculator in 1987. Faster and more advanced calculators with more than a one line LCD display - and even graphical display capabilities, took over the market. Today we have computing powers that far exceeds the capabilities of the HP-41 in our smart phones. But they don’t have buttons for input, has nowhere near the 6 month battery capacity and is much harder to program. And because of its versatility, easy of programming and great keyboard, the HP-41 lived on among enthusiasts.</p>
+
+<p>From less than half a kilobyte of memory in the original HP-41C (“C” for Constant memory), we got five times more memory with the HP-41CV (“V” is the Roman numeral 5) in 1980 and 6 KB with the HP-41CX (eXpanded) in 1983. This was the model and the year I bought my first HP-41. We even got custom modules that expanded the memory to a whopping 32 KB back in the 80s. But they cost a fortune.</p>
+
+<p>It wasn’t until 2003 when Diego Diaz launched <a href="http://www.clonix41.org/">a series of modern expansion modules</a> that we saw a quantum leap for the venerable calculator. Genius engineering added a whopping 64 KB in an affordable package. The faded user base rejoiced and a renaissance dawned for the 41.</p>
+
+<p>Another quantum leap came with the <a href="http://www.systemyde.com/hp41/">HP-41CL</a> by the brilliant Monte Dalrymple in 2010. By “brain transplanting” your calculator (swapping the motherboard), you could get an incredible 4 MB (yes, MEGA bytes) of memory added to your loved one. Packing every conceivable expansion pack to the calculator and with plenty of room to spare. There has been 430 program expansion packs created up through the years with applications for every thinkable purpose - from mathematics, physics and astronomy to aviation, engineering, finance, gambling, games and insulin dosage. You name it, the 41’s got it.</p>
+
+<p>And this year saw another big event in the world of the ultimate calculator - the DM41X from the company <a href="https://www.swissmicros.com/">Swiss Micros</a>. This small company had been crafting clones of HP calculators for years. Now came the turn to clone the HP-41. And what a clone it is!</p>
+
+<p>I received my beta unit just last week. And with the corona virus raging, I’ve had plenty of time to give my new toy a real run for the money. At about one third of the price I paid for my HP-41CX back then, I got a DM41X now.</p>
+
+<p>It is a work of art. The original HP-41 was made of plastic and is prone to failure as the plastic brittles over the years. The DM41X is metal. It is slimmer. And it has a fantastic quality 4 line LCD display that keeps a custom image displayed even when the calculator is off. It is not an emulator - it runs the old HP software. It has a FAST mode that makes use of the modern speedy processor. The keyboard has one more column of keys, but the layout is mostly the same as the old lady. I really like the few changes they did to the keyboard layout. It was easy to get used to the extra keys on the right.</p>
+
+<p>And did I mention the great display? It has two modes - one with four lines of the original font, 12 characters wide and one with two lines at the bottom and three lines of nifty information on the upper part. The info includes any pending alarms (yes, the calculator has full time and date functionality just like my HP-41CX from 1983), current program, memory configuration and printer mode (it can print to an infrared printer using the built-in IR sender). All this in addition to a status line at the very top - similar to that of a smart phone - with date and time, a battery indicator and the current state file (you can save the whole memory of the calculator to disk and have several such state files and swap between different setups, programs and data).</p>
+
+<p>And did I tell you about that excellent LCD screen? It has a set of “OFF screens” that shows when the calculator is turned off… without draining battery. Cool shit. While the supplied images are neat, I decided to delete them all and leave only one I made myself - with my name and contact information in case I misplace it and a finder decides to return it.</p>
+
+<p>The keyboard has a firm feel to it. Perhaps too firm. The keys requires a much firmer press than the original, and the keys are not as tall and smaller in size. For me the most critical aspect of a calculator is the keyboard and that it does not miss any key presses and does not make any double entries upon pressing. The DM41X does not make any “double-clicks”, but it does miss a key press now and then. In the beginning it missed between 8 and 10 percent of my keystrokes - enough to be rather annoying. But as I kept on using it, I guess I started pressing the keys harder and the failure rate is down to around 1%. Being very knit-picky it is still annoying, but I hope me using it more will bring the failure rate further down.</p>
+
+<p>The calculator connects to your PC via micro-USB. This allows for adding modules or individual programs (it reads and writes programs in the RAW format), transferring screen shots (captured via Shift+DSP) or those Off-images or the state files. It sadly does not offer the possibility to transfer data in real-time like with the HP-IL of the original HP-41s. For me this is a big drawback as I use my calculator to store data that I need to transfer to my PC (like registered billable hours, observation lists for my telescope, etc.). I really hope Swiss Micros implements the HP-IL protocol so that we can get data transfer via USB and also leverage all those HP-IL devices like multimeters, printers, plotters and other fun stuff.</p>
+
+<p>And by the way, that LCD screen is awesome.</p>
+
+<p>If for some reason you set up an illegal module configuration, there is a much easier way to reset the calculator than was often the case with the original 41. Just insert a pin at the back of the calculator and it resets just nicely.</p>
+
+<p>Apart from a minor issue with some module, I haven’t encountered any software bug yet. The company has done a very good job at putting it all together - both hardware and software.</p>
+
+<p>To round this off, I offer my comparison of the different versions in the development of the ultimate calculator:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Feature</th>
+      <th style="text-align: left">HP-41C/V</th>
+      <th style="text-align: left">HP-41CX</th>
+      <th style="text-align: left">HP-41CL</th>
+      <th style="text-align: left">DM41X</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Awesome calculator</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Upgradable</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Hardware build quality</td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">10</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Keyboard (out of 10)</td>
+      <td style="text-align: left">10</td>
+      <td style="text-align: left">10</td>
+      <td style="text-align: left">10</td>
+      <td style="text-align: left">7</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Screen (quality)</td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">10</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Screen (# of lines)</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Real-time data interface</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">-</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Memory</td>
+      <td style="text-align: left">½/2 KB</td>
+      <td style="text-align: left">6 KB</td>
+      <td style="text-align: left">4 MB</td>
+      <td style="text-align: left">½ MB</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Clock, time/date functions</td>
+      <td style="text-align: left">w/expansion</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">X</td>
+      <td style="text-align: left">X</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>At the moment the DM41X is in beta release. The final version is due in a few months.</p>
+
+<hr />
+<p>Link to this post: <a href="https://isene.org/2020/03/DM41X.html">https://isene.org/2020/03/DM41X.html</a></p>
+:ET
