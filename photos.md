@@ -46,6 +46,6 @@ images:
 ---
 <p align="center">
 {% for image in page.images %}
-<a href="{{ image.image_path }}" target="_blank"><img src="{{ image.image_path }}" alt="{{ image.title}}" width="230" /></a>
+<a href="{{ image.image_path }}" target="_blank"><img src="{{ image.image_path }}" alt="{{ image.title}}" width="700" /></a>
 {% endfor %}
 </p>
