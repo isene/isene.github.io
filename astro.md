@@ -43,7 +43,7 @@ Meate ETX-90EC | Maksutov-Cassegrain | 90 | 1250 | 13.8
 Eyepiece | Type | Size | Focal length (mm) | App. field of view | Eye relief (mm)
 ---------|------|:----:|:-----------------:|:------------------:|:--------------:
 Russell Optics | 5 element Super Plossl | 2" | 50 | 52 | 30
-Russell Optics | 3 element Erfle RKE | 2" | 41 | 53 | 
+Russell Optics | 3 element Erfle RKE | 2" | 41 | 50 | 
 Meade Series 4000 | 5 element Plossl | 2" | 40 | 60 | 28.2
 Sky-Watcher | 3 element Kellner | 2" | 28 | 56 | 20
 Celestron E-lux | 3 element Kellner | 2" | 26 | 56 | 20
