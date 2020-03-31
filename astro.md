@@ -8,7 +8,7 @@ Watching the moon, planets, stars, clusters and galaxies is pure therapy. It hel
 
 I got my first telescope for X-Mas when I was 12. A 60mm f/15 Fujinon refractor. It was a great beginner's scope that gave me years of enjoyment. My fascination with astronomy started 4 years earlier when my mother pointed to the night sky and said "Do you see those three stars up there? That is Orion's belt". I was hooked. I started reading. And calculating. And dreaming of a telescope. My interest rocketed when I got that scope. After a year of attending meetings in the Norwegian Astronomical Society, I became a board member when I was 14. I started attending classes at the university the year after and submerged myself in astronomy, mathematics and physics. Life was exciting and wondrous.
 
-![](/assets/posts/etx90.png)
+![](/assets/posts/etx90.jpg)
 
 Another wave of wonder came when I bought my compact Meade ETX90 telescope in 1997. The very portable telescope made it possible to watch the night skies wherever I went on vacation.
 
