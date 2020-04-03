@@ -12,7 +12,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 * [Impress!](https://isene.org/onepagebooks/#1pb-10-impress)
 * [Mental training - The core](https://isene.org/onepagebooks/#1pb-2-mental-training---the-core)
 * [#Fail](https://isene.org/onepagebooks/#1pb-4-fail)
-* [You’re gonna die](https://isene.org/onepagebooks/1pb-14-youre-gonna-die)
+* [You’re gonna die](https://isene.org/onepagebooks/#1pb-14-youre-gonna-die)
 * [And…?](https://isene.org/onepagebooks/#1pb-8-and)
 * [Listening - Superpower](https://isene.org/onepagebooks/#1pb-6-listening---superpower)
 * [Recruitment](https://isene.org/onepagebooks/#1pb-11-recruitment)
