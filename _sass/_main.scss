@@ -208,12 +208,29 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a 
     font-size: 16px;
     line-height: 26px;
 	img {
-		float: right;
 		height: 200px;
 		padding: 2px;
 		display: block;
-		margin-right: auto;
-		margin-left: 20px;
+	}
+	@media #{$small} {
+		img {
+			margin-right: auto;
+			margin-left: auto;
+	    }
+	}
+	@media #{$medium} {
+		img {
+			float: right;
+			margin-right: auto;
+			margin-left: 20px;
+	    }
+	}
+	@media #{$large} {
+		img {
+			float: right;
+			margin-right: auto;
+			margin-left: 20px;
+	    }
 	}
 }
 

@@ -24,9 +24,9 @@ layout: post-index
     <div class="entry-content-front">
         {% if post.image %}
             {% if post.imageurl %}
-				<a href="{{ post.imageurl }}" target="_blank"><img class="imgtn" src="{{ post.image }}" /></a>
+				<a href="{{ post.imageurl }}" target="_blank"><img src="{{ post.image }}" /></a>
             {% else %}
-				<a href="{{ post.image }}" target="_blank"><img class="imgtn" src="{{ post.image }}" /></a>
+				<a href="{{ post.image }}" target="_blank"><img src="{{ post.image }}" /></a>
             {% endif %}
         {% endif %}
 
