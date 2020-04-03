@@ -220,9 +220,8 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a 
 	}
 	@media #{$medium} {
 		img {
-			float: right;
 			margin-right: auto;
-			margin-left: 20px;
+			margin-left: auto;
 	    }
 	}
 	@media #{$large} {
