@@ -33,7 +33,7 @@ And here is a list of my most important equipment. I do have more eyepieces and 
 ---
 
 Telescope | Type | Objective dia (mm) | Focal length (mm) | Focal ratio (f/x) 
-----------|------|:------------------:|:-----------------:|:-----------------:
+:---------|:-----|:------------------:|:-----------------:|:-----------------:
 Sky-Watcher Espirit | APO refractor | 150 ED | 1050 | 7
 Meade LS-8  | Schmidt–Cassegrain | 203 | 2030 | 10
 Meate ETX-90EC | Maksutov-Cassegrain | 90 | 1250 | 13.8
@@ -41,7 +41,7 @@ Meate ETX-90EC | Maksutov-Cassegrain | 90 | 1250 | 13.8
 ---
 
 Eyepiece | Type | Size | Focal length (mm) | App. field of view | Eye relief (mm)
----------|------|:----:|:-----------------:|:------------------:|:--------------:
+:--------|:-----|:----:|:-----------------:|:------------------:|:--------------:
 Russell Optics | 5 element Super Plossl | 2" | 50 | 52 | 30
 Russell Optics | 3 element Erfle RKE | 2" | 41 | 50 | 
 Meade Series 4000 | 5 element Plossl | 2" | 40 | 60 | 28.2
