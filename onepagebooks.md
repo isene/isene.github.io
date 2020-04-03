@@ -5,7 +5,22 @@ permalink: /onepagebooks/
 ---
 Have you ever read through a 300-page book only to flip the last page thinking, "Damn, they could have written the main points in a one-page summary so I didn't have to read the other 299 pages of anecdotes."?
 
-I have written several normal-sized books. And I've read lots of books that I thought should have been compressed down to one page. The same with my collegue/best friend [Brendan Martin](http://brendanmartin.com), which is why we decided to start publishing OnePageBooks (1PBs) on key subjects. Presented here in the order of general interest:
+I have written several normal-sized books. And I've read lots of books that I thought should have been compressed down to one page. The same with my collegue/best friend [Brendan Martin](http://brendanmartin.com), which is why we decided to start publishing OnePageBooks (1PBs) on key subjects. Presented here in the order of general interest, starting with an index of the lot so you can click instead of scrolling:
+
+* [1PB #13: Game review: LIFE](https://isene.org/onepagebooks/1pb-13-game-review-life)
+* [1PB #12: Make it Simple](https://isene.org/onepagebooks/#1pb-12-make-it-simple)
+* [1PB #10: Impress!](https://isene.org/onepagebooks/#1pb-10-impress)
+* [1PB #2: Mental training - The core](https://isene.org/onepagebooks/#1pb-2-mental-training---the-core)
+* [1PB #4: #Fail](https://isene.org/onepagebooks/#1pb-4-fail)
+* [1PB #14: You’re gonna die](https://isene.org/onepagebooks/1pb-14-youre-gonna-die)
+* [1PB #8: And…?](https://isene.org/onepagebooks/#1pb-8-and)
+* [1PB #6: Listening - Superpower](https://isene.org/onepagebooks/#1pb-6-listening---superpower)
+* [1PB #11: Recruitment](https://isene.org/onepagebooks/#1pb-11-recruitment)
+* [1PB #9: Your Kick-Ass CV](https://isene.org/onepagebooks/#1pb-9-your-kick-ass-cv)
+* [1PB #5: How to help a friend in trouble](https://isene.org/onepagebooks/#1pb-5-how-to-help-a-friend-in-trouble)
+* [1PB #3: Free will](https://isene.org/onepagebooks/#1pb-3-free-will)
+* [1PB #1: Organization - The simple way](https://isene.org/onepagebooks/#1pb-1-organization---the-simple-way)
+* [1PB #7: Describe anything - simple and effective](https://isene.org/onepagebooks/#1pb-7-describe-anything---simple-and-effective)
 
 <center>
 <hr />
