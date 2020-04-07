@@ -49,6 +49,7 @@ Sky-Watcher | 3 element Kellner | 2" | 28 | 56 | 20
 Celestron E-lux | 3 element Kellner | 2" | 26 | 56 | 20
 Meade Series 5000 | 7 element MWA | 2" | 21 | 100 | 20
 Baader Planetarium | 8 element Hyperion | 2"/1¼" | 24 | 68 | 20
+Baader Planetarium | 8 element Hyperion | 2"/1¼" | 21 | 68 | 20
 Baader Planetarium | 8 element Hyperion | 2"/1¼" | 8 | 68 | 20
 Meade Series 4000 | 4 element Super Plossl | 1¼" | 26 | 52 | 18
 Carl Zeiss | ? | 1¼” | 20 | ? | ?
