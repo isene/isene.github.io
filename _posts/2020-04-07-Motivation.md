@@ -22,8 +22,9 @@ improve further.
 
 {% include youtube.html id='T2sU9aAXbDk' %}
 
-We like you to tell us what we should cover next. Challenge us by casting your
-vote in this poll (or drop me an e-mail for your out-of-the-box challenge to g@isene.com)
+We like you to tell us what we should cover next. Challenge us by following
+the link below and casting your vote in the poll (or drop me an e-mail for
+your out-of-the-box challenge to g@isene.com)
 
 [Poll: What would you like the "Å" team to cover in free live webinars?](http://www.easypolls.net/poll.html?p=5e8c4a4ae4b09a2d524ccbd4)
 
