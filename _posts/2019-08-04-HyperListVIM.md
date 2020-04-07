@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Screencast - The HyperList VIM plugin
 image: /assets/img/hyperlist.png
-tags: [Geekery, Technology]
+tags: [Geekery, Technology, Video]
 ---
 
 **A screencast presenting some of the most sexy features of the HyperList VIM plugin.**

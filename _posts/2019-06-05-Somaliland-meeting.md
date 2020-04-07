@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Update on the Somaliland Project (and meeting in Oslo June 14th)
 image: /assets/posts/shiikh.jpg
-tags: [Somaliland]
+tags: [Somaliland, Video]
 ---
 
 **First:** [Here is a presentation of the project](/assets/posts/Operation_KAP.pdf) (download pdf)
