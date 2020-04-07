@@ -25,7 +25,7 @@ improve further.
 We like you to tell us what we should cover next. Challenge us by casting your
 vote in this poll (or drop me an e-mail for your out-of-the-box challenge to g@isene.com)
 
-<script type="text/javascript" src="http://www.easypolls.net/ext/scripts/emPoll.js?p=5e8c4a4ae4b09a2d524ccbd4"></script><a class="OPP-powered-by" href="http://www.objectplanet.com/opinio/" style="text-decoration:none;"></a>
+<script type="text/javascript" src="http://www.easypolls.net/ext/scripts/emPoll.js?p=5e8c4a4ae4b09a2d524ccbd4"></script><a class="OPP-powered-by" href="http://www.objectplanet.com/opinio/" style="text-decoration:none;"><div style="font: 9px arial; color: gray;">survey service</div></a>
 
 ---
 Link to this post: <https://isene.org/2020/04/Motivation.html>
