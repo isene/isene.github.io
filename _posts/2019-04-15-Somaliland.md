@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: The Somaliland Adventure
 image: /assets/posts/somaliland.jpg
-tags: [Somaliland]
+tags: [Somaliland, Video]
 ---
 
 I got the exciting opportunity to travel to [Somaliland](https://en.wikipedia.org/wiki/Somaliland) to see if a dream project could be brought to fruition. The whole adventure is played out in almost real time through a Youtube video blog. You find the 15 videos capturing the adventure below the project description.  Subscribe to this web site to follow the progress as I put up more blog posts regarding this project.
