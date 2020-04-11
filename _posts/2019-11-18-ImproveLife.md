@@ -20,8 +20,6 @@ And the third point was the subject of [a post this summer](https://isene.org/20
 
 The elegance of summing it all up in just three simple points is the genius of Brendan.
 
-The inspiration moved me to create a simple online presentation: "[How to improve your life](https://isene.github.io/)"
-
 ![](https://isene.org/assets/posts/3points.png)
 
 ---
