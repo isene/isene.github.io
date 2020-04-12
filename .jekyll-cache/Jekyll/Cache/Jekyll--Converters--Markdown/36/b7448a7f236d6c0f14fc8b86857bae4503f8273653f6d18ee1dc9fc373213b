@@ -1,0 +1,83 @@
+I"{<p><a href="http://anetteiren.com/">Anette</a> is my woman, but
+<a href="https://julialang.org/">Julia</a> is a pretty lovable programming language.</p>
+
+<p>It’s a high level language geared toward mathematics, statistics and data
+science. It has a clear and simple syntax with a vast range of modules - from
+astronomy and chemistry to geophysics, finance and machine learning. It’s open
+source and can be used for anything, really.</p>
+
+<p>The neatness of Julia become apparent when you launce the interpretor on the
+command line and type in a simple equation like:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>f(x) = 2x^3 + 3x^2 - pi^(x)
+</code></pre></div></div>
+
+<p>…and then simply enter:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>f(3)
+</code></pre></div></div>
+
+<p>…to get the answer</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>49.99372331970018
+</code></pre></div></div>
+
+<p>Simply lovable.</p>
+
+<p>It can be used to make amazing graphs of all kinds of data. And to get going
+with Julia, I decided to make a small program that takes a file with numbers
+and makes a neat line graph of them. It can take any number of columns of
+data.</p>
+
+<p>A file with this content:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Mygraph
+a b c
+13 45 13
+34 16 54
+12 56 11
+</code></pre></div></div>
+
+<p>…would be graphed as three lines with the legend “a”, “b” and “c”. The line
+“a” would consist of the first column of numbers (13, 34, 12). The title of
+the graph would be “Mygraph”.</p>
+
+<p>The output is saved as the file “JuliaPlot.png”:</p>
+
+<p><img src="/assets/posts/JuliaPlot.png" alt="" /></p>
+
+<p>Here’s the code to make this happen:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Julia program that takes a file with values and graph them.
+# The output graph is the file "JuliaPlot.png".
+# The only argument taken is the file name: julia plot.jl myfile.txt
+# The file must have the graph title on the first line and 
+# the legends on the second line. It will then make a line graph,
+# one line per column of numbers.
+#
+# Example (This would make three lines with legends 
+# "a", "b" and "c" and the title "Mygraph"):
+#   Mygraph
+#   a b c
+#   13 45 13
+#   34 16 54
+#   12 56 11
+
+using Plots                   # Load the module "Plots"
+
+file    = readlines(ARGS[1])  # Read the file
+gtitle  = popfirst!(file)     # Get the title from the first line
+l       = popfirst!(file)     # Get the legends from the second line
+l       = split.(l)           # Massage the labels to the correct format
+l       = string.(l)
+labels  = hcat(l...)          # Then massage the numbers, plot and save png
+results = [parse.(Float64, i) for i in split.(file)]
+plot(transpose(hcat(results...)), title = gtitle, label = labels)
+savefig("JuliaPlot.png")
+</code></pre></div></div>
+
+<p>As I said, Julia is a lovable programming language :-)</p>
+
+<hr />
+<p>Link to this post: <a href="https://isene.org/2020/04/Julia.html">https://isene.org/2020/04/Julia.html</a></p>
+:ET
