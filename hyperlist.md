@@ -67,6 +67,11 @@ To work with HyperLists in VIM on your Android phone, you can follow a few, simp
 6. This gets you into VIM, then write: <b>:so %</b> (and press Enter) This installs HyperList in your VIM
 7. To quit VIM write: <b>:q</b>
 
+#### HyperList mode for EMACS
+[Vifon](https://github.com/Vifon) (that I know from the
+[Ranger](https://ranger.github.io/) IRC channel) have created a [HyperList
+mode for EMACS](https://github.com/vifon/hyperlist-mode).
+
 #### HyperGraph
 You can automatically graph a HyperList as either a mindmap (for HyperLists that are State descriptions) or a flowchart (for HyperLists that are Transitions descriptions). An example should suffice - this dummy HyperList:
 <pre><strong>First Item</strong>
