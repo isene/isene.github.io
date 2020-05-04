@@ -10,4 +10,5 @@ If you are looking for very direct and effective coaching by me, do these short 
 3. Watch this video:
 {% include youtube.html id='Ow0lr63y4Mw' %}
 
-Then [contact me](https://isene.org/about/)
+Then [contact me](https://isene.org/about/) or simply book a free 30 minute
+session by clicking on the button in the lower right corner.
