@@ -36,7 +36,7 @@ Johnny was among the special people with access to the secret wisdom.
 He was woke. Lucky him.
 ```
 
-Its not that conspiracies do not exist. They do. But large scale conspiracies
+It's not that conspiracies do not exist. They do. But large scale conspiracies
 are impossible to maintain. And this brings us to the title of this blog post:
 
 **What does it really take to keep a conspiracy secret?**
