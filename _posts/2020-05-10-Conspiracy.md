@@ -58,5 +58,10 @@ your numbers really small, down to 125 people.
 This effectively blows to pieces conspiracies such as "fake moon landing",
 "flat Earth" and "reptilians". They are simply impossible to contain.
 
+It's also wise to take into account [Halon's
+Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor):
+
+***"Never attribute to malice that which is adequately explained by stupidity"***
+
 ---
 Link to this post: <https://isene.org/2020/05/Conspiracy.html>
