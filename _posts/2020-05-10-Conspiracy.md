@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: What does it really take to keep a conspiracy secret?
+title: What does it take to keep a conspiracy secret?
 image: /assets/posts/conspiracy.jpg
 tags: [Science, Philosophy]
 ---
