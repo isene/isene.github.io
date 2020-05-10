@@ -9,7 +9,7 @@ tags: [Science, Philosophy]
 The Corona situation has seen a dramatic increase in conspiracy theories. Not
 only concerning the virus itself, its origin and propagation, but linking it
 to a multitude of other claimed conspiracies. 
- 
+
 I am not a big fan of conspiracy theories. I see it as a an attempt to short
 cut years of hard work by gaining access to "secret knowledge" that makes the
 person "special" and "[woke](https://en.wikipedia.org/wiki/Woke#Modern_usage)"
