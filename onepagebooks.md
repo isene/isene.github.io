@@ -7,7 +7,7 @@ Have you ever read through a 300-page book only to flip the last page thinking, 
 
 I have written several normal-sized books. And I've read lots of books that I thought should have been compressed down to one page. The same with my collegue/best friend [Brendan Martin](http://brendanmartin.com), which is why we decided to start publishing OnePageBooks (1PBs) on key subjects. Presented here in the order of general interest, starting with an index of the lot so you can click instead of scrolling:
 
-* [Game review: LIFE](https://isene.org/onepagebooks/1pb-13-game-review-life)
+* [Game review: LIFE](https://isene.org/onepagebooks/#1pb-13-game-review-life)
 * [Make it Simple](https://isene.org/onepagebooks/#1pb-12-make-it-simple)
 * [Impress!](https://isene.org/onepagebooks/#1pb-10-impress)
 * [Mental training - The core](https://isene.org/onepagebooks/#1pb-2-mental-training---the-core)
