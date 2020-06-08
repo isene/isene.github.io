@@ -12,7 +12,7 @@ Here's what I have boiled it down to so far - this covers pretty much *all* I do
 
 1. **MAKE EVERYTHING SIMPLE**
    - Reduce everything to only what is needed
-2. **"DO THAT WHICH HELPS. DON'T DO THAT WHICH DOESN'T HELP."**
+2. **DO ONLY THAT WHICH HELPS**
 	- Focus on what you can control
 		- Pick what excites you and do that
 	- Don't spend energy on what you cannot control
