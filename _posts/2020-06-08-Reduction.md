@@ -16,17 +16,14 @@ Here's what I have boiled it down to so far - this covers pretty much *all* I do
 	- Focus on what you can control
 		- Pick what excites you and do that
 	- Don't spend energy on what you cannot control
-		- Disregard the past & much of the future (practice improvisation)
+		- Disregard the past & much of the future - practice improvisation
 3. **BE INTERESTED**
 	- Learn to do nothing - be present - listen
 4. **GIVE MORE PLUSSES**
 	- Be empathetic - help others
 5. **ENJOY THE GAME**
 	- Challenge yourself on the RALE scale - learn to enjoy as much as possible by moving on the scale
-		- R = Resist
-		- A = Accept
-		- L = Like
-		- E = Enjoy
+		- R = Resist, A = Accept, L = Like, E = Enjoy
 
 I am working on reducing this furter. Any suggestions are of course very welcome.
 
