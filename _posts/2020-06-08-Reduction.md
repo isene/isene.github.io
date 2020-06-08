@@ -23,7 +23,7 @@ Here's what I have boiled it down to so far - this covers pretty much *all* I do
 	- Be empathetic - help others
 5. **ENJOY THE GAME**
 	- Challenge yourself on the RALE scale - learn to enjoy as much as possible by moving on the scale
-		- R = Resist, A = Accept, L = Like, E = Enjoy
+		- **R** = Resist, **A** = Accept, **L** = Like, **E** = Enjoy
 
 I am working on reducing this furter. Any suggestions are of course very welcome.
 
