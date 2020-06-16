@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Interview by Perez - "ditch sales and management" (video)
 image: /assets/posts/perez.jpg
-tags: [iVideo, Coaching, Philosophy, Personal]
+tags: [Video, Coaching, Philosophy, Personal]
 ---
 
 A refreshing interview. Master coach Ignacio Perez asking interesting
