@@ -16,6 +16,8 @@ I have written several normal-sized books. And I've read lots of books that I th
 * [You’re gonna die](https://isene.org/onepagebooks/#1pb-14-youre-gonna-die)
 * [And…?](https://isene.org/onepagebooks/#1pb-8-and)
 * [Listening - Superpower](https://isene.org/onepagebooks/#1pb-6-listening---superpower)
+* [Effective Teaching](https://isene.org/onepagebooks/#1pb-15-effective-teaching)
+* [How to divorce](https://isene.org/onepagebooks/#1pb-16-divorce)
 * [Recruitment](https://isene.org/onepagebooks/#1pb-11-recruitment)
 * [Your Kick-Ass CV](https://isene.org/onepagebooks/#1pb-9-your-kick-ass-cv)
 * [How to help a friend in trouble](https://isene.org/onepagebooks/#1pb-5-how-to-help-a-friend-in-trouble)
@@ -95,6 +97,22 @@ I have written several normal-sized books. And I've read lots of books that I th
 <p><img src="/assets/onepagebooks/6-listening/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B076NXVL6G" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
 <a href="/assets/onepagebooks/6-listening/1PB_ListeningSuperpower.pdf">Downloadable PDF</a></strong></p>
+
+<hr />
+<h3 id="1pb-15-effective-teaching">1PB #15: Effective Teaching</h3>
+<p>Be a great teacher.</p>
+
+<p><img src="/assets/onepagebooks/15-teach/cover.jpg" width="400"><br>
+<strong><a href="https://www.amazon.com/dp/B08BNDLYGZ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
+<a href="/assets/onepagebooks/15-teach/1PB_Teach.pdf">Downloadable PDF</a></strong></p>
+
+<hr />
+<h3 id="1pb-16-divorce">1PB #16: How to divorce</h3>
+<p>Calmly break up with minimum fuckups.</p>
+
+<p><img src="/assets/onepagebooks/16-divorce/cover.jpg" width="400"><br>
+<strong><a href="https://www.amazon.com/dp/B08BNBMVJJ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
+<a href="/assets/onepagebooks/16-divorce/1PB_Divorce.pdf">Downloadable PDF</a></strong></p>
 
 <hr />
 <h3 id="1pb-11-recruitment">1PB #11: Recruitment</h3>
