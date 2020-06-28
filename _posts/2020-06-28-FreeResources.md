@@ -42,7 +42,7 @@ inflow. You are interesting. Even when you outflow or give <i>in order to</i>
 get something back. You are still interest<i>ing</i>. The focus should remain
 on your client's succeeding, not what you get out of it.
 
-This doesn't mean you shouldn't charge for your services.You charge in
+This doesn't mean you shouldn't charge for your services. You charge in
 accordance with the results you help produce. But that is not the
 <i>focus</i>. 
 
