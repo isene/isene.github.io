@@ -27,14 +27,14 @@ let companies and individuals read and listen to what I put out rather than
 spending time going over the same material again and again. The second reason
 is that I am not in this for the money. I am in this to see others succeed.
 And more people succeed when they can freely use everything I can give. I want
-to help chenge the world, not focus on "what's in it for me".
+to help change the world, not focus on "what's in it for me".
 
 Many have asked me how to become or be a better consultant, coach or mental
 trainer. My first answer is to be <i>interested</i> rather than
 <i>interesting</i>. Your focus should be to make others succeed rather than
 make money. You should make sure everything you do help your clients move from
 where thy are to where they want to be in the most effective way possible. Be
-interested in their success. Help tham in any way you can.
+interested in their success. Help them in any way you can.
 
 Putting out free stuff <i>to attract attention</i> means you have focus on
 what's in it for you. Your attention and interest is on you. Attention is on
