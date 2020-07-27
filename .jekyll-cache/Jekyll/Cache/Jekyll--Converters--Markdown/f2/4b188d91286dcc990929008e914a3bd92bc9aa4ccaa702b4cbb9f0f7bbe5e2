@@ -1,4 +1,4 @@
-I"d)<p>After 41 years the venerable HP-41 has got a well deserved upgrade.</p>
+I"�)<p>After 41 years the venerable HP-41 has got a well deserved upgrade.</p>
 
 <p>When it was introduced to the market in the spring of 1979, the HP-41 calculator was heralded as “the most versatile machine ever”. The first alpha numeric handheld calculator with expansion ports for all kinds of programming extensions. With a magnetic card reader, cassette tape or floppy drive you could store programs and data. With the HP Interface loop (HP-IL) you could hook the machine up with dozens of devices from printers and plotters to electrical or chemical lab equipment. Even to a modem or other computers. It opened up a World of possibilities from the palm of your hand. This revolutionary pocket calculator was used on board the Space Shuttle and was standard on every Concorde air plane.</p>
 
@@ -71,7 +71,7 @@
       <td style="text-align: left">½/2 KB</td>
       <td style="text-align: left">6 KB</td>
       <td style="text-align: left">4 MB</td>
-      <td style="text-align: left">½ MB</td>
+      <td style="text-align: left">¼ MB¹</td>
     </tr>
     <tr>
       <td style="text-align: left">Hardware build quality</td>
@@ -124,6 +124,8 @@
     </tr>
   </tbody>
 </table>
+
+<p>¹ While the DM41X has 256KB of memory for modules, it has a total disk space of 6000KB to hold other stuff</p>
 
 <p>At the moment the DM41X is in beta release. The final version is due in a few months.</p>
 
