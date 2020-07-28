@@ -92,6 +92,6 @@ Graphed as a Transition (flowchart):
 
 <img src="/assets/img/test_trans1.png" width="200" />
 
-You may [graph your HyperLists with the online HyperGraph](http://128.199.49.139/hypergraph.html)
+You may [graph your HyperLists with the online HyperGraph](https://isene.com/hypergraph.html)
 
 HyperGraph is a [Ruby](http://en.wikipedia.org/wiki/Ruby_(programming_language)) script with a lot of options. Download [HyperGraph here](https://github.com/isene/hypergraph). HyperGraph is a rather complex endeavour. It works but you may encounter some snags. If you do, drop me a line and I will fix.
