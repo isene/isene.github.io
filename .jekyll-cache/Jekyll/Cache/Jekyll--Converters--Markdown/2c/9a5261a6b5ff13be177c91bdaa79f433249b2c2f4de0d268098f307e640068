@@ -1,0 +1,27 @@
+I"^<p>In my lock-down geekery, I have been searching for the perfect pocket computer setup.</p>
+
+<p>Having been an <a href="https://youtu.be/czzuz1j364E">HP calculator collector</a> since a couple of decades, I have a passion for pocket computing power with really long battery life.</p>
+
+<p>The <a href="https://isene.org/hp-41/">HP-41</a> is an amazing calculator with months of battery life. But it is still a calculator. I also want real computing power - with the ability to run <a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">VIM</a> for editing text (with a decent keyboard) and as much of other goodies as I can cram into it.</p>
+
+<p><img src="/assets/posts/nerdvana.png" alt="" /></p>
+
+<p>I started my quest for the perfect pocket computer with reviving my old <a href="https://en.wikipedia.org/wiki/HP_200LX">HP-200LX</a>. It’s a very early pocket computer running DOS 5.0 - and I have VIM running on it :-) Being a DOS device, it can run <a href="http://mizj.com/">lots of nice programs</a>. Yes, it is slow, but it is cool.</p>
+
+<p>In search for a better keyboard, I got the <a href="http://phonedb.net/index.php?m=device&amp;id=840&amp;c=ericsson_mc218">Ericsson MC218</a> (a <a href="https://en.wikipedia.org/wiki/Psion_Series_5">Psion Series 5</a> pocket computer) up and running, hoping to make it boot Linux. While this is possible, it turns out that the CF card reader on the device was flaky, so I kept searching.</p>
+
+<p>Some forums later, and I stumbled upon an interesting project - the <a href="https://n-o-d-e.net/zeroterminal.html">Zero Terminal</a>. Now we’re talking. A Raspberry PI Zero packed with all sorts of ports and expansion capabilities. But waiting for it? I’m not the patient type…</p>
+
+<p>But wait a minute! I always carry my <a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S20">Samsung S20 Ultra</a> anyway. Couldn’t it serve all my needs? True, the battery life sucks. But as it is my cell phone, I always have it charged, so that shouldn’t be a problem. And with my <a href="https://www.aliexpress.com/item/33044680958.html?spm=2114.search0303.3.36.3e2f50e4kUuHVD&amp;ws_ab_test=searchweb0_0,searchweb201602_0,searchweb201603_0,ppcSwitch_0&amp;algo_pvid=c05d6fa4-cb6c-4b28-aaa8-9da88e98cd0f&amp;algo_expid=c05d6fa4-cb6c-4b28-aaa8-9da88e98cd0f-5">small, foldable bluetooth keyboard</a>, I have massive computing power with me at all times. An added benefit is that it can easily use a monitor or TV screen via the built-in <i>Smart View</i>.</p>
+
+<p>The real kicker is that it runs VIM in all its galore - even with my <a href="https://isene.org/hyperlist/">HyperList</a> plugin. It runs <a href="https://www.ruby-lang.org/en/">Ruby</a> and my whole <a href="https://isene.org/2018/08/Amar-Tools.html">Amar Tools</a> <a href="https://github.com/isene/Amar-Tools">package</a>. And <a href="https://en.wikipedia.org/wiki/LaTeX">LaTeX</a> and <a href="https://www.ssh.com/ssh/">SSH</a> and <a href="https://weechat.org/">Weechat</a> and… you name it. Lots of terminal/console programs are readily available via <a href="https://termux.com/">Termux</a>.</p>
+
+<p>But that’s not all you can do. With the X Server app <a href="https://play.google.com/store/apps/details?id=x.org.server&amp;hl=en">XSDL</a> and the <a href="https://play.google.com/store/apps/details?id=tech.ula&amp;hl=en">UserLand</a> app, you can in fact install a full Linux distro and fire it up on your Android phone. With the full glory of both terminals and graphical software. Run an <a href="https://i3wm.org/">i3</a> session with <a href="https://wiki.archlinux.org/index.php/Rxvt-unicode">urxvt</a> terminals running <a href="http://zsh.sourceforge.net/">zsh</a>, <a href="https://www.gimp.org/">Gimp</a>, <a href="https://www.libreoffice.org/">LibreOffice</a> and whatnot. Now, that’s Nerdvana!</p>
+
+<p><img src="/assets/posts/userland.png" alt="" /></p>
+
+<p>So, from my HP-41, via the HP-200LX, the MC218 and looking at Zero Terminal, I found the answer right here in my pocket. Quite a detour. But ending in bliss.</p>
+
+<hr />
+<p>Link to this post: <a href="https://isene.org/2020/08/Nerding.html">https://isene.org/2020/08/Nerding.html</a></p>
+:ET
