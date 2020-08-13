@@ -63,5 +63,7 @@ Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor):
 
 ***"Never attribute to malice that which is adequately explained by stupidity"***
 
+![](https://isene.org/assets/posts/conspiracytheory.jpg)
+
 ---
 Link to this post: <https://isene.org/2020/05/Conspiracy.html>
