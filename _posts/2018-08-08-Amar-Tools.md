@@ -9,7 +9,7 @@ After 15 years in the making, finally Amar Tools is 'feature complete' and deser
 
 <center><img src="/assets/img/amarcover.jpg" width="500" /></center>
 
-The swiss army knife tool set for the Amar Role-Playing game is [freely available on Github](https://github.com/isene/Amar-Tools/releases/tag/v1.1). Although created for the Amar RPG, these tools are useful for any fantasy RPG.
+The swiss army knife tool set for the Amar Role-Playing game is [freely available on Github](https://github.com/isene/Amar-Tools/). Although created for the Amar RPG, these tools are useful for any fantasy RPG.
 
 The online version is available here: [http://www.isene.org/amar.html](http://www.isene.org/amar.html)
 
