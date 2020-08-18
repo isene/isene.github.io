@@ -31,7 +31,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 <p>The first 11 packed into one PDF.</p>
 
 <p><img src="/assets/onepagebooks/0-compilation/cover.jpg" width="400"><br>
-<strong><a href="/assets/onepagebooks/0-compilation/1PB_Game.pdf">Downloadable PDF</a></strong></p>
+<strong><a href="/assets/onepagebooks/0-compilation/1PB-compilation.pdf">Downloadable PDF</a></strong></p>
 
 <center>
 <hr />
