@@ -6,7 +6,8 @@ image: /assets/posts/procrastination.jpg
 tags: [Coaching, Video]
 ---
 
-This week I created a Facebook Group, "Help without thought of reward".
+This week I created a Facebook Group, "[Help without thought of
+reward](https://www.facebook.com/groups/300454157896878)".
 
 It was in a way a reaction to all the social groups where people hang around
 to get clients, solicit business, sell products or offer help to gain something back.
