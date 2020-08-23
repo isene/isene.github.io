@@ -36,7 +36,7 @@ Here are a set of useful tools for running an Amar Role-Playing campaign. The to
 </tr></table>
 <hr>
 
-Read [this blog post](/2018/08/Amar-Tools.html) for a detailed escription of these tools.
+Read [this blog post](/2018/08/Amar-Tools.html) for a detailed description of these tools.
 
 Upon pressing the top three buttons, you will be asked for certain inputs. You may select or enter values in any of the input fields. Those you don't will be randomly generated. 
 
