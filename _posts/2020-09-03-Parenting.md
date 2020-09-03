@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: On parenting
-image: /assets/posts/parenting.jpg
+image: /assets/posts/parenting.png
 tags: [Coaching, Video]
 ---
 
