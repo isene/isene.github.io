@@ -8,9 +8,18 @@ permalink: /about/
 <div class="tablesmall">
 <table><tr>
 <td>@: <a href="mailto:g@isene.com">g@isene.com</a></td>
+<td><center>
+<a class="icon" href="https://github.com/isene"><i class="fa fa-github" title="Github"></i></a> &nbsp;&nbsp;
+<a class="icon" href="https://in.linkedin.com/in/isene"><i class="fa fa-linkedin" title="Linkedin"></i></a> &nbsp;&nbsp;
+<a class="icon" href="https://twitter.com/isene"><i class="fa fa-twitter" title="Twitter"></i></a> &nbsp;&nbsp;
+<a class="icon" href="https://facebook.com/geir.isene"><i class="fa fa-facebook" title="Facebook"></i></a> &nbsp;&nbsp;
+<a class="icon" href="https://www.instagram.com/geir_isene/?hl=en"><i class="fa fa-instagram" title="Instagram"></i></a> &nbsp;&nbsp;
+<a class="icon" href="https://www.youtube.com/channel/UCX4w9Kdr3i0k2vc6iKQOAlg"><i class="fa fa-youtube" title="Youtube"></i></a>
+</center></td>
 <td align="right"><a href="/assets/CV-GeirIsene.pdf">Résumé/CV</a></td>
 </tr><tr>
 <td>#: +47 4550 2470</td>
+<td></td>
 <td align="right"><a href="https://en.wikipedia.org/wiki/Geir_Isene" target="_blank" rel="noopener noreferrer">Wikipedia page</a></td>
 </tr></table>
 </div>
