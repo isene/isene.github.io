@@ -1,0 +1,15 @@
+I"?<p>Control your PC with your phone by voice.</p>
+
+<p>To get voice control running on my Linux laptop proved to be a mess. Running voice control on my Android phone was a breeze. Connecting the two is rudimentary. So now I can talk to my phone while on stage and the right presentation pops up on my laptop that sits on the otheer side of the stage. Or any other creative scenario you may imagine.</p>
+
+<p>Here is a video to show how this works:</p>
+
+<div class="youtube-wrapper">
+  <iframe src="https://www.youtube.com/embed/XNkNfWF5Uk0" allowfullscreen=""></iframe>
+</div>
+
+<p>Get the <a href="https://github.com/isene/speak2pc">instructions and code on Github</a> and tweak it to suit your needs.</p>
+
+<hr />
+<p>Link to this post: <a href="https://isene.org/2020/09/Speak2PC.html">https://isene.org/2020/09/Speak2PC.html</a></p>
+:ET
