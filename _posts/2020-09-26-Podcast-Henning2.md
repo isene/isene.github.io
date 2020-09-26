@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Podcast interview - Hennings Verden
+title: In persuit of happiness (podcast: Hennings Verden)
 image: /assets/posts/henning.jpg
 tags: [Coaching, Philosophy, Science]
 ---
