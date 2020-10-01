@@ -1,0 +1,38 @@
+I"7<p>In search of Nerdvana, I turned another corner. I got around to tackle the full
+range of colors in my Linux setup.</p>
+
+<p>I am running Ubuntu 20.04 on my Dell XPS 15 laptop. No desktop manager, just
+the <a href="https://i3wm.org/">i3 Window Manager</a> straight on X. Most of my work is
+done in the terminal
+(<a href="http://software.schmorp.de/pkg/rxvt-unicode.html">urxvt</a>). I write 95% of
+all text in <a href="https://www.vim.org/">VIM</a>, <a href="http://www.mutt.org/">mutt</a> is my
+email client, I use <a href="https://weechat.org/">weechat</a> for IRC, Twitter, Slack
+and Discord chats, <a href="https://newsbeuter.org/">newsbeuter</a> is my rss reader,
+etc.</p>
+
+<p>I use very few programs outside the terminal with
+<a href="https://qutebrowser.org/">qutebrowser</a> being the main exception. I enjoy the
+consistent user interface of text based programs.  Working on the command line
+also gives a lot more power than in the confines of a graphical user
+interface.</p>
+
+<p>In the past few days I have had the pleasure of massaging my perfectionism by
+finally working out a complete color scheme for <code class="highlighter-rouge">ls</code> and for the file manager
+<a href="https://ranger.github.io/">ranger</a>. The result is pure Linux porn:</p>
+
+<p><a href="/assets/posts/LinuxPorn.png" target="_blank"><img src="/assets/posts/LinuxPorn.png" /></a></p>
+
+<p>The color scheme for <code class="highlighter-rouge">ls</code> covers more than 500 file types across 15 categories
+with certain file types having shades of the category’s color. The color
+scheme for ranger cover the main categories. In this way colors are harmonized
+between the terminal and inside ranger. I also reworked my colors in
+.Xresources itself to have a pleasant experience across all terminal
+applications.</p>
+
+<p>You can find the <a href="https://github.com/isene/LS_COLORS">LS_COLORS and ranger color scheme on
+GitHub</a> with easy installation. May the
+colors be with you.</p>
+
+<hr />
+<p>Link to this post: <a href="https://isene.org/2020/10/LinuxPorn.html">https://isene.org/2020/10/LinuxPorn.html</a></p>
+:ET
