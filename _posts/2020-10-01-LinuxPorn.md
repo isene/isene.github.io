@@ -52,5 +52,7 @@ colors be with you.
 PS: I also included [my full conky setup on
 GitHub](https://github.com/isene/conky).
 
+<a href="/assets/posts/conky-annotated.png" target="_blank"><img src="/assets/posts/conky-annotated.png" /></a>
+
 ---
 Link to this post: <https://isene.org/2020/10/LinuxPorn.html>
