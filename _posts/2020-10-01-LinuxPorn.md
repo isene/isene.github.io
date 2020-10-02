@@ -49,5 +49,8 @@ You can find the [LS_COLORS and ranger color scheme on
 GitHub](https://github.com/isene/LS_COLORS) with easy installation. May the
 colors be with you.
 
+PS: I also included [my full conky setup on
+GitHub](https://github.com/isene/conky).
+
 ---
 Link to this post: <https://isene.org/2020/10/LinuxPorn.html>
