@@ -1,4 +1,5 @@
-I"J<p>In search of Nerdvana, I turned another corner. I got around to tackle the full
+I"ê
+<p>In search of Nerdvana, I turned another corner. I got around to tackle the full
 range of colors in my Linux setup.</p>
 
 <p>I am running Ubuntu 20.04 on my Dell XPS 15 laptop. No desktop manager, just
@@ -23,16 +24,26 @@ enlarge):</p>
 
 <p><a href="/assets/posts/LinuxPorn.png" target="_blank"><img src="/assets/posts/LinuxPorn.png" /></a></p>
 
+<p>You may notice the comprehensive information bar at the top of my screen. I
+have added every bit of info I need and displayed it via
+<a href="https://github.com/brndnmtthws/conky">conky</a> - time, weather, air quality,
+moon phase, cpu and system load, cpu temperature, memory, IP address and wifi
+connection, ping, unread mails and blog comments, laptop volume, light and
+battery. Ask if you wonder about the information therein.</p>
+
 <p>The color scheme for <code class="highlighter-rouge">ls</code> covers more than 500 file types across 15 categories
 with certain file types having shades of the category‚Äôs color. The color
 scheme for ranger cover the main categories. In this way colors are harmonized
 between the terminal and inside ranger. I also reworked my colors in
-.Xresources itself to have a pleasant experience across all terminal
+<code class="highlighter-rouge">.Xresources</code> itself to have a pleasant experience across all terminal
 applications.</p>
 
 <p>You can find the <a href="https://github.com/isene/LS_COLORS">LS_COLORS and ranger color scheme on
 GitHub</a> with easy installation. May the
 colors be with you.</p>
+
+<p>PS: I also included <a href="https://github.com/isene/conky">my full conky setup on
+GitHub</a>.</p>
 
 <hr />
 <p>Link to this post: <a href="https://isene.org/2020/10/LinuxPorn.html">https://isene.org/2020/10/LinuxPorn.html</a></p>
