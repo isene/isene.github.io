@@ -15,6 +15,5 @@ wisdom. This is a must-see episode:
 
 {% include youtube.html id='gPgxSQcb7sQ' %}
 
-
 ---
 Link to this post: <https://isene.org/2020/10/ChrisCook.html>
