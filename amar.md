@@ -3,47 +3,25 @@ layout: post
 title: The Amar Role-Playing Game
 permalink: /amar/
 ---
-[Amar RPG](http://d6gaming.org/) is a simple, yet realistisk Role-Playing Game. It is freely awailable over at [http://d6gaming.org](http://d6gaming.org)
+[Amar RPG](http://d6gaming.org/) is a simple, yet realistic Role-Playing Game.
+It is freely available over at [http://d6gaming.org](http://d6gaming.org)
 
 Amar is a community-driven game developed by several contributors on a wiki.
 Feel free to use it and to contribute with suggestions and improvements.
 
 ### Tools for the Amar RPG 
 
-Here are a set of useful tools for running an Amar Role-Playing campaign. The tools are also useful if you are running other Role-Playing game systems.
-
-<hr>
-<table><tr>
-<td><p style="text-align:center"><img src="/assets/img/amarcover.jpg" alt="Amar RPG cover" /></p></td>
-<td>
-<p><form name="new" method="post" action="http://amar-enc.isene.org">
-<input type="submit" style="width:300px" name="new" value=" Generate random encounter "></form></p>
-<p><form name="new" method="post" action="http://amar-npcg.isene.org">
-<input type="submit" style="width:300px" name="new" value=" Generate a detailed human NPC "></form></p>
-<p><form name="new" method="post" action="http://amar-town.isene.org">
-<input type="submit" style="width:300px" name="new" value=" Generate a random town "></form></p>
-<p><form name="new" method="post" action="http://amar-town-rel.isene.org">
-<input type="submit" style="width:300px" name="new" value=" Generate town relations "></form></p>
-<p><form name="new" method="post" action="http://amar-names.isene.org">
-<input type="submit" style="width:300px" name="new" value=" Generate random names "></form></p>
-<p><form name="new" method="post" action="http://amar-weather.isene.org">
-<input type="submit" style="width:300px" name="new" value=" Generate random weather "></form></p>
-<p><form name="new" method="post" action="http://amar-dice.isene.org">
-<input type="submit" style="width:300px" name="new" value=" Make open ended D6 rolls "></form></p>
-<p><form name="new" method="post" action="http://amar-cs.isene.org">
-<input type="submit" style="width:300px" name="new" value=" Character sheet "></form></p>
-</td>
-</tr></table>
-<hr>
+There is a comprehensive online tool for the Amar RPG. With the [Amar
+Tools](https://isene.com/amar.html) you can easily generate all kinds of
+random encounters - from Elves and Trolls to Dwarves, Demons, Dragons, special
+magic creatures and normal folks like peasants, soldiers, prostitutes and
+carpenters. You can also generate detailed Non-Player Characters, elaborate
+with skills covering fighting, archery, tracking, magic, social lore and
+much more. You can even create fully populated villages, towns and cities -
+complete with a graphical map showing the relationship between the inhabitant.
+There is also a random weather generator and name generators for the main
+races of Amar as well as names for villages, towns, cities and magic items.
 
 Read [this blog post](/2018/08/Amar-Tools.html) for a detailed description of these tools.
-
-Upon pressing the top three buttons, you will be asked for certain inputs. You may select or enter values in any of the input fields. Those you don't will be randomly generated. 
-
-When you have selected/entered the values you want, press "Submit", and the random encounter or detailed human NPC will be generated. If you are not happy with the result, but still want to keep those initial values, just press the button "Reload with same values". 
-
-When creating a random town, you will get a complete village/town/city populated with the right types of houses/shops and residents in each house. You will also get a graphical representation of the special relationships between the inhabitants. You can save your random town as a text file and edit it as you want. You can then upload your edited town to generate a new relationship map. 
-
-The last three tools will give you random names for various races, randomly generating a month of weather (28 days) and 10 "Open Ended Dice Rolls".
 
 <p style="text-align:center"><img src="/assets/img/amar.png" alt="The Kingdom of Amar" /></p>
