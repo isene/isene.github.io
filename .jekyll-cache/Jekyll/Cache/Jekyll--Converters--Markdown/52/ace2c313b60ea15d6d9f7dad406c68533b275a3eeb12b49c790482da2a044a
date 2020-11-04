@@ -1,0 +1,52 @@
+I"g
+<p>I was looking for an intellectual challenge I could feel passionate about.
+Some itch I just had to scratch. And keep on scratching. Something geeky.</p>
+
+<p>And as usual, it just pops out from nowhere. I ask, it comes. Can’t explain
+exactly how. This time it happened to be the creation of a file manager from
+scratch.</p>
+
+<p>I love the terminal as a workspace. I do most of my work - writing, e-mail,
+reading, editing, programming in the terminal. A consistent interface where I
+have full control.</p>
+
+<p>Having used a bunch of different terminal file managers like
+<a href="https://vifm.info/">Vifm</a> and <a href="https://ranger.github.io/">Ranger</a> I wasn’t
+fully satisfied. My perfectionism craved a consistency that I couldn’t quite
+quench. I had just gotten around to create a comprehensive color scheme for my
+terminal with specific coloring of more than 500 different file types. I
+wanted the same color setup for my file manager.</p>
+
+<p>I tried to figure out how I could do that in Ranger, but that proved
+difficult, so I ended up with creating a theme for that file manager that
+showed a mere subset of my large color scheme. Not good enough.</p>
+
+<p>I ended up writing the Ruby Terminal File Manager from scratch. It’s obviously
+written in my favorite production programming language, Ruby.</p>
+
+<p>I was surprised that I could add all the features necessary to replace Ranger
+in less than 40 hours and with only 700 lines of code. I knew nothing about
+programming in “curses” when I started (a library for creating and managing
+“windows” within a terminal). I had to learn a bunch of other stuff as well.
+But when I get going, I don’t waste time.</p>
+
+<p>I have added a few more features since I booted Ranger and I’m hoping to add
+more as long as I can keep creating this passion.</p>
+
+<p>A major benefit from doing this is that I can have any feature I need or want
+without having to ask others to program something for me. I can simply open
+up <a href="https://www.vim.org/">VIM</a> and program the feature of the day.</p>
+
+<p>As usual, you can get the <a href="https://github.com/isene/RTFM">RTFM code on
+Github</a>, install it and run it if you like.</p>
+
+<p>Just for kicks, I also created a screencast as an introduction to RTFM:</p>
+
+<div class="youtube-wrapper">
+<center><iframe width="100%" src="https://github.com/isene/RTFM/blob/main/img/rtfm-screencast.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen=""></iframe></center>
+</div>
+
+<hr />
+<p>Link to this post: <a href="https://isene.org/2020/11/RTFM.html">https://isene.org/2020/11/RTFM.html</a></p>
+:ET
