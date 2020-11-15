@@ -20,18 +20,19 @@ Here are some of my contributions. Feel free to use and share what you find.
 - My [books and material on Scientology](/scientology) - Articles, posts and videos, two books in English and my Norwegian autobiography
 
 ### Artwork and music:
-- [Art gallery](/art) - My digital artwork
-- [Photo gallery](/photos) - My photography work
-- [Artwork at 500px](http://500px.com/isene) - My expressions via digital art
-- [Music gallery](/music) - My photography work
-- [Music on Spotify](https://open.spotify.com/artist/1Y8BKB23oNJxGgVnce45k5?si=baqjpXM3QcmD4oV_VNQuvw) - My expressins via sound
+- [Art gallery](/art) - Digital artwork
+- [Photo gallery](/photos) - Photography work
+- [Artwork at 500px](http://500px.com/isene) - Expressions via digital art
+- [Photos on Gurushots](https://gurushots.com/geir.isene/photos) - Expressions of reality
+- [Music gallery](/music) - Musical creations
+- [Music on Spotify](https://open.spotify.com/artist/1Y8BKB23oNJxGgVnce45k5?si=baqjpXM3QcmD4oV_VNQuvw) - Expressins via sound
 	- Also om iTunes, Apple Music, [Google Play](https://play.google.com/store/search?q=Geir%20Isene&hl=en), [Amazon](http://www.amazon.com/s/ref=nb_sb_noss/184-7057868-8952559?url=search-alias=aps&field-keywords=Geir%20Isene), [Deezer](http://www.deezer.com/artist/9927232) and [Rhapsody](http://www.rhapsody.com/artist/geir-isene)
-- [Music at youtube.com](http://www.youtube.com/user/geirisene/videos) - My expressions via sound and images
+- [Music at youtube.com](http://www.youtube.com/user/geirisene/videos) - Expressions via sound and images
 - [The font type ESCHER](https://isene.org/2019/12/Escher.html) - A tribute to my favorite artist Maurits C. Escher
 
 ### Tech stuff
 - My [Github repositories](https://github.com/isene) - Programs in Ruby, Focal, Mcode and more
-- The [HP-41 calculator page](/hp41) - My Focal and Mcode contributions
+- The [HP-41 calculator page](/hp41) - Focal and Mcode contributions
 
 ### Social media
 - [LinkedIn profile](http://www.linkedin.com/in/isene) - For business connections
