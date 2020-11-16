@@ -31,9 +31,9 @@ For an in-depth explanation of all the possibilities HyperList can give, get the
 #### VIM plugin
 To facilitate the creation and managing of HyperListS, I have created an elaborate plugin for the VIM text editor.
 
-Check out this screencast for a short intoduction to some main features:
+Check out this screencast for a short intoduction to some main features (view in HD):
 
-<center><iframe width="700" height="394" src="https://isene.org/assets/videos/HyperListVIM.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+{% include youtube.html id='xVUPJQhOBiU' %}
 
 The plugin includes a large range of features such as:
 
