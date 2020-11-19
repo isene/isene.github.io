@@ -20,4 +20,4 @@ forget](https://isene.me/2011/05/25/dont-touch-the-cows/).
 {% include youtube.html id='3CaVZ3EaeXk' %}
 
 ---
-Link to this post: <https://isene.org/2020/10/AmaniSedoyeka.html>
+Link to this post: <https://isene.org/2020/11/AmaniSedoyeka.html>
