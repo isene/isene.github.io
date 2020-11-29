@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Podcast 21 - How to handle stress
 image: /assets/posts/stress.jpg
-tags: [Podcast, Amar RPG]
+tags: [Podcast, Coaching]
 ---
 
 <center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-21-357---How-to-handle-stress-en4e2k" width="100%" frameborder="0" scrolling="no"></iframe></center>
