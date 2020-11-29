@@ -1,4 +1,4 @@
-I"æ	<p>I was looking for an intellectual challenge I could feel passionate about.
+I"ß	<p>I was looking for an intellectual challenge I could feel passionate about.
 Some itch I just had to scratch. And keep on scratching. Something geeky.</p>
 
 <p>And as usual, it just pops out from nowhere. I ask, it comes. Canâ€™t explain
@@ -41,7 +41,9 @@ Github</a>, install it and run it if you like.</p>
 
 <p>Just for kicks, I also created a screencast as an introduction to RTFM:</p>
 
-<p><a href="https://isene.com/x/rtfm-screencast.mp4"><img src="/assets/posts/screenshot-logo.png" alt="RTFM screencast" /></a></p>
+<div class="youtube-wrapper">
+  <iframe src="https://www.youtube.com/embed/ANUOlDryUng" allowfullscreen=""></iframe>
+</div>
 
 <hr />
 <p>Link to this post: <a href="https://isene.org/2020/11/RTFM.html">https://isene.org/2020/11/RTFM.html</a></p>

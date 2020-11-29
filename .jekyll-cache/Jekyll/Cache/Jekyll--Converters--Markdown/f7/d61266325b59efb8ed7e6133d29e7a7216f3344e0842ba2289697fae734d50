@@ -1,4 +1,4 @@
-I"Ÿ<p><img src="/assets/img/hyperlist.png" alt="" /></p>
+I"L<p><img src="/assets/img/hyperlist.png" alt="" /></p>
 
 <h3 id="everything-concise-and-precise">Everything. Concise and precise.</h3>
 <p>HyperListS represents a way to describe anything â€“ any state or any transition. It represents data in tree-structure lists with a very rich set of features. It can be used for any structuring of data, such as:</p>
@@ -29,9 +29,11 @@
 <h4 id="vim-plugin">VIM plugin</h4>
 <p>To facilitate the creation and managing of HyperListS, I have created an elaborate plugin for the VIM text editor.</p>
 
-<p>Check out this screencast for a short intoduction to some main features:</p>
+<p>Check out this screencast for a short intoduction to some main features (view in HD):</p>
 
-<center><iframe width="700" height="394" src="https://isene.org/assets/videos/HyperListVIM.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></center>
+<div class="youtube-wrapper">
+  <iframe src="https://www.youtube.com/embed/xVUPJQhOBiU" allowfullscreen=""></iframe>
+</div>
 
 <p>The plugin includes a large range of features such as:</p>
 
