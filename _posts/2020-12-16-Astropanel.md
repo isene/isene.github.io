@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Astropanel - Screencast (Terminal program for amateur astronomers) 
+title: Astropanel - Astronomy program for the terminal 
 image: /assets/posts/astropanel.png
 tags: [Geekery, Technology, Video]
 ---
