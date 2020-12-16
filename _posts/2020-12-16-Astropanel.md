@@ -30,5 +30,7 @@ Check out the screencast to see the program in use:
 
 {% include youtube.html id='36jsu3YBLyw' %}
 
+Github repository: https://github.com/isene/astropanel
+
 ---
 Link to this post: <https://isene.org/2020/12/Astropanel.html>
