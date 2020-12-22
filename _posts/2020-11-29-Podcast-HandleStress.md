@@ -8,7 +8,7 @@ tags: [Podcast, Coaching]
 
 <center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-21-357---How-to-handle-stress-en4e2k" width="100%" frameborder="0" scrolling="no"></iframe></center>
 
-What is the simplest possible tip for how to andle any strassful situation in life?
+What is the simplest possible tip for how to handle any stressful situation in life?
 
 What do you do when life is mounting overwhelming opposition? When lots of variables are in play? Boss breathing down your neck, kids screaming, family unraveling, deadlines approaching at frightning speed while you stand there paralyzed with stress.
 
