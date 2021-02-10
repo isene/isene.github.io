@@ -26,7 +26,7 @@ Read this OnePagePook to get a primer on HyperLists:
 > The list is the origin of culture. It’s part of the history of art and literature. What does culture want? To make infinity comprehensible. It also wants to create order – not always, but often. And how, as a human being, does one face infinity? How does one attempt to grasp the incomprehensible? Through lists (Umberto Eco)
 
 #### HyperList document
-For an in-depth explanation of all the possibilities HyperList can give, get the <a href="https://www.dropbox.com/s/u88hiepntca589w/hyperlist.pdf?raw=1" target="_blank" rel="noopener">HyperList document</a> (PDF).
+For an in-depth explanation of all the possibilities HyperList can give, get the <a href="/assets/files/hyperlist.pdf" target="_blank" rel="noopener">HyperList document</a> (PDF).
 
 #### VIM plugin
 To facilitate the creation and managing of HyperListS, I have created an elaborate plugin for the VIM text editor.
