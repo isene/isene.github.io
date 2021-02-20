@@ -33,4 +33,4 @@ Listen in on this simple 4 minutes podcast. I could have made it in less than
 a minute, but I was too lazy to simplify it further.
 
 ---
-Link to this post: <https://isene.org/2021/11/Podcast-GiversAndTakers.html>
+Link to this post: <https://isene.org/2021/01/Podcast-GiversAndTakers.html>
