@@ -1,0 +1,102 @@
+I"*<p><img src="/assets/img/hyperlist.png" alt="" /></p>
+
+<h3 id="everything-concise-and-precise">Everything. Concise and precise.</h3>
+<p>HyperListS represents a way to describe anything – any state or any transition. It represents data in tree-structure lists with a very rich set of features. It can be used for any structuring of data, such as:</p>
+
+<ul>
+  <li>Todo lists</li>
+  <li>Project plans</li>
+  <li>Data structures</li>
+  <li>Business processes</li>
+  <li>Logic breakdowns</li>
+  <li>Food recipes</li>
+  <li>Outlines of ideas</li>
+  <li>. . . and much, much more</li>
+</ul>
+
+<p>Read this OnePagePook to get a primer on HyperLists:</p>
+
+<p><img src="/assets/onepagebooks/7-hyperlist/cover.jpg" width="500" /><br />
+<strong><a href="/assets/onepagebooks/7-hyperlist/1PB_HyperList.pdf">Downloadable PDF</a></strong></p>
+
+<blockquote>
+  <p>The list is the origin of culture. It’s part of the history of art and literature. What does culture want? To make infinity comprehensible. It also wants to create order – not always, but often. And how, as a human being, does one face infinity? How does one attempt to grasp the incomprehensible? Through lists (Umberto Eco)</p>
+</blockquote>
+
+<h4 id="hyperlist-document">HyperList document</h4>
+<p>For an in-depth explanation of all the possibilities HyperList can give, get the <a href="/assets/files/hyperlist.pdf" target="_blank" rel="noopener">HyperList document</a> (PDF).</p>
+
+<h4 id="vim-plugin">VIM plugin</h4>
+<p>To facilitate the creation and managing of HyperListS, I have created an elaborate plugin for the VIM text editor.</p>
+
+<p>Check out this screencast for a short intoduction to some main features (view in HD):</p>
+
+<div class="youtube-wrapper">
+  <iframe src="https://www.youtube.com/embed/xVUPJQhOBiU" allowfullscreen=""></iframe>
+</div>
+
+<p>The plugin includes a large range of features such as:</p>
+
+<ul>
+  <li>Complete highlighting of HyperList elements</li>
+  <li>Collapsing and expanding of up to 15 levels in a list</li>
+  <li>Linking/referencing between elements (items) in a list</li>
+  <li>Easy navigation in lists, including jumping to references</li>
+  <li>“Presentation mode” where you can view only parts of lists and line-by-line</li>
+  <li>Highlight only the current part of a HyperList</li>
+  <li>Automatic underlining of State or Transition items in a list</li>
+  <li>Creating and checking of checkboxes in a list, with or without date stamps</li>
+  <li>Easy navigation to elements that needs filling out (when you use a list as a template)</li>
+  <li>Encryption (and decryption) of whole lists or parts of lists</li>
+  <li>Auto-encryption of lists - making a list into an excellent password safe</li>
+  <li>HTML, LaTeX and TPP export of HyperLists</li>
+  <li>Show or hide all lines with word under cursor</li>
+  <li>Add all items tagged with future dates to your Google calendar</li>
+  <li>Description on how to include HyperLists within other filetypes, thus taking full advantage of the above features when including a HyperList in e.g. a normal .txt document or an e-mail.</li>
+  <li>All documents with the file suffix “.hl” is treated as HyperList documents</li>
+  <li>… and there are many more features. Check out the comprehensive documentation (type “:help HyperList” in VIM after install)</li>
+</ul>
+
+<p>Go to the <a href="http://www.vim.org/scripts/script.php?script_id=4006">HyperList VIM plugin page</a> (<a href="https://github.com/isene/hyperlist.vim" target="_blank" rel="noopener">source on Github</a>).</p>
+
+<h5 id="writing-hyperlists-in-vim-on-android">Writing HyperLists in VIM on Android</h5>
+<p>To work with HyperLists in VIM on your Android phone, you can follow a few, simple steps:</p>
+<ol>
+  <li>Download <a href="https://play.google.com/store/apps/details?id=com.termux">Termux for Android</a></li>
+  <li>Start Termux and type: pkg install vim</li>
+  <li>Download the HyperList VIM plugin (<a href="https://www.vim.org/scripts/script.php?script_id=4006">hyperlist.vmb</a>) on your Android</li>
+  <li>In Termux write: <b>cp /storage/emulated/0/Download/hyperlist.vmb .</b></li>
+  <li>In termux write: <b>vim hyperlist.vmb</b></li>
+  <li>This gets you into VIM, then write: <b>:so %</b> (and press Enter) This installs HyperList in your VIM</li>
+  <li>To quit VIM write: <b>:q</b></li>
+</ol>
+
+<h4 id="hyperlist-mode-for-emacs">HyperList mode for EMACS</h4>
+<p><a href="https://github.com/Vifon">Vifon</a> (that I know from the
+<a href="https://ranger.github.io/">Ranger</a> IRC channel) have created a <a href="https://github.com/vifon/hyperlist-mode">HyperList
+mode for EMACS</a>.</p>
+
+<h4 id="hypergraph">HyperGraph</h4>
+<p>You can automatically graph a HyperList as either a mindmap (for HyperLists that are State descriptions) or a flowchart (for HyperLists that are Transitions descriptions). An example should suffice - this dummy HyperList:</p>
+<pre><strong>First Item</strong>
+   Second Item<span style="color:green;">;</span> <span style="color:blue;">OR: </span>
+      Third Item
+      Fourth Item
+   Fifth Item
+   <span style="color:green;">[? Item=Cool]</span> Sixth Item <span style="color:teal;">(</span><span style="color:magenta;">〈Second Item〉</span><span style="color:teal;">)</span>
+   Seventh Item
+   Eighth Item
+</pre>
+<p><br />
+Graphed as a State (mindmap):</p>
+
+<p><img src="/assets/img/test_state1.png" alt="" /></p>
+
+<p>Graphed as a Transition (flowchart):</p>
+
+<p><img src="/assets/img/test_trans1.png" width="200" /></p>
+
+<p>You may <a href="https://isene.com/hypergraph.html">graph your HyperLists with the online HyperGraph</a></p>
+
+<p>HyperGraph is a <a href="http://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a> script with a lot of options. Download <a href="https://github.com/isene/hypergraph">HyperGraph here</a>. HyperGraph is a rather complex endeavour. It works but you may encounter some snags. If you do, drop me a line and I will fix.</p>
+:ET
