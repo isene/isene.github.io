@@ -9,5 +9,9 @@ tags: [Podcast, Coaching]
 
 Extending the concept of evaluating people as Givers or Takers with the Scale of Giving. Make the World a better place by being a Giver and surround yourself with other Givers. This will create ripple effects and become a true pay-it-forward solution.
 
+![](https://isene.org/assets/posts/scaleofgiving.jpg)
+
+Perhaps the most insidious is the people pretending to be givers when all they think about is what's in it for them.
+
 ---
 Link to this post: <https://isene.org/2021/02/Podcast-ScaleOfGiving.html>
