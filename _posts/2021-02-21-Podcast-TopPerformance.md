@@ -5,7 +5,10 @@ title: Podcast 24 - Why mental clarity and presence give top performance
 image: /assets/onepagebooks/2-mentaltraining/cover.jpg
 tags: [Podcast, Coaching]
 ---
-<center><iframe src="https://anchor.fm/isene/episodes/Episode-24-1545---Why-mental-clarity-and-presence-give-top-performance-eqnpfi" width="100%" frameborder="0" scrolling="no"></iframe></center>
+
+<center>
+<iframe src="https://anchor.fm/isene/embed/episodes/Episode-24-1545---Why-mental-clarity-and-presence-give-top-performance-eqnpfi" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+</center>
 
 What stops you from reaching your goals? How do you remove stops and distractions? How do you stop distracting yourself when you must be at peak performance? How is esports different from more physical sports when it comes to mental training?
 
