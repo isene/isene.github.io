@@ -45,6 +45,12 @@ If you came directly to this “about”-page looking for information on me leav
 
 I started my [blogging on Scientology](http://elysianchakorta.wordpress.com/) a week after I left the church (2009-08-07) and decided a year later to let that blog my old IT blog fade and move all my blogging to [my Wordpress site](http://isene.me). After having exhausted all my various viewpoints on Scientology, I have resumed my basic, nerdy self - but still very much on a spiritual path in life. Contact me if you wonder what that is all about.
 
+### My basic principles in life
+
+Captured in a series of very short videos:
+
+{% include youtube.html id='playlist?list=PLaluBi_Q_FvH4pVVUnovLxFspv3l7WCvQ' %}
+
 ### Coaching and public speaking
 
 You can book me for seminars and talks on a wide range of topics, [personal and business coaching](https://isene.org/coaching/) and business consulting.
