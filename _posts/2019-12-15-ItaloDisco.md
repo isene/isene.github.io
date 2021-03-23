@@ -32,7 +32,7 @@ Martinelli - Orient express
 Radiorama - Aliens
 Koto - Jabdah
 Den Harrow - Catch the fox
-Valirie Dore - Lancelot
+Valerie Dore - Lancelot
 Mike Mareen - Love spy
 Aleph - Fire on the moon
 Lazerdance - You and me
