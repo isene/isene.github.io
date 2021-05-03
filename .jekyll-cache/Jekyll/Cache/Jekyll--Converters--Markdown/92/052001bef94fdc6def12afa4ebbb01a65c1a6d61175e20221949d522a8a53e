@@ -1,0 +1,38 @@
+I"<p>What kind of a pervert title is that?</p>
+
+<p>No, really - “gopherhole” is a thing. And a cool thing at that.</p>
+
+<p>Before the Web, there was
+<a href="https://en.wikipedia.org/wiki/Gopher_(protocol)">Gopher</a>. And they lived
+happily side-by-side for the better part of the 90s until the Web won out and
+Gopher went into seclusion.</p>
+
+<p>Gopher was - and is - a text-based web of information. It is simpler than the
+Web, faster and free from bells, whistles and commercial distractions. It is a
+“pure content” experience loved by some hard core geeks.</p>
+
+<p>To put it in context: In 2007 there were less than 100 gopher servers in the
+world. By 2012, there were 160. A slow growth since then has seen that number
+grow to 361. I guess mine bumps that to 362.</p>
+
+<p>The Web is driven by the “http” and “https” protocols while Gopher is driven
+by the… “gopher” protocol.</p>
+
+<p>Few browser supports the gopher protocol. You can use Firefox with the
+<a href="http://gopher.floodgap.com/overbite/">Overbite</a> extension or a bunch of
+different gopher clients (there’s a good one for Android,
+“<a href="https://play.google.com/store/apps/details?id=com.afewroosloose.gopher&amp;hl=en&amp;gl=US">DiggieDog</a>”).</p>
+
+<p>Here is what my gopherhole looks like if you browse “gopher://isene.com” in
+the pure text browser “<a href="https://lynx.invisible-island.net/">lynx</a>”:</p>
+
+<p><img src="https://isene.org/assets/posts/gopher.png" alt="" /></p>
+
+<p>I will publish only the distilled simplicity of my research and notes in
+my gopherhole. Come join :-)</p>
+
+<p>Thanks to <a href="http://guofu.sdf.org/">Abraham Moller</a> for the inspiration.</p>
+
+<hr />
+<p>Link to this post: <a href="https://isene.org/2021/04/Gopher.html">https://isene.org/2021/04/Gopher.html</a></p>
+:ET
