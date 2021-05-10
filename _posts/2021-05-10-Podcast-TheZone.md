@@ -16,7 +16,7 @@ Listen in to learn how to gain stillness of mind.
 
 <center>
 <iframe
-src="https://anchor.fm/isene/episodes/Episode-25-1403---Getting-in-The-Zone---creating-thoughts-and-feelings-e10hsi5" width="100%" frameborder="0" scrolling="no"></iframe>
+src="https://anchor.fm/isene/embed/episodes/Episode-25-1403---Getting-in-The-Zone---creating-thoughts-and-feelings-e10hsi5" width="100%" frameborder="0" scrolling="no"></iframe>
 </center>
 
 Remember - the exercises I talk about in this podcst is not about supressing
