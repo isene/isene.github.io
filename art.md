@@ -3,6 +3,12 @@ layout: post
 title: My digital artwork
 permalink: /art/
 images:
+  - image_path: /assets/art/Alcherion.jpg
+    title: Alcherion
+  - image_path: /assets/art/LightInTheCave.jpg
+    title: Light in the Cave
+  - image_path: /assets/art/glacier.jpg
+    title: Alien Glacier Ship
   - image_path: /assets/art/Call.jpg
     title: The Call
   - image_path: /assets/art/SoftEntanglement.jpg
