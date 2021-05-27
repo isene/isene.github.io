@@ -39,7 +39,7 @@ Back in 2000, after 10 years as the CEO of the recruitment company U-MAN Norge, 
 
 I was born in Oslo, Norway in 1966.
 
-I have four kids (Aleksander August was born on April 25th 2016) and have found the love of my life - [Anette](http://anetteiren.com/). We love kidding around, building Lego and do other fun stuff, like [role-playing games](http://d6gaming.org/).
+I have four kids. We love kidding around, building Lego and do other fun stuff, like [role-playing games](http://d6gaming.org/).
 
 If you came directly to this “about”-page looking for information on me leaving the Church of Scientology, then you will find this information on [a separate page](https://isene.org/scientology/).
 
