@@ -40,3 +40,5 @@ more energy by writing a new list and picking the one that rings true for you.
 
 It can be this simple.
 
+![](/assets/posts/motivation0.jpg)
+
