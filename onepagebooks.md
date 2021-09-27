@@ -40,7 +40,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/13-game/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B07R6DLKXM" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/13-game/1PB_Game.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/13-game/1PB_Game.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/13-game/1PB_Game.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-12-make-it-simple">1PB #12: Make it Simple</h3>
@@ -48,7 +48,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/12-simple/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B07GH5TVFH" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/12-simple/1PB_Simple.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/12-simple/1PB_Simple.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/12-simple/1PB_Simple.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-10-impress">1PB #10: Impress!</h3>
@@ -56,7 +56,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/10-impress/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B07CS4FQJT" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/10-impress/1PB_Impress.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/10-impress/1PB_Impress.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/10-impress/1PB_Impress.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-2-mental-training---the-core">1PB #2: Mental training - The core</h3>
@@ -64,7 +64,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/2-mentaltraining/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B01DYX1JHC" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/2-mentaltraining/1PB_MentalTraining-TheCore.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/2-mentaltraining/1PB_MentalTraining-TheCore.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/2-mentaltraining/1PB_MentalTraining-TheCore.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-4-fail">1PB #4: #Fail</h3>
@@ -72,7 +72,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/4-fail/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B075MSMNFZ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/4-fail/1PB_Fail.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/4-fail/1PB_Fail.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/4-fail/1PB_Fail.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-14-youre-gonna-die">1PB #14: You’re gonna die</h3>
@@ -80,7 +80,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/14-die/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B07V99YZH9" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/14-die/1PB_Die.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/14-die/1PB_Die.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/14-die/1PB_Die.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-8-and">1PB #8: And…?</h3>
@@ -88,7 +88,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/8-and/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B07C7KVYB4" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/8-and/1PB_And.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/8-and/1PB_And.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/8-and/1PB_And.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-6-listening---superpower">1PB #6: Listening - Superpower</h3>
@@ -96,7 +96,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/6-listening/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B076NXVL6G" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/6-listening/1PB_ListeningSuperpower.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/6-listening/1PB_ListeningSuperpower.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/6-listening/1PB_ListeningSuperpower.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-15-effective-teaching">1PB #15: Effective Teaching</h3>
@@ -104,7 +104,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/15-teach/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B08BNDLYGZ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/15-teach/1PB_Teach.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/15-teach/1PB_Teach.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/15-teach/1PB_Teach.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-16-divorce">1PB #16: How to divorce</h3>
@@ -112,7 +112,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/16-divorce/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B08BNBMVJJ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/16-divorce/1PB_Divorce.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/16-divorce/1PB_Divorce.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/16-divorce/1PB_Divorce.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-11-recruitment">1PB #11: Recruitment</h3>
@@ -120,7 +120,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/11-recruitment/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B07DZJ6G7T" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/11-recruitment/1PB_Recruitment.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/11-recruitment/1PB_Recruitment.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/11-recruitment/1PB_Recruitment.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-9-your-kick-ass-cv">1PB #9: Your Kick-Ass CV</h3>
@@ -128,7 +128,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/9-cv/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B07CN24CPT" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/9-cv/1PB_YourKickAssCV.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/9-cv/1PB_YourKickAssCV.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/9-cv/1PB_YourKickAssCV.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-5-how-to-help-a-friend-in-trouble">1PB #5: How to help a friend in trouble</h3>
@@ -136,7 +136,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/5-help/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B075PL61JJ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/5-help/1PB_Help.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/5-help/1PB_Help.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/5-help/1PB_Help.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-3-free-will">1PB #3: Free will</h3>
@@ -144,7 +144,7 @@ I have written several normal-sized books. And I've read lots of books that I th
 
 <p><img src="/assets/onepagebooks/3-freewill/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B073YY3VCV" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/3-freewill/1PB_FreeWill.pdf">Downloadable PDF</a></strong></p>
+<a href="/assets/onepagebooks/3-freewill/1PB_FreeWill.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/3-freewill/1PB_FreeWill.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-1-organization---the-simple-way">1PB #1: Organization - The simple way</h3>
