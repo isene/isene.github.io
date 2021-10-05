@@ -6,11 +6,11 @@ image: /assets/onepagebooks/17-improvements/cover.jpg
 tags: [Coaching, Philosophy, OnePageBook]
 ---
   
-"The biggest room in the world is the room for improvement." (Helmut Schmidt)
+<i>"The biggest room in the world is the room for improvement."</i> (Helmut Schmidt)
 
 How to help yourself and others improve: Focus on the positive.
 
-Download as pdf by clicking on the cover image:
+Download as <i><b>pdf</b></i> by clicking on the cover image:
 
 <p style="text-align:center"><a href="{{ site.url }}/assets/onepagebooks/17-improvements/1PB_Improvements.pdf"><img src="/assets/onepagebooks/17-improvements/cover.jpg" width="500" alt="Simple" /></a></p>
 
