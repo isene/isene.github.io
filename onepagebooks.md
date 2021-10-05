@@ -8,15 +8,16 @@ Have you ever read through a 300-page book only to flip the last page thinking, 
 I have written several normal-sized books. And I've read lots of books that I thought should have been compressed down to one page. The same with my collegue/best friend [Brendan Martin](http://brendanmartin.com), which is why we decided to start publishing OnePageBooks (1PBs) on key subjects. Presented here in the order of general interest, starting with an index of the lot so you can click instead of scrolling:
 
 * [The OnePageBook Compilation](https://isene.org/onepagebooks/#1pb-0-compilation)
-* [Game review: LIFE](https://isene.org/onepagebooks/#1pb-13-game-review-life)
 * [Make it Simple](https://isene.org/onepagebooks/#1pb-12-make-it-simple)
+* [Improvements](https://isene.org/onepagebooks/#1pb-17-improvements)
+* [#Fail](https://isene.org/onepagebooks/#1pb-4-fail)
+* [Listening - Superpower](https://isene.org/onepagebooks/#1pb-6-listening---superpower)
 * [Impress!](https://isene.org/onepagebooks/#1pb-10-impress)
 * [Mental training - The core](https://isene.org/onepagebooks/#1pb-2-mental-training---the-core)
-* [#Fail](https://isene.org/onepagebooks/#1pb-4-fail)
-* [You’re gonna die](https://isene.org/onepagebooks/#1pb-14-youre-gonna-die)
-* [And…?](https://isene.org/onepagebooks/#1pb-8-and)
-* [Listening - Superpower](https://isene.org/onepagebooks/#1pb-6-listening---superpower)
 * [Effective Teaching](https://isene.org/onepagebooks/#1pb-15-effective-teaching)
+* [Game review: LIFE](https://isene.org/onepagebooks/#1pb-13-game-review-life)
+* [And…?](https://isene.org/onepagebooks/#1pb-8-and)
+* [You’re gonna die](https://isene.org/onepagebooks/#1pb-14-youre-gonna-die)
 * [How to divorce](https://isene.org/onepagebooks/#1pb-16-divorce)
 * [Recruitment](https://isene.org/onepagebooks/#1pb-11-recruitment)
 * [Your Kick-Ass CV](https://isene.org/onepagebooks/#1pb-9-your-kick-ass-cv)
@@ -33,15 +34,6 @@ I have written several normal-sized books. And I've read lots of books that I th
 <p><img src="/assets/onepagebooks/0-compilation/cover.jpg" width="400"><br>
 <strong><a href="/assets/onepagebooks/0-compilation/1PB-compilation.pdf">Downloadable PDF</a></strong></p>
 
-<center>
-<hr />
-<h3 id="1pb-13-game-review-life">1PB #13: Game review: LIFE</h3>
-<p>The official review of the game we like to call life.</p>
-
-<p><img src="/assets/onepagebooks/13-game/cover.jpg" width="400"><br>
-<strong><a href="https://www.amazon.com/dp/B07R6DLKXM" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/13-game/1PB_Game.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/13-game/1PB_Game.epub">EPUB</a></strong></p>
-
 <hr />
 <h3 id="1pb-12-make-it-simple">1PB #12: Make it Simple</h3>
 <p>This OnePageBook™ helps you simplify stuff. Your concepts, your messages, your life.</p>
@@ -49,6 +41,30 @@ I have written several normal-sized books. And I've read lots of books that I th
 <p><img src="/assets/onepagebooks/12-simple/cover.jpg" width="400"><br>
 <strong><a href="https://www.amazon.com/dp/B07GH5TVFH" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
 <a href="/assets/onepagebooks/12-simple/1PB_Simple.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/12-simple/1PB_Simple.epub">EPUB</a></strong></p>
+
+<hr />
+<h3 id="1pb-17-improvements">1PB #17: Improvements</h3>
+<p>Focus on positive improvements. Build upon a person’s inner motivation and passion to bring about the best in that person.</p>
+
+<p><img src="/assets/onepagebooks/17-improvements/cover.jpg" width="400"><br>
+<strong><a href="https://www.amazon.com/dp/B09HR1DWHZ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
+<a href="/assets/onepagebooks/17-improvements/1PB_Improvements.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/17-improvements/1PB_Improvements.epub">EPUB</a></strong></p>
+
+<hr />
+<h3 id="1pb-4-fail">1PB #4: #Fail</h3>
+<p>Learn the hidden benefit of failing.</p>
+
+<p><img src="/assets/onepagebooks/4-fail/cover.jpg" width="400"><br>
+<strong><a href="https://www.amazon.com/dp/B075MSMNFZ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
+<a href="/assets/onepagebooks/4-fail/1PB_Fail.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/4-fail/1PB_Fail.epub">EPUB</a></strong></p>
+
+<hr />
+<h3 id="1pb-6-listening---superpower">1PB #6: Listening - Superpower</h3>
+<p>Tune in, really understand.</p>
+
+<p><img src="/assets/onepagebooks/6-listening/cover.jpg" width="400"><br>
+<strong><a href="https://www.amazon.com/dp/B076NXVL6G" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
+<a href="/assets/onepagebooks/6-listening/1PB_ListeningSuperpower.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/6-listening/1PB_ListeningSuperpower.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-10-impress">1PB #10: Impress!</h3>
@@ -67,20 +83,20 @@ I have written several normal-sized books. And I've read lots of books that I th
 <a href="/assets/onepagebooks/2-mentaltraining/1PB_MentalTraining-TheCore.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/2-mentaltraining/1PB_MentalTraining-TheCore.epub">EPUB</a></strong></p>
 
 <hr />
-<h3 id="1pb-4-fail">1PB #4: #Fail</h3>
-<p>Learn the hidden benefit of failing.</p>
+<h3 id="1pb-15-effective-teaching">1PB #15: Effective Teaching</h3>
+<p>Be a great teacher.</p>
 
-<p><img src="/assets/onepagebooks/4-fail/cover.jpg" width="400"><br>
-<strong><a href="https://www.amazon.com/dp/B075MSMNFZ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/4-fail/1PB_Fail.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/4-fail/1PB_Fail.epub">EPUB</a></strong></p>
+<p><img src="/assets/onepagebooks/15-teach/cover.jpg" width="400"><br>
+<strong><a href="https://www.amazon.com/dp/B08BNDLYGZ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
+<a href="/assets/onepagebooks/15-teach/1PB_Teach.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/15-teach/1PB_Teach.epub">EPUB</a></strong></p>
 
 <hr />
-<h3 id="1pb-14-youre-gonna-die">1PB #14: You’re gonna die</h3>
-<p>Get a perspective on life.</p>
+<h3 id="1pb-13-game-review-life">1PB #13: Game review: LIFE</h3>
+<p>The official review of the game we like to call life.</p>
 
-<p><img src="/assets/onepagebooks/14-die/cover.jpg" width="400"><br>
-<strong><a href="https://www.amazon.com/dp/B07V99YZH9" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/14-die/1PB_Die.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/14-die/1PB_Die.epub">EPUB</a></strong></p>
+<p><img src="/assets/onepagebooks/13-game/cover.jpg" width="400"><br>
+<strong><a href="https://www.amazon.com/dp/B07R6DLKXM" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
+<a href="/assets/onepagebooks/13-game/1PB_Game.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/13-game/1PB_Game.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-8-and">1PB #8: And…?</h3>
@@ -91,20 +107,12 @@ I have written several normal-sized books. And I've read lots of books that I th
 <a href="/assets/onepagebooks/8-and/1PB_And.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/8-and/1PB_And.epub">EPUB</a></strong></p>
 
 <hr />
-<h3 id="1pb-6-listening---superpower">1PB #6: Listening - Superpower</h3>
-<p>Tune in, really understand.</p>
+<h3 id="1pb-14-youre-gonna-die">1PB #14: You’re gonna die</h3>
+<p>Get a perspective on life.</p>
 
-<p><img src="/assets/onepagebooks/6-listening/cover.jpg" width="400"><br>
-<strong><a href="https://www.amazon.com/dp/B076NXVL6G" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/6-listening/1PB_ListeningSuperpower.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/6-listening/1PB_ListeningSuperpower.epub">EPUB</a></strong></p>
-
-<hr />
-<h3 id="1pb-15-effective-teaching">1PB #15: Effective Teaching</h3>
-<p>Be a great teacher.</p>
-
-<p><img src="/assets/onepagebooks/15-teach/cover.jpg" width="400"><br>
-<strong><a href="https://www.amazon.com/dp/B08BNDLYGZ" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
-<a href="/assets/onepagebooks/15-teach/1PB_Teach.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/15-teach/1PB_Teach.epub">EPUB</a></strong></p>
+<p><img src="/assets/onepagebooks/14-die/cover.jpg" width="400"><br>
+<strong><a href="https://www.amazon.com/dp/B07V99YZH9" target="_blank" rel="noopener noreferrer">Amazon ebook</a><br>
+<a href="/assets/onepagebooks/14-die/1PB_Die.pdf">Downloadable PDF</a> <a href="/assets/onepagebooks/14-die/1PB_Die.epub">EPUB</a></strong></p>
 
 <hr />
 <h3 id="1pb-16-divorce">1PB #16: How to divorce</h3>
