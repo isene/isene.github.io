@@ -1,0 +1,36 @@
+I"�<p>Few things gets me going like programming. After a rush of coding in the
+beginning of the year, I found myself missing the creative intellectual
+challange that programming poses. Then I found a missing application and my
+geek life got new zest.</p>
+
+<p>With three telescopes and a bunch of eyepieces, there are lots of calculations
+that I want done. An eyepiece is that optical piece you put in at the end of a
+telescope that determines the magnification and field of view you get.</p>
+
+<p>There is a set of interesting properties that can be calculated for a given
+telescope. And telescope/eyepiece combinations also yield a set of interesting
+properties.</p>
+
+<p>Having already made a program for the HP-41 that calculates all this, I
+thought it would be cool to recreate this type of program as a
+terminal/console application (for Linux, MacOS, Windows).</p>
+
+<p>Three evenings later and “Telescope” was up on
+<a href="https://github.com/isene/telescope">Github</a> and
+<a href="https://rubygems.org/gems/telescope-term">Rubygems.org</a>.</p>
+
+<p><img src="/assets/posts/telescopescreenshot.png" alt="" /></p>
+
+<p>I started making Ruby “gems” out of my applications. This makes it silly easy
+to install my set of (useful) solutions, simply do this in a terminal:</p>
+
+<ul>
+  <li>For <a href="https://github.com/isene/telescope">Telescope</a>: <code class="highlighter-rouge">gem install telescope-term</code></li>
+  <li>For <a href="https://github.com/isene/astropanel">Astropanel</a>: <code class="highlighter-rouge">gem install astropanel</code></li>
+  <li>For the <a href="https://github.com/isene/RTFM">RTFM filemanager</a>: <code class="highlighter-rouge">gem install rtfm-filemanager</code></li>
+  <li>For <a href="https://github.com/isene/t-rex">T-REX</a> (the RPN calculator): <code class="highlighter-rouge">gem install t-rex</code></li>
+</ul>
+
+<p>In less than 2 months, there’s now more than 8500 downloads of my RubyGems.
+All free with no restrictive licenses. I like that people find them useful.</p>
+:ET
