@@ -1,4 +1,4 @@
-I"*<p><img src="/assets/img/hyperlist.png" alt="" /></p>
+I"<p><img src="/assets/img/hyperlist.png" alt="" /></p>
 
 <h3 id="everything-concise-and-precise">Everything. Concise and precise.</h3>
 <p>HyperListS represents a way to describe anything – any state or any transition. It represents data in tree-structure lists with a very rich set of features. It can be used for any structuring of data, such as:</p>
@@ -69,6 +69,7 @@
   <li>In termux write: <b>vim hyperlist.vmb</b></li>
   <li>This gets you into VIM, then write: <b>:so %</b> (and press Enter) This installs HyperList in your VIM</li>
   <li>To quit VIM write: <b>:q</b></li>
+  <li>To use encryption within HyperLists, do: pkg install openssl openssl-tool</li>
 </ol>
 
 <h4 id="hyperlist-mode-for-emacs">HyperList mode for EMACS</h4>

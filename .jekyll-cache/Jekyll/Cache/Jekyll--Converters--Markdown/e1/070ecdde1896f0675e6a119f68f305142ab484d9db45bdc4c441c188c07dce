@@ -1,4 +1,4 @@
-I"�<p>Few things gets me going like programming. After a rush of coding in the
+I"S<p>Few things gets me going like programming. After a rush of coding in the
 beginning of the year, I found myself missing the creative intellectual
 challange that programming poses. Then I found a missing application and my
 geek life got new zest.</p>
@@ -21,8 +21,11 @@ terminal/console application (for Linux, MacOS, Windows).</p>
 
 <p><img src="/assets/posts/telescopescreenshot.png" alt="" /></p>
 
-<p>I started making Ruby “gems” out of my applications. This makes it silly easy
-to install my set of (useful) solutions, simply do this in a terminal:</p>
+<p>I also did a bunch of improvements to the RTFM filemanager.</p>
+
+<p>To make for easier installations, I started making Ruby “gems” out of my
+applications. This makes it silly easy to install my set of (useful)
+solutions, simply do this in a terminal:</p>
 
 <ul>
   <li>For <a href="https://github.com/isene/telescope">Telescope</a>: <code class="highlighter-rouge">gem install telescope-term</code></li>
