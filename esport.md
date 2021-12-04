@@ -22,4 +22,11 @@ training, you need to do the following before we start:
 * what you would like to achieve with mental training
 11. And finally, hook me up on Discord (isene#0199).
 
+Recently I have acquired an apprentice that can help with professional esports
+contenders. He would engage the right players for free to gain more
+experience.
+
+From a Rocket League player on Twitter:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Checked this out and damn i read and listened to all of it! I think its really helpful and useful information you have put out !❤️</p>&mdash; Traske🇫🇮🇸🇪 (@Traske_) <a href="https://twitter.com/Traske_/status/1466910517537218561?ref_src=twsrc%5Etfw">December 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <center><img src="/assets/posts/esport6.jpg" /></center>
