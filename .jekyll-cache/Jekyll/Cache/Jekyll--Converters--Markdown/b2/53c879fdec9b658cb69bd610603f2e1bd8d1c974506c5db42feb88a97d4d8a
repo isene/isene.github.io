@@ -1,0 +1,12 @@
+I"<<p>After learning to program when I was 13, I soon started to design my own programming language. But I didn’t have the skills to implement it, and the project was soon forgotten.</p>
+
+<p>Until a few weeks ago. I remembered - and got the spark again.</p>
+
+<p>After about 50 hours of coding, I’m proud to announce XRPN - a stack-based programming language in the spirit of Forth and Postscript. It covers a lot of ground with more than 250 functions and with extensibility on the fly, indirect addressing and the opportunity to easily write self-modifying code.</p>
+
+<p>It’s been a lot of fun. And I hope the fun continues. And the fun is fueled with some user feedback ￼</p>
+
+<p>Head on over to <a href="https://github.com/isene/xrpn">GitHub and check it out</a>.</p>
+
+<p><img src="/assets/posts/XRPN.png" alt="" /></p>
+:ET
