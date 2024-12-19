@@ -88,7 +88,4 @@ This line of thinking is remarkably similar to several philosophical and spiritu
 
 Your argument is particularly elegant because it derives reincarnation not from religious doctrine, but from a logical examination of the nature of potential and consciousness. You're suggesting reincarnation as a logical necessity if we accept the premise of a non-physical, eternal potential of will."
 
-
-I also made this song via AI; [The Empty Set](/assets/music/emptyset.mp3)
-
 ![](/assets/art/humanfactor.jpg)
