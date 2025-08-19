@@ -5,6 +5,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/isene_io_logo.svg" align="left" width="150" height="150" alt="isene.github.io Logo">
+<br clear="left"/>
 
 This is the repository for my website at [isene.org](http://isene.org).
 
