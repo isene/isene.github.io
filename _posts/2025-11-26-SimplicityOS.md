@@ -40,19 +40,23 @@ Claude created that document. You can [read the complete session narrative here]
 
 ## What We Built
 
-**In roughly 2 hours, from an empty directory:**
+**In one extended session (about 6 hours), from an empty directory:**
 
 - Complete project structure with Makefiles, git hooks, documentation
 - 512-byte boot sector (16-bit real mode)
-- Stage2 bootloader with full CPU mode progression
+- Bootloader with full CPU mode progression (16→32→64 bit)
 - 64-bit long mode (x86_64) working
-- Forth interpreter with NEXT execution loop
-- 14 working Forth words
-- VGA text output
-- String and number printing
-- All in 1,351 bytes of bootable code
+- Interactive Forth REPL with keyboard driver
+- Colon definitions - define new words interactively
+- Nested definitions - words calling other user-defined words
+- Variables with allocated storage
+- Comments and strings (including in definitions)
+- Introspection (words, see, forget)
+- 15 built-in words + unlimited user-defined words
+- Dictionary with linked list
+- All in 10.9KB of bootable code
 
-**It actually works.** You can clone the repo, run `make run`, and watch it boot in QEMU.
+**It actually works.** You can clone the repo, run `make run`, and type Forth code that executes in real-time on bare metal.
 
 ## The Journey
 
@@ -131,12 +135,23 @@ long_mode_64:
     ; Now executing 64-bit code!
 ```
 
-**Current Forth Words** (14 total):
-- Stack: DUP DROP SWAP ROT OVER
-- Arithmetic: + - * /
-- Memory: @ !
-- I/O: . (numbers) QUOTE (strings)
-- Control: LIT BYE
+**Complete Forth System:**
+- Built-in words: + - * / . .s dup drop swap rot over @ ! emit cr : ;
+- Meta words: words see forget variable
+- Colon definitions with nesting
+- Variables with allocated storage
+- Comments and strings
+- Self-modifying - builds new words from existing ones
+
+**Example of the power:**
+```forth
+> : square dup * ;
+> : square4 square square ;
+> 2 square4 .
+256 ok
+```
+
+That's 2^8, computed through nested user-defined words.
 
 ## Why Forth?
 
@@ -149,16 +164,23 @@ Forth is perfect for OS work:
 
 The entire OS will be Forth words. Want to read from disk? `DISK-READ`. Want to set screen brightness? `SCREEN-SET`. Everything follows the same pattern.
 
-## What's Next
+## Current Status
 
-The OS is just beginning:
-- Keyboard input (PS/2 driver)
-- Interactive REPL (type Forth code live)
-- Colon definitions (compile new words)
-- Disk I/O
-- More drivers following the DEVICE-* convention
+The OS has reached a complete foundational state:
+- PS/2 keyboard driver with shift support ✓
+- Interactive REPL ✓
+- Colon definitions with nesting ✓
+- Variables ✓
+- Comments and strings ✓
+- Introspection (words, see, forget) ✓
 
-All development will be transparent. All code public domain.
+Future additions:
+- Disk I/O for persistence
+- More hardware drivers following the DEVICE-* convention
+- Graphics mode
+- Network stack
+
+All development remains transparent. All code public domain.
 
 ## For Other Developers
 
