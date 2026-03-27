@@ -24,9 +24,7 @@ permalink: /:categories/:year/:month/:title.html
 paginate: 12
 
 comments:
-  provider: disqus
-  disqus:
-    short_name: isene
+  provider: giscus
 
 #kramdown:
 #  input: GFM
