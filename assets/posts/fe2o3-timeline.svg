@@ -16,26 +16,29 @@
     </filter>
   </defs>
 
-  <!-- Background -->
+  <!-- Total cycle: 9s (6s animation + 3s visible) fade out at 9s, restart at 12s -->
+  <!-- Using dur=12s with keyTimes for all fade-in elements -->
+
   <rect width="1200" height="600" fill="url(#rustGrad)"/>
 
   <!-- Title -->
   <text x="600" y="45" text-anchor="middle" fill="#f74c00" font-size="28" font-weight="bold">
     Fe2O3: The Rust Terminal Suite
-    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.1;0.75;0.85" dur="12s" repeatCount="indefinite"/>
   </text>
   <text x="600" y="70" text-anchor="middle" fill="#888" font-size="14">
     9 months, 1,224 commits, 30,000 lines of Rust, 0 lines read
-    <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.05;0.12;0.75;0.85" dur="12s" repeatCount="indefinite"/>
   </text>
 
   <!-- Timeline line -->
-  <line x1="60" y1="130" x2="1140" y2="130" stroke="url(#lineGrad)" stroke-width="3">
-    <animate attributeName="x2" from="60" to="1140" dur="2s" fill="freeze"/>
+  <line x1="60" y1="130" x2="60" y2="130" stroke="url(#lineGrad)" stroke-width="3">
+    <animate attributeName="x2" values="60;60;1140;1140;60" keyTimes="0;0.02;0.18;0.75;0.85" dur="12s" repeatCount="indefinite"/>
   </line>
 
-  <!-- Month markers: Jul 2025 = 60, Apr 7 2026 = 1140. 9.2 months, ~117px per month -->
+  <!-- Month markers -->
   <g fill="#555" font-size="11" text-anchor="middle">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.1;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <text x="60" y="155">Jul 25</text>
     <text x="177" y="155">Aug</text>
     <text x="294" y="155">Sep</text>
@@ -48,106 +51,104 @@
     <text x="1140" y="155">Apr</text>
   </g>
 
-  <!-- Ruby era bar: Jul 2025 through late March 2026 (x=60 to x=1030) -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>
+  <!-- Ruby era bar -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.04;0.08;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <rect x="50" y="170" width="990" height="28" rx="5" fill="#cc342d" opacity="0.12"/>
     <text x="530" y="189" text-anchor="middle" fill="#cc342d" font-size="13" font-weight="bold">Ruby Era: rsh, rcurses, RTFM, Heathrow, Timely, Brrowser</text>
   </g>
 
-  <!-- Fe2O3 era bar: late March to Apr 7 (x=1030 to x=1140) -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="2.5s" fill="freeze"/>
+  <!-- Fe2O3 era bar -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.21;0.25;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <rect x="1020" y="170" width="130" height="28" rx="5" fill="#f74c00" opacity="0.2">
       <animate attributeName="opacity" values="0.1;0.25;0.1" dur="3s" repeatCount="indefinite"/>
     </rect>
     <text x="1085" y="189" text-anchor="middle" fill="#f74c00" font-size="13" font-weight="bold">Fe2O3</text>
   </g>
 
-  <!-- Ruby milestones along the timeline -->
-  <!-- rsh: Jul 2025 -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1s" fill="freeze"/>
+  <!-- rsh -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.08;0.11;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="60" cy="130" r="6" fill="#cc342d" filter="url(#glow)"/>
     <line x1="60" y1="136" x2="60" y2="215" stroke="#cc342d" stroke-width="1" stroke-dasharray="3,3"/>
     <text x="60" y="230" text-anchor="middle" fill="#cc342d" font-size="11" font-weight="bold">rsh</text>
     <text x="60" y="243" text-anchor="middle" fill="#777" font-size="9">66 commits</text>
   </g>
 
-  <!-- rcurses: Aug -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.2s" fill="freeze"/>
+  <!-- rcurses -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.10;0.13;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="177" cy="130" r="5" fill="#cc342d"/>
     <line x1="177" y1="136" x2="177" y2="265" stroke="#cc342d" stroke-width="1" stroke-dasharray="3,3"/>
     <text x="177" y="280" text-anchor="middle" fill="#cc342d" font-size="11" font-weight="bold">rcurses</text>
     <text x="177" y="293" text-anchor="middle" fill="#777" font-size="9">45 commits</text>
   </g>
 
-  <!-- RTFM: Sep -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.4s" fill="freeze"/>
+  <!-- RTFM -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.12;0.15;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="294" cy="130" r="7" fill="#cc342d" filter="url(#glow)"/>
     <line x1="294" y1="136" x2="294" y2="215" stroke="#cc342d" stroke-width="1" stroke-dasharray="3,3"/>
     <text x="294" y="230" text-anchor="middle" fill="#cc342d" font-size="11" font-weight="bold">RTFM</text>
     <text x="294" y="243" text-anchor="middle" fill="#777" font-size="9">85 commits</text>
   </g>
 
-  <!-- Amar-Tools: Oct -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.5s" fill="freeze"/>
+  <!-- Amar-Tools -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.13;0.16;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="411" cy="130" r="7" fill="#cc342d" filter="url(#glow)"/>
     <line x1="411" y1="136" x2="411" y2="265" stroke="#cc342d" stroke-width="1" stroke-dasharray="3,3"/>
     <text x="411" y="280" text-anchor="middle" fill="#cc342d" font-size="11" font-weight="bold">Amar-Tools</text>
     <text x="411" y="293" text-anchor="middle" fill="#777" font-size="9">241 commits</text>
   </g>
 
-  <!-- Brrowser: Nov -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.6s" fill="freeze"/>
+  <!-- Brrowser -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.14;0.17;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="528" cy="130" r="5" fill="#cc342d"/>
     <line x1="528" y1="136" x2="528" y2="215" stroke="#cc342d" stroke-width="1" stroke-dasharray="3,3"/>
     <text x="528" y="230" text-anchor="middle" fill="#cc342d" font-size="11" font-weight="bold">Brrowser</text>
     <text x="528" y="243" text-anchor="middle" fill="#777" font-size="9">55 commits</text>
   </g>
 
-  <!-- Heathrow: Dec-Jan -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.8s" fill="freeze"/>
+  <!-- Heathrow -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.16;0.19;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="700" cy="130" r="7" fill="#cc342d" filter="url(#glow)"/>
     <line x1="700" y1="136" x2="700" y2="265" stroke="#cc342d" stroke-width="1" stroke-dasharray="3,3"/>
     <text x="700" y="280" text-anchor="middle" fill="#cc342d" font-size="11" font-weight="bold">Heathrow</text>
     <text x="700" y="293" text-anchor="middle" fill="#777" font-size="9">26 commits</text>
   </g>
 
-  <!-- Timely: Feb -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2s" fill="freeze"/>
+  <!-- Timely -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.18;0.21;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="879" cy="130" r="6" fill="#cc342d"/>
     <line x1="879" y1="136" x2="879" y2="215" stroke="#cc342d" stroke-width="1" stroke-dasharray="3,3"/>
     <text x="879" y="230" text-anchor="middle" fill="#cc342d" font-size="11" font-weight="bold">Timely</text>
     <text x="879" y="243" text-anchor="middle" fill="#777" font-size="9">70 commits</text>
   </g>
 
-  <!-- XRPN: scattered -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.2s" fill="freeze"/>
+  <!-- XRPN -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.19;0.22;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="960" cy="130" r="4" fill="#cc342d"/>
     <line x1="960" y1="136" x2="960" y2="265" stroke="#cc342d" stroke-width="1" stroke-dasharray="3,3"/>
     <text x="960" y="280" text-anchor="middle" fill="#cc342d" font-size="11" font-weight="bold">XRPN</text>
     <text x="960" y="293" text-anchor="middle" fill="#777" font-size="9">25 commits</text>
   </g>
 
-  <!-- THE PIVOT marker -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.8s" fill="freeze"/>
+  <!-- PIVOT marker -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.23;0.27;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <line x1="1030" y1="105" x2="1030" y2="155" stroke="#f74c00" stroke-width="2" stroke-dasharray="4,2"/>
     <text x="1030" y="100" text-anchor="middle" fill="#f74c00" font-size="10">PIVOT</text>
   </g>
 
-  <!-- Fe2O3 Rust milestones (compressed into late Mar - early Apr) -->
   <!-- Rush + Crust + Glow -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.2s" fill="freeze"/>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.27;0.30;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="1045" cy="130" r="6" fill="#f74c00" filter="url(#glow)">
       <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
     </circle>
@@ -158,8 +159,8 @@
   </g>
 
   <!-- Pointer + Scroll -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.5s" fill="freeze"/>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.30;0.33;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="1070" cy="130" r="5" fill="#f74c00"/>
     <line x1="1070" y1="136" x2="1070" y2="215" stroke="#f74c00" stroke-width="1" stroke-dasharray="3,3"/>
     <text x="1070" y="230" text-anchor="middle" fill="#f74c00" font-size="10" font-weight="bold">Pointer</text>
@@ -168,8 +169,8 @@
   </g>
 
   <!-- Kastrup -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.8s" fill="freeze"/>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.32;0.35;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="1100" cy="130" r="7" fill="#f74c00" filter="url(#glow)">
       <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
     </circle>
@@ -180,8 +181,8 @@
   </g>
 
   <!-- Tock -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="4.1s" fill="freeze"/>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.35;0.38;0.75;0.85" dur="12s" repeatCount="indefinite"/>
     <circle cx="1130" cy="130" r="7" fill="#f39c12" filter="url(#glow)">
       <animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/>
     </circle>
@@ -192,8 +193,8 @@
   </g>
 
   <!-- Stats boxes -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="4.5s" fill="freeze"/>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.38;0.45;0.75;0.85" dur="12s" repeatCount="indefinite"/>
 
     <rect x="80" y="440" width="200" height="80" rx="8" fill="#1a1a2e" stroke="#f74c00" stroke-width="1.5"/>
     <text x="180" y="465" text-anchor="middle" fill="#f74c00" font-size="28" font-weight="bold">1,224</text>
@@ -224,6 +225,6 @@
   <!-- Bottom tagline -->
   <text x="600" y="565" text-anchor="middle" fill="#444" font-size="12">
     9 months of Ruby, then 2 weeks of Rust. Zero Rust experience. Powered by Claude Code.
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="5s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.48;0.75;0.85" dur="12s" repeatCount="indefinite"/>
   </text>
 </svg>
