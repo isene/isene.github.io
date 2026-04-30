@@ -4,7 +4,7 @@ copyright:        Geir Isene
 url:              https://isene.org
 production_url:   https://isene.org
 
-future:      false  # publish future dated posts --  true, false (default)
+future:      true   # publish future dated posts --  true, false (default)
 
 highlighter: rouge
 markdown:    kramdown
