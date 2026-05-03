@@ -14,7 +14,7 @@ layout: post-index
         <h1 class="entry-title">
             <a href="{{ site.url }}{{ post.url }}" rel="bookmark" itemprop="url">{{ post.title }}</a>
         </h1>
-        <small>{{ post.date | date_to_string }} (<a style="color:$link-color" href="{{ site.url }}{{ post.url }}#disqus_thread">0 Comments</a>)</small>
+        <small>{{ post.date | date_to_string }} (<a style="color:$link-color" href="{{ site.url }}{{ post.url }}#comments" class="comment-count" data-comment-path="{{ post.url }}">Comments</a>)</small>
         <h3 class="entry-subtitle">
             <a href="{{ site.url }}{{ post.url }}" rel="bookmark" itemprop="url">{{ post.subtitle }}</a>
         </h3>

@@ -1,0 +1,59 @@
+<!-- Live comment counts from GitHub Discussions (giscus backend).
+     Each post link on the index has class="comment-count" and
+     data-comment-path="<post.url>". giscus uses pathname mapping, so
+     each discussion's title equals the page pathname. -->
+<script>
+(function () {
+    var REPO = 'isene/isene.github.io';
+    var els = document.querySelectorAll('a.comment-count');
+    if (els.length === 0) return;
+
+    var counts = {};
+
+    function pluralize(n) { return n + ' Comment' + (n === 1 ? '' : 's'); }
+
+    function paint() {
+        els.forEach(function (el) {
+            var p = el.getAttribute('data-comment-path') || '';
+            // giscus title may be the full pathname (with or without .html / leading slash);
+            // try a few normalised forms.
+            var keys = [
+                p,
+                p.replace(/\.html$/, ''),
+                p.replace(/^\//, ''),
+                p.replace(/^\//, '').replace(/\.html$/, '')
+            ];
+            for (var i = 0; i < keys.length; i++) {
+                if (keys[i] in counts) {
+                    el.textContent = pluralize(counts[keys[i]]);
+                    return;
+                }
+            }
+            // No discussion exists yet → 0
+            el.textContent = pluralize(0);
+        });
+    }
+
+    // Page through discussions (max 100 per page).
+    function fetchPage(page) {
+        var url = 'https://api.github.com/repos/' + REPO +
+                  '/discussions?per_page=100&page=' + page;
+        return fetch(url, { headers: { 'Accept': 'application/vnd.github+json' }})
+            .then(function (r) { return r.ok ? r.json() : []; })
+            .then(function (arr) {
+                if (!Array.isArray(arr)) return [];
+                arr.forEach(function (d) { counts[d.title] = d.comments; });
+                return arr.length;
+            })
+            .catch(function () { return 0; });
+    }
+
+    (async function () {
+        var page = 1, n;
+        do {
+            n = await fetchPage(page++);
+        } while (n === 100 && page < 10);
+        paint();
+    })();
+})();
+</script>
