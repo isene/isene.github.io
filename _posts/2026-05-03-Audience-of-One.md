@@ -8,7 +8,7 @@ tags: [Geekery, Technology]
 
 ![A desktop made for one](/assets/posts/audience-of-one.png)
 
-For the first time in twenty-five years I'm sitting in front of a computer where almost every program I touch was designed by me. One tool at a time, the off-the-shelf option got swapped out for something a little closer to how my hands wanted to work.
+For the first time in twenty-five years I'm sitting in front of a computer where almost every program I touch was designed by me. One tool at a time, the off-the-shelf option got swapped out for something a little closer to how my hands wanted to work. (I [wrote about the start of this](/2026/04/MyTools.html) a couple of weeks ago — that post laid out the early swaps; this one is the view from the other side of the journey.)
 
 It's been a crazy few weeks guiding Claude Code inbetween all the other stuff I'm doing in life. I direct CC, it works while I do other stuff. I get a second or few in between tasks, and I respond. Then off it goes adding features or hunting bugs.
 
