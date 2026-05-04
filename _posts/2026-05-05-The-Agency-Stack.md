@@ -10,7 +10,7 @@ tags: [Geekery, Philosophy, Technology]
 
 It's been an interesting few days with insightful comments related to my latest developments.
 
-The sharpest pushback on [my last post](/2026/05/Audience-of-One.html) — the one about replacing my desktop with software I'd built — was a single line in the lobste.rs thread:
+The sharpest pushback on [my desktop post](/2026/05/Audience-of-One.html) — the one about replacing my desktop with software I'd built — was a single line in the lobste.rs thread:
 
 > How is this OSS/FS promise if you have just hard locked yourself into using an insanely big subscription-based closed source software (claude)? You sure that it's liberating?
 
