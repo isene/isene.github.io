@@ -32,7 +32,7 @@ Pull on any thread of "I'm using free software" and you find proprietary fibres 
 
 OSS/FS has never delivered a fully free stack. What it has delivered, consistently, is **more agency than you had before**, in the layers where agency was reachable. The question was never "is this entirely free?" — it was "is this freer than the alternative?"
 
-By that test, my desktop today has *more* of my agency in it than it did six months ago, not less. The window manager, terminal, editor, file manager, mail client, calendar, RSS reader, music tool — every one of them is something I can read end to end, modify in an afternoon, and redistribute under the Unlicense if anyone wants. Claude is a single new layer in the stack, and it's the layer **furthest from my final artifact**.
+By that test, my desktop today has *more* of my agency in it than it did six months ago, not less. The window manager, terminal, editor, file manager, mail client, calendar, RSS reader, music tool — every one of them is something I can read end to end, modify in an afternoon, and redistribute under the Unlicense if anyone wants. They live in two sister suites: [Fe₂O₃](https://isene.org/fe2o3/) (the Rust half: editor, file manager, browser, mail, calendar, astronomy, and so on) and [CHasm](https://isene.org/chasm/) (the x86_64 assembly half: shell, terminal, window manager, status bar, screen locker, font rasterizer). Claude is a single new layer in the stack, and it's the layer **furthest from my final artifact**.
 
 If Anthropic vanishes tomorrow, I lose the ability to **generate new** code as fast as I'm generating it now. I do not lose:
 
