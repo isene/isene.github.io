@@ -12,3 +12,11 @@ Here you will find my explorations into this fascinating subject:
 4. Then [contact me](/about/) for a mutually interesting discussion on free will
 
 <center><img src="/assets/art/humanfactor.jpg" /></center>
+
+## Newsletter
+
+Occasional updates on the free will work — new writing, talks, related links. No tracking, plaintext only, unsubscribe with one reply.
+
+**[Subscribe by sending a blank email](mailto:g@isene.com?subject=Free%20Will%20Newsletter%20Signup)** with the subject *"Free Will Newsletter Signup"*.
+
+To unsubscribe later, send a mail to the same address with the subject *"Unsubscribe Free Will"*.
