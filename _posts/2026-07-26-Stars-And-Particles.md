@@ -18,13 +18,13 @@ Together the two new apps cover about 36 orders of magnitude. Betelgeuse is 500 
 
 ## stars
 
-The Hertzsprung-Russell diagram. Temperature across, luminosity up. Stars lands where its physics puts it, and the shape that falls out of that is the main sequence, running diagonally from the hot blue stars down to the cool red dwarfs.
+The Hertzsprung-Russell diagram. Temperature across, luminosity up. Stars land where their physics puts them, and the shape that falls out of that is the main sequence, running diagonally from the hot blue stars down to the cool red dwarfs.
 
 <br clear="all"/>
 
 ![stars](/assets/posts/fe2o3-stars.png)
 
-461 named stars from the HYG catalog. Walk the diagram cell by cell with the arrow keys. Several stars often share one cell, so `Tab` cycles them and Enter lists them all. Each one brings its numbers and its full Wikipedia article, cached locally.
+461 named stars from the HYG catalog. Walk the diagram cell by cell with the arrow keys. Several stars often share one cell, so `Tab` cycles them and `Enter` lists them all. Each one brings its numbers and its full Wikipedia article, cached locally.
 
 Press `t` and a schematic evolutionary track is laid over the plot: 1, 5 or 15 solar masses, with every stage named below. Up the giant branch, back across the top at constant brightness while the core burns out, then down and left onto the white dwarf cooling track. The one solar mass track is the Sun's future.
 
@@ -54,7 +54,7 @@ It rotates with the arrow keys. There is no animation loop, so a still model cos
 
 ## Summary
 
-Two apps, both built today with [Claude](https://claude.com/claude-code). "particles" was an Opus 5.0 one-shot from a rather slim prompt (but with knowledge drawn from "stars" and "elements"). Same rules as the rest of the suite: a single static binary, instant start, zero cost when idle.
+Two apps, both built today with [Claude](https://claude.com/claude-code). "particles" was an Opus 5 one-shot from a rather slim prompt (but with knowledge drawn from "stars" and "elements"). Same rules as the rest of the suite: a single static binary, instant start, zero cost when idle.
 
 Both fetch once and then work offline. Press `c` and ask Claude about whatever is on screen, with the data and the article as context.
 
