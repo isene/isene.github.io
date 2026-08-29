@@ -8,7 +8,7 @@ tags: [Personal, Norway]
 
 <a href="/assets/posts/king-harald-tribute.jpg"><img src="/assets/posts/king-harald-tribute.jpg" alt="Han stod stolt i storm og vær. In memory of Harald V, King of Norway (1937-2026)" style="width:100%"></a>
 
-*Photo by my good friend Trond Alexander Thune (Zander).*
+*Photo by my good friend Trond Alexander Tune (Zander).*
 
 Our King died yesterday.
 
