@@ -23,7 +23,7 @@ Free PDFs:
 - [Risk in outsourcing IT](https://www.dropbox.com/s/1sgrbau2t9ub9i7/outsourcing.pdf?raw=1) - A mathematical foundation for break-even and risk analysis of outsourcing
 
 ### Scientology
-Two books in English, my Norwegian autobiography, and why I left the church. [All on one page](/scientology).
+My autobiography [Nineteen Eighty-Four](/1984), free as PDF. Two more books in English, and why I left the church: [all on one page](/scientology).
 
 ### The Amar Role-Playing Game
 [Amar RPG](http://d6gaming.org/) is a simple, yet realistic role-playing game, freely available at [d6gaming.org](http://d6gaming.org). It is community-driven and developed by several contributors on a wiki. Use it, and suggest improvements.

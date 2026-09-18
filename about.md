@@ -106,7 +106,7 @@ Another wave of wonder came when I bought my compact Meade ETX90 telescope in 19
 
 ![](/assets/posts/ls8.jpg)
 
-Then, in 2014 I got a really big scope, the 8 inch Meade LS-8. The telescope is fully automatic - it aligns itself, taking into account the time and place that it acquires from GPS satellites, direction to north acquired via a compass, it adjusts for levelling and takes images of a few stars to finely adjust itself. All this while it talks about what it's doing :-)
+Then, in 2014 I got a really big scope, the 8 inch Meade LS-8. The telescope is fully automatic - it aligns itself, taking into account the time and place that it acquires from GPS satellites, direction to north acquired via a compass, it adjusts for levelling and takes images of a few stars to finely adjust itself. All this while it talks about what it's doing :-) I sold the LS-8 in 2026.
 
 The ETX90 and the much larger LS-8 are of similar design. They use mirrors to make the scopes more compact and portable.
 
@@ -127,7 +127,6 @@ And here is a list of my most important equipment. I do have more eyepieces and 
 Telescope | Type | Objective dia (mm) | Focal length (mm) | Focal ratio (f/x) 
 :---------|:-----|:------------------:|:-----------------:|:-----------------:
 Sky-Watcher Espirit | APO refractor | 150 ED | 1050 | 7
-Meade LS-8  | Schmidt–Cassegrain | 203 | 2030 | 10
 Meate ETX-90EC | Maksutov-Cassegrain | 90 | 1250 | 13.8
 
 ---
