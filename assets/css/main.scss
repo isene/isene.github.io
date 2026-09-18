@@ -1,8 +1,162 @@
 ---
 sitemap: false
 ---
-@import "variables";
-@import "reset";
-@import "main";
-@import "syntax";
-@import "grid";
+/* isene.org theme, 2026. Paper by day, black by night. Every colour is a variable. */
+:root {
+  --bg: #f7f4ee;
+  --fg: #1c1c1a;
+  --muted: #6b675f;
+  --accent: #a3640c;
+  --rule: #e0dbd0;
+  --code-bg: #ebe6db;
+  --logo-invert: 1;
+  --hero-frame: 1px solid var(--rule);
+  --hero-radius: 6px;
+  --hero-pad: 0;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e0e0e; --fg: #d8d4cc; --muted: #8d887e; --accent: #d9a441;
+    --rule: #262626; --code-bg: #171717; --logo-invert: 0;
+    --hero-frame: none; --hero-radius: 0; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e0e0e; --fg: #d8d4cc; --muted: #8d887e; --accent: #d9a441;
+  --rule: #262626; --code-bg: #171717; --logo-invert: 0;
+  --hero-frame: none; --hero-radius: 0; color-scheme: dark;
+}
+
+/* Base */
+html { font-size: 112.5%; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font-family: "Charter", "Bitstream Charter", "Iowan Old Style", "Palatino Linotype", "Georgia", serif;
+  line-height: 1.6;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img, video, iframe { max-width: 100%; height: auto; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: ui-monospace, "JetBrains Mono", "Fira Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-weight: 600; line-height: 1.25; letter-spacing: -0.01em; color: var(--fg);
+}
+h1 { font-size: 1.9rem; margin: 0.4em 0 0.5em; }
+h2 { font-size: 1.35rem; margin: 2em 0 0.6em; }
+h3 { font-size: 1.1rem; margin: 1.6em 0 0.5em; }
+h4, h5, h6 { font-size: 1rem; margin: 1.4em 0 0.4em; }
+p, ul, ol, blockquote, table, figure { margin: 0 0 1.2em; }
+ul, ol { padding-left: 1.4em; }
+li { margin-bottom: 0.3em; }
+blockquote { margin-left: 0; padding: 0.2em 0 0.2em 1.2em; border-left: 3px solid var(--accent); color: var(--muted); }
+blockquote p:last-child { margin-bottom: 0; }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th, td { text-align: left; padding: 0.4em 0.6em; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-family: ui-monospace, Menlo, Consolas, monospace; font-weight: 600; }
+code, kbd, samp, pre, tt {
+  font-family: ui-monospace, "JetBrains Mono", "Fira Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 0.86em;
+}
+code, kbd { background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 3px; }
+pre { background: var(--code-bg); padding: 1em 1.2em; border-radius: 6px; overflow-x: auto; line-height: 1.45; }
+pre code { background: none; padding: 0; font-size: inherit; }
+figure { text-align: center; }
+figcaption { color: var(--muted); font-size: 0.85rem; }
+center img, p img { border-radius: var(--hero-radius); border: var(--hero-frame); }
+::selection { background: var(--accent); color: var(--bg); }
+
+/* Page */
+.wrap { max-width: 42rem; margin: 0 auto; padding: 0 1.2rem; }
+.site-header { text-align: center; padding: 2.4rem 0 1.4rem; }
+.site-header .logo img { width: 320px; max-width: 80%; filter: invert(var(--logo-invert)); opacity: 0.9; }
+.site-header .logo:hover img { opacity: 1; }
+.menu {
+  font-family: ui-monospace, "JetBrains Mono", "Fira Mono", Menlo, Consolas, monospace;
+  font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase;
+  margin: 1.4rem 0 0; padding: 0; list-style: none;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem 1.6rem; align-items: center;
+}
+.menu a { color: var(--muted); }
+.menu a:hover { color: var(--accent); text-decoration: none; }
+.menu li.theme-toggle button {
+  background: none; border: 0; cursor: pointer; color: var(--muted); font: inherit; padding: 0; line-height: 1;
+}
+.menu li.theme-toggle button:hover { color: var(--accent); }
+.theme-toggle svg { width: 1.1rem; height: 1.1rem; vertical-align: -0.15rem; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.theme-toggle .moon { display: none; }
+[data-theme="dark"] .theme-toggle .moon { display: inline; }
+[data-theme="dark"] .theme-toggle .sun { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .moon { display: inline; }
+  :root:not([data-theme="light"]) .theme-toggle .sun { display: none; }
+}
+main { padding: 1rem 0 3rem; }
+
+/* Posts */
+.post-meta {
+  font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.78rem; letter-spacing: 0.06em;
+  color: var(--muted); text-transform: uppercase; margin: 0 0 1.6rem;
+}
+.post-meta a { color: var(--muted); }
+.post-meta a:hover { color: var(--accent); }
+.entry-content > p:first-child > img:only-child,
+.entry-content > p:first-child > a:only-child > img {
+  display: block; width: auto; max-width: 100%; max-height: 70vh; margin: 0 auto 1.4rem; border-radius: var(--hero-radius); border: var(--hero-frame);
+}
+.entry-content img { display: block; margin: 1rem auto; }
+.entry-content li img, .entry-content td img { display: inline; margin: 0; }
+.entry-content h2:first-child { margin-top: 0.5em; }
+.post-footer { margin: 2.5rem 0 0; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.inline-tags { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.78rem; letter-spacing: 0.04em; }
+.inline-tags a { color: var(--muted); margin-right: 0.8em; }
+.inline-tags a:hover { color: var(--accent); }
+
+/* Front page: latest post, then the list */
+.latest { margin-bottom: 3rem; }
+.latest h1 a { color: var(--fg); }
+.list-title { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.year { margin: 2rem 0 0.6rem; font-size: 1rem; color: var(--muted); }
+.post-list { list-style: none; padding: 0; margin: 0; }
+.post-list li { display: flex; gap: 1.2rem; align-items: baseline; margin: 0; padding: 0.3rem 0; border-bottom: 1px solid var(--rule); }
+.post-list time { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.78rem; color: var(--muted); flex: 0 0 4.2em; }
+.post-list a { color: var(--fg); }
+.post-list a:hover { color: var(--accent); text-decoration: none; }
+
+/* Archive and tag pages */
+.year-heading { color: var(--muted); font-size: 1rem; margin-top: 2rem; }
+.inline-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; font-size: 0.9rem; }
+.inline-list .count { color: var(--muted); }
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--rule); padding: 1.6rem 0 3rem; text-align: center; color: var(--muted);
+  font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.78rem; letter-spacing: 0.06em;
+}
+.site-footer a { color: var(--muted); }
+.site-footer a:hover { color: var(--accent); }
+.site-footer p { margin: 0.4em 0; }
+
+/* Embeds and old helpers still used by pages */
+.youtube-wrapper { position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin: 1rem 0 1.4rem; }
+.youtube-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: var(--hero-radius); }
+a.icon { font-size: 1.3rem; }
+.giscus { margin-top: 2rem; }
+
+/* Code highlighting (rouge) */
+.highlight .c, .highlight .c1, .highlight .cm { color: var(--muted); font-style: italic; }
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kr { color: var(--accent); }
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb { color: #5b8a3a; }
+.highlight .nb, .highlight .nf, .highlight .nc { color: #2c6f9a; }
+.highlight .m, .highlight .mi, .highlight .mf { color: #9a4f2c; }
+:root[data-theme="dark"] .highlight .s, :root[data-theme="dark"] .highlight .s1, :root[data-theme="dark"] .highlight .s2 { color: #9bc46f; }
+:root[data-theme="dark"] .highlight .nb, :root[data-theme="dark"] .highlight .nf { color: #7fb4d6; }
+:root[data-theme="dark"] .highlight .m, :root[data-theme="dark"] .highlight .mi { color: #d69a70; }
+
+@media (max-width: 600px) {
+  html { font-size: 105%; }
+  h1 { font-size: 1.6rem; }
+  .site-header { padding: 1.6rem 0 1rem; }
+  .post-list li { flex-direction: column; gap: 0.1rem; }
+}
