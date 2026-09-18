@@ -23,7 +23,7 @@ Some 6 months after I left, I compiled all my blog posts into a book called "[Si
 
 Then, in May 2013, I compiled all the Scientology-related posts from this blog into the book called "From Independent Scientologist to just me". Get [it at Scribd.com](http://www.scribd.com/doc/144031292/From-Independent-Scientologist-to-just-me). Or [download it right here](https://www.dropbox.com/s/5240ln4nhspd7j4/justme.pdf?raw=1) (291 pages, 5.4 MB).
 
-In 2013, my book titled, "[Nittenåttifire](https://isene.me/1984-book/)" was published in Norwegian by the publisher, [Humanist forlag](https://www.humanistforlag.no/).
+In 2013, my book titled, "[Nittenåttifire](https://isene.me/1984-book/)" was published in Norwegian by the publisher, [Humanist forlag](https://www.humanistforlag.no/). The English edition, [Nineteen Eighty-Four](/1984), is free to download.
 
 ### Essential articles
 Also, you might be interesting in reading these: 
