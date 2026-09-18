@@ -8,7 +8,7 @@ redirect_from:
   - /astro/
 ---
 
-<center><img src="/assets/img/geir.jpg" alt="Geir" width="700px" />
+<center><img src="/assets/img/geir.jpg" alt="Geir" width="300" />
 <div class="tablesmall">
 <table><tr>
 <td>@: <a href="mailto:g@isene.com">g@isene.com</a></td>
