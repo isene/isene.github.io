@@ -98,7 +98,7 @@ photos:
   - image_path: /assets/photos/barbaigwarrior.jpg
     title: The Barbaig warrior
 ---
-Everything on this page I made by hand, before the age of AI.
+Everything on this page I made before the age of AI.
 
 ### Digital art
 <p align="center">
