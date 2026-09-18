@@ -9,6 +9,7 @@ future:      true   # publish future dated posts --  true, false (default)
 highlighter: rouge
 markdown:    kramdown
 plugins:
+  - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
