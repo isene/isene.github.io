@@ -9,7 +9,7 @@ sitemap: false
   --accent: #a3640c;
   --rule: #e0dbd0;
   --code-bg: #ebe6db;
-  --logo-invert: 1;
+  --logo-filter: invert(1);
   --hero-frame: 1px solid var(--rule);
   --hero-radius: 6px;
   --hero-pad: 0;
@@ -18,13 +18,13 @@ sitemap: false
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0e0e0e; --fg: #d8d4cc; --muted: #8d887e; --accent: #d9a441;
-    --rule: #262626; --code-bg: #171717; --logo-invert: 0;
+    --rule: #262626; --code-bg: #171717; --logo-filter: none;
     --hero-frame: none; --hero-radius: 0; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0e0e0e; --fg: #d8d4cc; --muted: #8d887e; --accent: #d9a441;
-  --rule: #262626; --code-bg: #171717; --logo-invert: 0;
+  --rule: #262626; --code-bg: #171717; --logo-filter: none;
   --hero-frame: none; --hero-radius: 0; color-scheme: dark;
 }
 
@@ -70,7 +70,7 @@ center img, p img { border-radius: var(--hero-radius); border: var(--hero-frame)
 /* Page */
 .wrap { max-width: 42rem; margin: 0 auto; padding: 0 1.2rem; }
 .site-header { text-align: center; padding: 2.4rem 0 1.4rem; }
-.site-header .logo img { width: 320px; max-width: 80%; filter: invert(var(--logo-invert)); opacity: 0.9; }
+.site-header .logo img { width: 320px; max-width: 80%; filter: var(--logo-filter); opacity: 0.9; }
 .site-header .logo:hover img { opacity: 1; }
 .menu {
   font-family: ui-monospace, "JetBrains Mono", "Fira Mono", Menlo, Consolas, monospace;
