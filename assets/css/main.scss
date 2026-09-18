@@ -3,12 +3,12 @@ sitemap: false
 ---
 /* isene.org theme, 2026. Paper by day, black by night. Every colour is a variable. */
 :root {
-  --bg: #f7f4ee;
+  --bg: #f1ebdf;
   --fg: #1c1c1a;
   --muted: #6b675f;
   --accent: #a3640c;
-  --rule: #e0dbd0;
-  --code-bg: #ebe6db;
+  --rule: #dcd3c2;
+  --code-bg: #e6ddcc;
   --logo-filter: invert(1);
   --hero-frame: 1px solid var(--rule);
   --hero-radius: 6px;
@@ -113,7 +113,18 @@ main { padding: 1rem 0 3rem; }
 .inline-tags a { color: var(--muted); margin-right: 0.8em; }
 .inline-tags a:hover { color: var(--accent); }
 
-/* Front page: latest post, then the list */
+/* Front page: latest post, five teasers, then the list */
+.teasers { list-style: none; padding: 0; margin: 1.5rem 0 0; }
+.teaser { display: flex; gap: 1.2rem; align-items: flex-start; padding: 1.1rem 0; border-bottom: 1px solid var(--rule); }
+.teaser-thumb { flex: 0 0 11rem; }
+.teaser-thumb img { display: block; width: 11rem; height: 7.4rem; object-fit: cover; border-radius: var(--hero-radius); border: var(--hero-frame); margin: 0; }
+.teaser-text { min-width: 0; }
+.teaser-text h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
+.teaser-text h3 a { color: var(--fg); }
+.teaser-text h3 a:hover { color: var(--accent); text-decoration: none; }
+.teaser-text .post-meta { margin: 0 0 0.4rem; }
+.teaser-text p { margin: 0; color: var(--muted); font-size: 0.95rem; line-height: 1.5; }
+
 .latest { margin-bottom: 3rem; }
 .latest h1 a { color: var(--fg); }
 .list-title { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
@@ -159,4 +170,7 @@ a.icon { font-size: 1.3rem; }
   h1 { font-size: 1.6rem; }
   .site-header { padding: 1.6rem 0 1rem; }
   .post-list li { flex-direction: column; gap: 0.1rem; }
+  .teaser { flex-direction: column; gap: 0.6rem; }
+  .teaser-thumb, .teaser-thumb img { width: 100%; flex-basis: auto; }
+  .teaser-thumb img { height: auto; max-height: 14rem; }
 }
