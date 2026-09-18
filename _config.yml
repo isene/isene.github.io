@@ -21,8 +21,6 @@ sass:
 
 permalink: /:categories/:year/:month/:title.html
 
-# Amount of post to show on home page
-paginate: 12
 
 comments:
   provider: giscus

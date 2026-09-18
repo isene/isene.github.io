@@ -1,0 +1,21 @@
+<script>
+(function () {
+  var b = document.getElementById('theme-toggle'); if (!b) return;
+  var root = document.documentElement;
+  function current() {
+    var t = root.getAttribute('data-theme');
+    if (t) return t;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function giscus(t) {
+    var f = document.querySelector('iframe.giscus-frame'); if (!f) return;
+    f.contentWindow.postMessage({ giscus: { setConfig: { theme: t } } }, 'https://giscus.app');
+  }
+  b.addEventListener('click', function () {
+    var next = current() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+    giscus(next);
+  });
+})();
+</script>
