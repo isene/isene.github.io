@@ -18,6 +18,10 @@
       {{ content }}
     </div>
     {% if page.collection == "posts" %}
+    <nav class="post-nav">
+      {% if page.previous %}<a class="prev" href="{{ page.previous.url }}"><span>Older</span>{{ page.previous.title }}</a>{% else %}<span></span>{% endif %}
+      {% if page.next %}<a class="next" href="{{ page.next.url }}"><span>Newer</span>{{ page.next.title }}</a>{% endif %}
+    </nav>
     <div class="post-footer">
       {% include giscus.html %}
     </div>
