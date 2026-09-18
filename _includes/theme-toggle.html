@@ -18,4 +18,11 @@
     giscus(next);
   });
 })();
+(function () {
+  var hs = document.querySelectorAll('.entry-content h2[id], .entry-content h3[id]');
+  for (var i = 0; i < hs.length; i++) {
+    var a = document.createElement('a'); a.className = 'anchor'; a.href = '#' + hs[i].id; a.textContent = '#'; a.setAttribute('aria-label', 'Link to this section');
+    hs[i].appendChild(a);
+  }
+})();
 </script>
