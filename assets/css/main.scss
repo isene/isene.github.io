@@ -113,6 +113,11 @@ main { padding: 1rem 0 3rem; }
 .post-nav a:hover { color: var(--accent); text-decoration: none; }
 .post-nav a span { display: block; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.2rem; }
 .post-nav .next { text-align: right; margin-left: auto; }
+.related { margin-top: 2rem; }
+.related .list-title { margin-top: 0; border-top: 0; padding-top: 0.6rem; }
+.related time { flex-basis: 6.5em; white-space: nowrap; }
+.anchor { margin-left: 0.4em; color: var(--muted); font-weight: 400; opacity: 0; transition: opacity 0.15s; }
+h2:hover .anchor, h3:hover .anchor, .anchor:focus { opacity: 1; text-decoration: none; }
 .post-footer { margin: 2.5rem 0 0; padding-top: 1rem; border-top: 1px solid var(--rule); }
 .inline-tags { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.78rem; letter-spacing: 0.04em; }
 .inline-tags a { color: var(--muted); margin-right: 0.8em; }
