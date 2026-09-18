@@ -19,14 +19,6 @@ redirect_from:
 <a class="icon" href="https://www.youtube.com/channel/UCX4w9Kdr3i0k2vc6iKQOAlg"><i class="fa fa-youtube" title="Youtube"></i></a>
 </p>
 <p style="margin:0.3em 0 0.8em"><a href="/assets/CV-GeirIsene.pdf">Résumé/CV</a> &nbsp;·&nbsp; <a href="https://en.wikipedia.org/wiki/Geir_Isene" target="_blank" rel="noopener noreferrer">Wikipedia page</a></p>
-</center></td>
-<td align="right"><a href="/assets/CV-GeirIsene.pdf">Résumé/CV</a></td>
-</tr><tr>
-<td>#: +47 4550 2470</td>
-<td></td>
-<td align="right"><a href="https://en.wikipedia.org/wiki/Geir_Isene" target="_blank" rel="noopener noreferrer">Wikipedia page</a></td>
-</tr></table>
-</div>
 </center>
 
 <hr />
