@@ -14,7 +14,7 @@ redirect_from:
 <td>@: <a href="mailto:g@isene.com">g@isene.com</a></td>
 <td><center>
 <a class="icon" href="https://github.com/isene"><i class="fa fa-github" title="Github"></i></a> &nbsp;&nbsp;
-<a class="icon" href="https://in.linkedin.com/in/isene"><i class="fa fa-linkedin" title="Linkedin"></i></a> &nbsp;&nbsp;
+<a class="icon" href="https://www.linkedin.com/in/isene"><i class="fa fa-linkedin" title="Linkedin"></i></a> &nbsp;&nbsp;
 <a class="icon" href="https://twitter.com/isene"><i class="fa fa-twitter" title="Twitter"></i></a> &nbsp;&nbsp;
 <a class="icon" href="https://facebook.com/geir.isene"><i class="fa fa-facebook" title="Facebook"></i></a> &nbsp;&nbsp;
 <a class="icon" href="https://www.instagram.com/geir_isene/?hl=en"><i class="fa fa-instagram" title="Instagram"></i></a> &nbsp;&nbsp;
@@ -53,7 +53,7 @@ I started my [blogging on Scientology](http://elysianchakorta.wordpress.com/) a 
 
 Captured in a series of very short videos:
 
-{% include youtube.html id='playlist?list=PLaluBi_Q_FvH4pVVUnovLxFspv3l7WCvQ' %}
+{% include youtube.html id='videoseries?list=PLaluBi_Q_FvH4pVVUnovLxFspv3l7WCvQ' %}
 
 ### Coaching and public speaking
 
@@ -65,7 +65,6 @@ I can give talks about anything – from motivation, organizational and personal
 
 I use Linux on a Dell XPS with my own window manager and X server, tile and frame, from the [CHasm](https://isene.org/watt/) suite written in x86 assembly. I write in scribe, read mail in kastrup and keep my calendar in tock, all from my Fe2O3 suite in Rust. Most of it is built together with Claude Code. And as requested by Nils, here are [the LaTeX files for my CV](/assets/cv-geir-isene.zip).
 
-Here is a [sitemap for isene.org](/sitemap.txt).
 
 ### Coaching
 If you are looking for very direct and effective coaching by me, do these short steps:
@@ -74,12 +73,12 @@ If you are looking for very direct and effective coaching by me, do these short 
 2. Listen to [this podcast](/2018/09/Podcast-EasilyHurt.html)
 3. Watch these videos:
 {% include youtube.html id='Ow0lr63y4Mw' %}
-{% include youtube.html id='playlist?list=PLaluBi_Q_FvH4pVVUnovLxFspv3l7WCvQ' %}
+{% include youtube.html id='videoseries?list=PLaluBi_Q_FvH4pVVUnovLxFspv3l7WCvQ' %}
 
 Then send me an e-mail.
 
 ### Esport and mental training
-I coach and train top esport contenders through the [AW3 brand](https://aw3.no). Before we start, do the following:
+I coach and train top esport contenders through the AW3 brand. Before we start, do the following:
 
 1. Read the blog post, "[Parents; Embrace your kid's gaming](/2019/11/Esport.html)"
 2. Watch the video, "[Mental training in eSports](/2020/04/eSports.html)"
