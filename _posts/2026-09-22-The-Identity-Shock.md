@@ -54,7 +54,7 @@ In the current anti-AI sentiments among software developers, most devs don't see
 
 When you tie your identity to a way of doing things, you are in for a very bumpy ride. If you focus less on the process and more on the outcome, then the AI wave is more of a boost.
 
-My own productivity as a developer has increased between 40x and 60x and the quality of the code is somewhere in the 10x to 20x counting in the number of reported bugs per user. I used to code by hand and keyboard. A lot. Since the summer of 2025 I have not looked at the code I have produced with Claude Code. With the Quantity x Quality score averaging 800, I don't need to.
+My own productivity as a developer has increased between 40x and 60x and the quality of the code is somewhere in the 10x to 20x counting in the number of reported bugs per user per amount of code. I used to code by hand and keyboard. A lot. Since the summer of 2025 I have not looked at the code I have produced with Claude Code. With the Quantity x Quality score averaging in the hundreds, I don't need to.
 
 My commits [on GitHub](https://github.com/isene), per year:
 
