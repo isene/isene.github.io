@@ -10,6 +10,8 @@ tags: [Geekery, Technology, Amar RPG]
 
 I've played Role-Playing Games since the beginning of the 80s, published the Mega RPG in 1987, made Sword & Sorcery in 1993 that later became [Amar](http://d6gaming.org) some 20 years ago. The Amar RPG has gone through many phases and with the latest web page overhaul, I thought it was time for an instructive game. This rogue-like game is a game in its own right but also helps players get used to the simple game mechanics of the Amar RPG.
 
+Play it in your browser, on a computer or a phone: [The Eliminator game](https://d6gaming.org/The_Eliminator_game.html).
+
 ## The Eliminator
 
 Beneath the royal castle in Amaron lies a maze. Every year the King's heralds call for contenders. One in ten walks out, and the King makes them noble. The rest are never seen again.
@@ -53,6 +55,7 @@ The Raven Demon strikes twice a round.
 
 Built with [Claude](https://claude.com/claude-code) on [funkey](https://isene.org/funkey/) in 25 minutes. Public Domain, like [everything I make](/2026/04/MyTools.html).
 
+- [Play it in the browser](https://d6gaming.org/The_Eliminator_game.html)
 - [eliminator](https://github.com/isene/funkey/blob/master/examples/eliminator.rs)
 
 ---
