@@ -22,7 +22,7 @@ You are lowered into the dark at the bottom. Five levels up: the Pit, the Kennel
 - Walk into a foe to attack. Rats, spiders, Araxi, wolves, zombies, trolls and other contenders.
 - A Phooka heals every round until iron cuts it.
 - Six stances on `1` to `6`: normal, offensive, defensive, only defend, power hit, and the double attack at -5 on each.
-- Wounds costi Status -2 at half your Body Points and -4 at a quarter (modification to all skill rolls).
+- Wounds cost Status -2 at half your Body Points and -4 at a quarter (modification to all skill rolls).
 - A torch costs a little, darkness a lot. Torches burn out.
 - Silver pieces from past contenders everywhere. Gold now and then.
 - Every success gives the skill a mark. Enough marks raise it.
@@ -34,6 +34,12 @@ You are lowered into the dark at the bottom. Five levels up: the Pit, the Kennel
 Every roll is the O6, the open-ended die of Amar. Roll a 6 and it rolls on and adds. Roll a 1 and it rolls on and takes away. Two 6s in a row is a critical, two 1s a fumble.
 
 The tray under the map shows every die of the round, the totals and the sum. The sheet shows every skill as Characteristic + Attribute + Skill. `?` opens the rules as the game plays them.
+
+New to Amar? Press `i` on the title. Three pages walk you through the three tiers, the O6 and a single blow. Each page has something to press: light up a skill, roll a hundred dice, strike an Araxi.
+
+![The three tiers: characteristic, attribute and skill](/assets/posts/eliminator-tiers.png)
+
+![Two hundred O6 rolls, counted by total](/assets/posts/eliminator-o6.png)
 
 The criticals and fumbles come from the tables in my [amar](https://github.com/isene/amar) app. Fumble, and the log may read: "Giggles are heard."
 
