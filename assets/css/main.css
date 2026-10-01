@@ -136,6 +136,12 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus { opacity: 1; text-decoration:
 .latest h1 a { color: var(--fg); }
 .list-title { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
 .year { margin: 2rem 0 0.6rem; font-size: 1rem; color: var(--muted); }
+.year-fold summary { cursor: pointer; list-style: none; }
+.year-fold summary::-webkit-details-marker { display: none; }
+.year-fold .year { display: inline-block; }
+.year-fold .year::before { content: "▸ "; }
+.year-fold[open] .year::before { content: "▾ "; }
+.year-fold summary:hover .year { color: var(--accent); }
 .post-list { list-style: none; padding: 0; margin: 0; }
 .post-list li { display: flex; gap: 1.2rem; align-items: baseline; margin: 0; padding: 0.3rem 0; border-bottom: 1px solid var(--rule); }
 .post-list time { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.78rem; color: var(--muted); flex: 0 0 4.2em; }
