@@ -9,7 +9,8 @@ redirect_from:
 ---
 
 <center><img src="/assets/img/geir.jpg" alt="Geir" width="300" />
-<p style="margin:0.8em 0 0.3em"><a href="mailto:g@isene.com">g@isene.com</a> &nbsp;·&nbsp; +47 4550 2470</p>
+<p style="margin:0.8em 0 0.3em"><a href="https://isene.com">isene.com</a></p>
+<p style="margin:0.3em 0"><a href="mailto:g@isene.com">g@isene.com</a> &nbsp;·&nbsp; +47 4550 2470</p>
 <p style="margin:0.3em 0">
 <a class="icon" href="https://github.com/isene"><i class="fa fa-github" title="Github"></i></a> &nbsp;&nbsp;
 <a class="icon" href="https://www.linkedin.com/in/isene"><i class="fa fa-linkedin" title="Linkedin"></i></a> &nbsp;&nbsp;

@@ -28,6 +28,8 @@ TITLE = "Geir's Everything"
 DESCRIPTION = "Philosophy - Sciences - Geekery - Art - Life - Coaching - Fun < Simplify Everything"
 URL = "https://isene.org"
 COPYRIGHT = "Geir Isene"
+# On the front page, years before this one start folded; a click on the year opens it.
+FOLD_BEFORE = 2025
 
 ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT / "_site"
@@ -293,15 +295,20 @@ def index_page(posts):
   </li>""")
     out.append('</ul>\n\n<h2 class="list-title">All posts</h2>')
     year = None
+    close = ""
     for p in posts[6:]:
         if p.date.year != year:
-            if year:
-                out.append("</ul>")
+            out.append(close)
             year = p.date.year
-            out.append(f'<h3 class="year">{year}</h3>\n<ul class="post-list">')
+            head = f'<h3 class="year">{year}</h3>'
+            if year < FOLD_BEFORE:
+                out.append(f'<details class="year-fold">\n<summary>{head}</summary>\n<ul class="post-list">')
+                close = "</ul>\n</details>"
+            else:
+                out.append(f'{head}\n<ul class="post-list">')
+                close = "</ul>"
         out.append(f'  <li><time>{p.date:%b} {p.date.day}</time><a href="{p.url}">{esc(p.title)}</a></li>')
-    if year:
-        out.append("</ul>")
+    out.append(close)
     page("/", "\n".join(out))
 
 

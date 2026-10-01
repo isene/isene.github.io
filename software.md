@@ -6,7 +6,7 @@ permalink: /software/
 Free software, all of it public domain. Most of it built with AI since 2025.
 
 ### Watt: the lean desktop
-[Watt](https://isene.org/watt/) is a complete Linux desktop tuned to be cold when idle. Two suites: CHasm in pure x86_64 assembly paints the pixels and reads the keys; Fe2O3 in Rust does mail, files, calendars, charts and the rest.
+[Watt](https://isene.org/watt/) is a complete Linux desktop tuned to be cold when idle. Two suites: [CHasm](https://isene.org/chasm/) in pure x86_64 assembly paints the pixels and reads the keys; [Fe2O3](https://isene.org/fe2o3/) in Rust does mail, files, calendars, charts and the rest.
 
 ### HyperList
 Everything. Concise and precise. A way to describe anything, from a todo list to a whole process, in a plain text tree. [Read about HyperList](/hyperlist).
