@@ -29,7 +29,7 @@ DESCRIPTION = "Philosophy - Sciences - Geekery - Art - Life - Coaching - Fun < S
 URL = "https://isene.org"
 COPYRIGHT = "Geir Isene"
 # On the front page, years before this one start folded; a click on the year opens it.
-FOLD_BEFORE = 2025
+FOLD_BEFORE = 2026
 
 ROOT = pathlib.Path(__file__).resolve().parent
 OUT = ROOT / "_site"
