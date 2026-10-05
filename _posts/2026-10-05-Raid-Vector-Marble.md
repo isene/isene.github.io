@@ -38,7 +38,18 @@ A tribute to Tempest. Play it in [your browser](https://isene.org/fe2o3/try/funk
 
 ## Marble
 
-A tribute to Marble Madness. Play it in [your browser](https://isene.org/fe2o3/try/funkeys/play.html?g=marble).
+A tribute to Marble Madness. Play it right here:
+
+<div class="fk-game">
+<canvas id="marble-game" data-wasm="/assets/play/marble.wasm?v=1.0" aria-label="marble, a tribute to Marble Madness"></canvas>
+<div class="fk-pad" id="marble-pad" hidden></div>
+<p class="fk-bar"><button type="button" id="marble-full">Full screen</button> <button type="button" id="marble-keys">Keys on screen</button></p>
+</div>
+
+<script src="/assets/play/funkey.js?v=4"></script>
+<script src="/assets/play/marble.js?v=1"></script>
+
+Click the game, then `Space`. On a phone the keys show under it.
 
 ![The marble on ice, with acid ahead and a spring behind](/assets/posts/marble-ice.png)
 
