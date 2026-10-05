@@ -62,7 +62,7 @@ Raid paints the land on every core, so it stays in the terminal. The other two a
 
 ## Summary
 
-Built with [Claude](https://claude.com/claude-code) on [funkey](https://isene.org/funkey/) in one go. Raid took an hour, vector 35 minutes, marble 45. Public Domain, like [everything I make](/2026/04/MyTools.html).
+Built with [Claude](https://claude.com/claude-code) on [funkey](https://isene.org/funkey/) in one go. Raid took an hour, vector 35 minutes, marble 45. 5 minutes of my time. Public Domain, like [everything I make](/2026/04/MyTools.html).
 
 - [raid](https://github.com/isene/funkey/blob/master/examples/raid.rs)
 - [vector](https://github.com/isene/funkey/blob/master/examples/vector.rs)
