@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Podcast interview - Hennings Verden
 image: /assets/posts/summer2020.jpg
-tags: [Philosophy, Business, Scientology, Personal]
+tags: [Podcast, Philosophy, Business, Scientology, Personal]
 ---
 
 It's a cool July so far with overcast limiting my time with the telescope. 

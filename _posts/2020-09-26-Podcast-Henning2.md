@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: In persuit of happiness (podcast; Hennings Verden)
 image: /assets/posts/henning.jpg
-tags: [Coaching, Philosophy, Science]
+tags: [Podcast, Coaching, Philosophy, Science]
 ---
 
 Back on the brilliant podcast, "Henning's Verden".
