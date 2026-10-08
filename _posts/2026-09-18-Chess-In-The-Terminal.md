@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Chess in the terminal
 image: /assets/posts/gambit.png
-tags: [Geekery, Technology]
+tags: [Geekery, Technology, Games]
 ---
 
 ![gambit: a game against claude, with the model named in the corner](/assets/posts/gambit.png)

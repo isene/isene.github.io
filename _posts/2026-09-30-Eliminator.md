@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Eliminator: a dungeon by the rules of Amar"
 image: /assets/posts/eliminator-fight.png
-tags: [Geekery, Technology, Amar RPG]
+tags: [Geekery, Technology, Amar RPG, Games]
 ---
 
 ![A double attack against an Araxi, every die on the table](/assets/posts/eliminator-fight.png)

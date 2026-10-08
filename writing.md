@@ -2,11 +2,11 @@
 layout: post
 title: Writing
 permalink: /writing/
+tags: [OnePageBook]
 redirect_from:
   - /contributions/
-  - /amar/
 ---
-Books, articles, a game and some podcasts. Free to read and share.
+Books and articles. Free to read and share.
 
 ### OnePageBooks
 Whole books boiled down to one page each. [Read them here](/onepagebooks).
@@ -24,13 +24,3 @@ Free PDFs:
 
 ### Scientology
 My autobiography [Nineteen Eighty-Four](/1984), free as PDF. Two more books in English, and why I left the church: [all on one page](/scientology).
-
-### The Amar Role-Playing Game
-[Amar RPG](http://d6gaming.org/) is a simple, yet realistic role-playing game, freely available at [d6gaming.org](http://d6gaming.org). It is community-driven and developed by several contributors on a wiki. Use it, and suggest improvements.
-
-The [Amar Tools](https://isene.com/amar.html) generate random encounters, from elves and trolls to dragons and peasants, detailed non-player characters, fully populated villages, towns and cities with maps, weather, and names for people, places and magic items. [This blog post](/2018/08/Amar-Tools.html) describes the tools.
-
-<p style="text-align:center"><img src="/assets/img/amar.png" alt="The Kingdom of Amar" /></p>
-
-### Podcasts
-Short talks on coaching, free will, mental training and more: [all posts tagged Podcast](/tags/#Podcast).

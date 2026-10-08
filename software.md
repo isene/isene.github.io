@@ -2,6 +2,7 @@
 layout: post
 title: Software
 permalink: /software/
+tags: [Geekery, Technology]
 ---
 Free software, all of it public domain. Most of it built with AI since 2025.
 

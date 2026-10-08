@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Raid, Vector and Marble"
 image: /assets/posts/raid-play.png
-tags: [Geekery, Technology, Personal]
+tags: [Geekery, Technology, Personal, Games]
 ---
 
 ![A gunship over a lake, a flak gun in its sights](/assets/posts/raid-play.png)

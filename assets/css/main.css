@@ -89,6 +89,28 @@ center img, p img { border-radius: var(--hero-radius); border: var(--hero-frame)
   :root:not([data-theme="light"]) .theme-toggle .moon { display: inline; }
   :root:not([data-theme="light"]) .theme-toggle .sun { display: none; }
 }
+.menu a.here { color: var(--accent); }
+.topics { position: relative; }
+.find { margin: 1.4rem auto 0; max-width: 16rem; }
+.find input {
+  font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.78rem; letter-spacing: 0.06em;
+  color: var(--fg); background: var(--code-bg); border: 1px solid var(--rule); border-radius: 4px;
+  padding: 0.35em 0.7em; width: 100%; box-sizing: border-box;
+}
+.find input:focus { outline: 1px solid var(--accent); border-color: var(--accent); }
+#hits {
+  display: none; position: absolute; z-index: 5; left: 0.6rem; right: 0.6rem; margin: 0.3rem 0 0; padding: 0; list-style: none;
+  text-align: left; background: var(--bg); border: 1px solid var(--rule); border-radius: 4px;
+}
+.find:focus-within #hits:not(:empty) { display: block; }
+#hits li { margin: 0; border-bottom: 1px solid var(--rule); }
+#hits li:last-child { border-bottom: 0; }
+#hits a { display: block; padding: 0.4rem 0.7rem; color: var(--fg); font-size: 0.9rem; line-height: 1.3; }
+#hits li.at a, #hits a:hover { background: var(--code-bg); text-decoration: none; }
+#hits span {
+  display: block; color: var(--muted); font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.7rem;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
 main { padding: 1rem 0 3rem; }
 
 /* Posts */
@@ -161,16 +183,6 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus { opacity: 1; text-decoration:
 .site-footer a { color: var(--muted); }
 .site-footer a:hover { color: var(--accent); }
 .site-footer p { margin: 0.4em 0; }
-.search { display: flex; justify-content: center; gap: 0.5rem; margin: 0 0 1.2rem; }
-.search input {
-  font: inherit; color: var(--fg); background: var(--code-bg); border: 1px solid var(--rule); border-radius: 4px;
-  padding: 0.35em 0.7em; width: 16rem; max-width: 70%;
-}
-.search input:focus { outline: 1px solid var(--accent); border-color: var(--accent); }
-.search button {
-  font: inherit; color: var(--muted); background: none; border: 1px solid var(--rule); border-radius: 4px; padding: 0.35em 0.8em; cursor: pointer;
-}
-.search button:hover { color: var(--accent); border-color: var(--accent); }
 
 /* Embeds and old helpers still used by pages */
 .youtube-wrapper { position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin: 1rem 0 1.4rem; }
@@ -188,8 +200,20 @@ a.icon { font-size: 1.3rem; }
 :root[data-theme="dark"] .highlight .nb, :root[data-theme="dark"] .highlight .nf { color: #7fb4d6; }
 :root[data-theme="dark"] .highlight .m, :root[data-theme="dark"] .highlight .mi { color: #d69a70; }
 
+/* Wide screens: the topics stand in the left margin and stay there while the page scrolls */
+@media (min-width: 1220px) {
+  .topics { position: fixed; top: 2.4rem; left: calc(50% - 33rem); width: 10rem; text-align: left; }
+  .find { margin: 0 0 1.4rem; max-width: none; }
+  #hits { left: 0; right: auto; width: 24rem; }
+  .menu {
+    margin: 0; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; gap: 0.55rem;
+    max-height: calc(100vh - 8rem); overflow-y: auto;
+  }
+}
+
 @media (max-width: 600px) {
   html { font-size: 105%; }
+  .menu { gap: 0.3rem 1.1rem; }
   h1 { font-size: 1.6rem; }
   .site-header { padding: 1.6rem 0 1rem; }
   .post-list li { flex-direction: column; gap: 0.1rem; }
