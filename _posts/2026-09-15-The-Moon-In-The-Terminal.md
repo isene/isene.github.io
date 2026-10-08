@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: The Moon in the terminal
 image: /assets/posts/moon.png
-tags: [Geekery, Technology]
+tags: [Geekery, Technology, Astronomy]
 ---
 
 ![moon: tonight's Moon and the days around it](/assets/posts/moon.png)

@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Stars and particles
 image: /assets/posts/fe2o3-science.png
-tags: [Geekery, Technology]
+tags: [Geekery, Technology, Astronomy]
 ---
 
 ![Stars and particles](/assets/posts/fe2o3-science.png)

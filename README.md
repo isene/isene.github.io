@@ -26,5 +26,21 @@ python3 -m http.server -d _site 8000
 A push to `master` runs the same build on GitHub and publishes it
 (`.github/workflows/pages.yml`).
 
+## Topics and the find box
+
+The menu is in `template.html`. It is a column in the left margin on a
+wide screen and a row under the logo on a narrow one.
+
+A page with `tags:` in its front matter ends with a list of every post
+that has one of those tags.
+
+The find box reads `find.json`. The build writes it from the menu, the
+pages, the posts and `_projects.json`. Refresh the project list with:
+
+```
+gh repo list isene --visibility public --source --limit 400 \
+    --json name,description,url > _projects.json
+```
+
 The visitor counter lives in `stats/`; see its README.
 

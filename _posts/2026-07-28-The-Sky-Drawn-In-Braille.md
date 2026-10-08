@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: The sky, drawn in braille
 image: /assets/posts/astro-sky.png
-tags: [Geekery, Technology]
+tags: [Geekery, Technology, Astronomy]
 ---
 
 ![The sky chart in astro](/assets/posts/astro-sky.png)

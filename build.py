@@ -7,9 +7,19 @@ Posts live in _posts/YYYY-MM-DD-Title.md and keep Jekyll's addresses,
 /YYYY/MM/Title.html. Pages are the *.md files at the top with a
 permalink. template.html is the frame around every page. Everything
 else that is not excluded below is copied as it is.
+
+A page with tags: in its front matter ends with a list of every post
+that has one of those tags. The menu is in template.html.
+
+The find box reads find.json: the menu, the pages and their headings,
+the projects in _projects.json, and the posts. Refresh the projects with
+
+    gh repo list isene --visibility public --source --limit 400 \
+        --json name,description,url > _projects.json
 """
 import datetime
 import html
+import json
 import os
 import pathlib
 import re
@@ -215,12 +225,20 @@ def head(title, url, description=None, tags=None, image=None):
 
 
 def page(url, main, title=None, **meta):
-    out = TEMPLATE.replace("{{head}}", head(title, url, **meta)).replace("{{main}}", main)
+    out = TEMPLATE.replace(f'<li><a href="{url}">', f'<li><a class="here" href="{url}">')
+    out = out.replace("{{head}}", head(title, url, **meta)).replace("{{main}}", main)
     path = OUT / url.lstrip("/")
     if url.endswith("/"):
         path = path / "index.html"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(out, encoding="utf-8")
+
+
+def post_list(title, items):
+    rows = "".join(f'<li><time>{q.date:%b %Y}</time><a href="{q.url}">{esc(q.title)}</a></li>\n      '
+                   for q in items)
+    return (f'\n    <div class="related">\n      <h3 class="list-title">{esc(title)}</h3>\n'
+            f'      <ul class="post-list">\n      {rows}</ul>\n    </div>')
 
 
 def post_page(p, older, newer, by_tag):
@@ -237,10 +255,7 @@ def post_page(p, older, newer, by_tag):
         first = p.tags[0]
         rel = [q for q in by_tag[first] if q.date < p.date][:3]
         if rel:
-            items = "".join(f'<li><time>{q.date:%b %Y}</time><a href="{q.url}">{esc(q.title)}</a></li>\n      '
-                            for q in rel)
-            related = (f'\n    <div class="related">\n      <h3 class="list-title">More on {esc(first)}</h3>\n'
-                       f'      <ul class="post-list">\n      {items}</ul>\n    </div>')
+            related = post_list(f"More on {first}", rel)
     main = f"""<article>
     <h1>{esc(p.title)}</h1>
     <p class="post-meta">{meta}</p>
@@ -446,23 +461,44 @@ def main():
 
     done = {"index.html", "archives/index.html", "tags/index.html", "feed.xml", "atom.xml", "amar.rss.xml"}
     urls = ["/", "/archives/", "/tags/"] + [p.url for p in posts]
+    menu = re.findall(r'<li><a href="([^"]+)">([^<]+)</a></li>', TEMPLATE)
+    labels = {href: label for href, label in menu}
+    find = []  # the find box: title, address, and a note that is shown and searched too
+    notes = {}
     for src in sorted(ROOT.glob("*.md")):
         meta, body = read(src)
         if "permalink" not in meta:
             continue
         done.add(src.name)
         url = meta["permalink"]
+        title = str(meta.get("title", ""))
+        tags = [str(t) for t in meta.get("tags") or []]
+        about = [p for p in posts if set(p.tags) & set(tags)]
+        body_html = markdown(body, meta)
         main_html = f"""<article>
-    <h1>{esc(meta.get('title', ''))}</h1>
+    <h1>{esc(title)}</h1>
     <div class="entry-content">
-      {markdown(body, meta)}
-    </div>
+      {body_html}
+    </div>{post_list("Posts", about) if about else ""}
   </article>"""
+        if url in labels:
+            notes[url] = ", ".join(x for x in [title] + tags if not labels[url].lower().startswith(x.lower()))
+        elif url != "/404.html":
+            find.append([title, url, "Page"])
+        find += [[plain(h), f"{url}#{i}", labels.get(url, title)]
+                 for i, h in re.findall(r'<h[23][^>]* id="([^"]+)">(.*?)</h[23]>', body_html, re.S)]
         page(url, main_html, meta.get("title"), description=meta.get("description"), image=meta.get("image"))
         if url != "/404.html":
             urls.append(url)
         for old in meta.get("redirect_from") or []:
             redirect(old, url)
+
+    projects = ROOT / "_projects.json"
+    if projects.exists():
+        find += [[r["name"], r["url"], r["description"] or "Project"] for r in json.loads(projects.read_text())]
+    find = [[label, href, notes.get(href, "")] for href, label in menu] + find
+    find += [[p.title, p.url, f"{p.date.year} · {', '.join(p.tags)}"] for p in posts]
+    (OUT / "find.json").write_text(json.dumps(find, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     copy_static(done)
 
