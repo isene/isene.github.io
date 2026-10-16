@@ -1,6 +1,7 @@
 // funkey.js: plays a funkey game built for the web (see lib.rs) in a canvas.
 //
 //   const game = await funkey.play(canvas, "eliminator.wasm");
+//   const game = await funkey.play(canvas, "wargame.wasm", kept);
 //   funkey.pad(element, game);   // optional: keys on the screen
 //
 // A clear text field lies over the canvas and takes the keys. Browsers
@@ -9,6 +10,10 @@
 // an element that carry a data-key ("ArrowUp", "f", "Enter", " ") into
 // keys, for phones. The sound starts with the first click, tap or key: a
 // browser plays nothing before that.
+//
+// A game's saves come to the page as "keep game/key", a new line and the
+// value. A page that keeps them hands them back the next time as `kept`,
+// an object of "game/key" to value, and the game finds them at start.
 (function () {
   "use strict";
   // The keys with names, as src/web.rs numbers them.
@@ -16,9 +21,18 @@
   const code = k => CODES[k] || (k.length === 1 ? k.toLowerCase().codePointAt(0) : 0);
   const touch = window.matchMedia && matchMedia("(pointer: coarse)").matches;
 
-  async function play(canvas, url) {
+  async function play(canvas, url, kept) {
     const bytes = await (await fetch(url)).arrayBuffer();
     const fk = (await WebAssembly.instantiate(bytes, {})).instance.exports;
+    const enc = new TextEncoder(), dec = new TextDecoder();
+    // fk_in may grow the game's memory, which leaves an older view of it
+    // empty: ask for the place first, then look at the memory.
+    function put(text) {
+      const b = enc.encode(text);
+      const at = fk.fk_in(b.length);
+      new Uint8Array(fk.memory.buffer, at, b.length).set(b);
+    }
+    if (kept && fk.fk_kept) for (const k of Object.keys(kept)) { put(k + "\n" + kept[k]); fk.fk_kept(); }
     fk.fk_start((Math.random() * 4294967296) >>> 0);
     const w = fk.fk_width(), h = fk.fk_height(), rate = fk.fk_rate();
     canvas.style.aspectRatio = w + " / " + h;
@@ -96,9 +110,12 @@
       fk.fk_key(c, 0);
     });
     field.addEventListener("input", () => { field.value = ""; });
-    field.addEventListener("focus", () => box.classList.add("on"));
+    // A game that waits for a key draws no new picture on a click, so the
+    // banner comes and goes with the focus here.
+    field.addEventListener("focus", () => { box.classList.add("on"); paint(); });
     field.addEventListener("blur", () => {
       box.classList.remove("on");
+      paint();
       for (const c of held.values()) fk.fk_key(c, 0);
       held.clear();
     });
@@ -114,12 +131,10 @@
 
     // Messages between the game and the page's script (src/page.rs). A
     // game built before they existed has no fk_out, and none go.
-    const enc = new TextEncoder(), dec = new TextDecoder();
     let listener = null;
     function send(text) {
       if (!fk.fk_in) return;
-      const b = enc.encode(text);
-      new Uint8Array(fk.memory.buffer, fk.fk_in(b.length), b.length).set(b);
+      put(text);
       fk.fk_in_done();
     }
     function drain() {
@@ -139,22 +154,27 @@
       new IntersectionObserver(es => { seen = es[es.length - 1].isIntersecting; go(); }).observe(box);
     }
 
+    // The game's last picture, and over it the banner until the game has
+    // the keys.
+    function paint() {
+      fit();
+      ctx.drawImage(off, 0, 0, canvas.width, canvas.height);
+      if (document.activeElement === field || tapped) return;
+      ctx.fillStyle = "rgba(0,0,0,0.6)";
+      ctx.fillRect(0, canvas.height * 0.42, canvas.width, canvas.height * 0.16);
+      ctx.fillStyle = "#ffd040";
+      ctx.font = "bold " + Math.round(canvas.height / 16) + "px monospace";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.fillText(touch ? "TAP TO PLAY" : "CLICK TO PLAY", canvas.width / 2, canvas.height / 2);
+    }
+
     function tick(ms) {
       if (!seen) { running = false; return; }
       if (fk.fk_frame(ms)) {
-        fit();
         image.data.set(new Uint8ClampedArray(fk.memory.buffer, fk.fk_pixels(), w * h * 4));
         octx.putImageData(image, 0, 0);
-        ctx.drawImage(off, 0, 0, canvas.width, canvas.height);
-        if (document.activeElement !== field && !tapped) {
-          ctx.fillStyle = "rgba(0,0,0,0.6)";
-          ctx.fillRect(0, canvas.height * 0.42, canvas.width, canvas.height * 0.16);
-          ctx.fillStyle = "#ffd040";
-          ctx.font = "bold " + Math.round(canvas.height / 16) + "px monospace";
-          ctx.textAlign = "center";
-          ctx.textBaseline = "middle";
-          ctx.fillText(touch ? "TAP TO PLAY" : "CLICK TO PLAY", canvas.width / 2, canvas.height / 2);
-        }
+        paint();
       }
       pump();
       drain();
