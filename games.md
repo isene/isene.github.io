@@ -6,6 +6,11 @@ redirect_from:
   - /amar/
 tags: [Games, Amar RPG]
 ---
+### The Game Room
+Twelve games in the browser. A place to frolic and beat the highscores: [isene.com/games](https://isene.com/games/). [This blog post](/2026/10/Game-Room.html) tells the story.
+
+<p style="text-align:center"><a href="https://isene.com/games/"><img src="/assets/posts/game-room.png" alt="The Game Room" /></a></p>
+
 ### funkey
 A game engine for the terminal. Written in Rust. The games, with pictures: [isene.org/funkey](https://isene.org/funkey/)
 
