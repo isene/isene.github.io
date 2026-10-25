@@ -2358,5 +2358,15 @@
   ],
   "download": "https://github.com/isene/nomad/releases/download/apk/prism.apk",
   "packages": []
+ },
+ {
+  "name": "fleet",
+  "description": "Claude Code sessions. A buzz when a Claude Code session on the laptop finishes, with the first line of its answer.",
+  "url": "https://github.com/isene/nomad/tree/master/apps/fleet",
+  "topics": [
+   "nomad"
+  ],
+  "download": "https://github.com/isene/nomad/releases/download/apk/fleet.apk",
+  "packages": []
  }
 ]
