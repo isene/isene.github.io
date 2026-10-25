@@ -14,6 +14,8 @@ Twelve games in the browser. A place to frolic and beat the highscores: [isene.c
 ### funkey
 A game engine for the terminal. Written in Rust. The games, with pictures: [isene.org/funkey](https://isene.org/funkey/)
 
+Every game on one page, with the rest of my software: [isene.org/software](/software/?tag=games).
+
 ### The Amar Role-Playing Game
 [Amar RPG](http://d6gaming.org/) is a simple, yet realistic role-playing game, freely available at [d6gaming.org](http://d6gaming.org). It is community-driven and developed by several contributors on a wiki. Use it, and suggest improvements.
 

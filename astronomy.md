@@ -62,3 +62,6 @@ Vixen NPL | 4 element Plossl | 1¼" | 4 | 50 | 3
 Seben | 6 element Zoom Plossl | 1¼" | 24-8 | 60-40 | 20
 Sky-Watcher | 3 element ED 2X Barlow | 2" |  |  | 
 Celestron X-Cel | 3 element 2X Barlow | 1¼" |  |  |
+
+### Software
+My astronomy programs, with the rest of my software: [isene.org/software](/software/?tag=astronomy).

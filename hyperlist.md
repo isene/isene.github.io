@@ -28,6 +28,8 @@ Read this OnePagePook to get a primer on HyperLists:
 #### HyperList document
 For an in-depth explanation of all the possibilities HyperList can give, get the <a href="/assets/files/hyperlist.pdf" target="_blank" rel="noopener">HyperList document</a> (PDF).
 
+Every HyperList program on one page, with the rest of my software: [isene.org/software](/software/?tag=hyperlist).
+
 #### VIM plugin
 To facilitate the creation and managing of HyperListS, I have created an elaborate plugin for the VIM text editor.
 
