@@ -223,3 +223,24 @@ a.icon { font-size: 1.3rem; }
   .teaser-thumb, .teaser-thumb img { width: 100%; flex-basis: auto; }
   .teaser-thumb img { height: auto; max-height: 14rem; }
 }
+
+/* Software page: tag buttons and cards */
+.sw-filter { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 0.8rem; }
+.sw-filter button {
+  font: inherit; font-size: 0.8rem; color: var(--fg); background: none; cursor: pointer;
+  border: 1px solid var(--rule); border-left: 4px solid var(--c, var(--rule)); border-radius: 4px; padding: 0.15rem 0.55rem;
+}
+.sw-filter button span { color: var(--muted); }
+.sw-filter button.on { background: color-mix(in srgb, var(--c, var(--accent)) 28%, transparent); border-color: var(--c, var(--accent)); }
+.sw-about p { color: var(--muted); font-size: 0.9rem; margin: 0 0 1rem; }
+.sw-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr)); gap: 0.8rem; margin-bottom: 2rem; }
+.sw-card {
+  display: flex; flex-direction: column; border: 1px solid var(--rule); border-top: 4px solid var(--c);
+  border-radius: 6px; padding: 0.6rem 0.75rem; font-size: 0.85rem; line-height: 1.45;
+}
+.sw-card[hidden] { display: none; }
+.sw-card h4 { margin: 0 0 0.3rem; font-size: 1rem; overflow-wrap: anywhere; }
+.sw-card h4 a { color: var(--fg); }
+.sw-card p { margin: 0 0 0.4rem; }
+.sw-card .sw-links { margin-top: auto; }
+.sw-card .sw-tags { color: var(--muted); font-size: 0.75rem; margin: 0; }

@@ -12,10 +12,11 @@ A page with tags: in its front matter ends with a list of every post
 that has one of those tags. The menu is in template.html.
 
 The find box reads find.json: the menu, the pages and their headings,
-the projects in _projects.json, and the posts. Refresh the projects with
+the projects in _projects.json, and the posts. A page with software: in
+its front matter shows a card for every project tagged (as a GitHub
+topic) with one of its tags. Refresh the projects, then build, with
 
-    gh repo list isene --visibility public --source --limit 400 \
-        --json name,description,url > _projects.json
+    python3 build.py --projects
 """
 import datetime
 import html
@@ -425,6 +426,89 @@ def redirect(old, new):
 """, encoding="utf-8")
 
 
+def refresh_projects():
+    """Rewrite _projects.json from GitHub, with each project's gems and crates."""
+    import subprocess
+    import urllib.request
+    repos = json.loads(subprocess.run(
+        ["gh", "repo", "list", "isene", "--visibility", "public", "--source", "--limit", "400",
+         "--json", "name,description,url,repositoryTopics,latestRelease"],
+        capture_output=True, text=True, check=True).stdout)
+
+    def get(url):
+        req = urllib.request.Request(url, headers={"User-Agent": "isene.org build (https://isene.org)"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.load(r)
+
+    def repo_of(url):
+        m = re.search(r"github\.com/isene/([\w.-]+)", url or "", re.I)
+        return m and m[1].lower().removesuffix(".git")
+
+    packages = {}
+    for g in get("https://rubygems.org/api/v1/owners/isene/gems.json"):
+        name = repo_of(g.get("source_code_uri")) or repo_of(g.get("homepage_uri"))
+        packages.setdefault(name, []).append(["gem", g["name"], f"https://rubygems.org/gems/{g['name']}"])
+    for c in get("https://crates.io/api/v1/crates?user_id=425598&per_page=100")["crates"]:
+        packages.setdefault(repo_of(c.get("repository")), []).append(
+            ["crate", c["name"], f"https://crates.io/crates/{c['name']}"])
+    out = [{"name": r["name"], "description": r["description"], "url": r["url"],
+            "topics": [t["name"] for t in r["repositoryTopics"] or []],
+            "release": bool(r["latestRelease"]), "packages": packages.get(r["name"].lower(), [])}
+           for r in sorted(repos, key=lambda r: r["name"].lower())]
+    (ROOT / "_projects.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
+    print(f"{len(out)} projects -> _projects.json")
+
+
+SOFTWARE_JS = """<script>
+(function () {
+  var cards = document.querySelectorAll(".sw-card"), buttons = document.querySelectorAll(".sw-filter button"),
+      abouts = document.querySelectorAll(".sw-about p");
+  function show(tag) {
+    if (![].some.call(buttons, function (b) { return b.dataset.tag === tag; })) tag = "";
+    cards.forEach(function (c) { c.hidden = tag && c.dataset.tags.split(" ").indexOf(tag) < 0; });
+    buttons.forEach(function (b) { b.classList.toggle("on", b.dataset.tag === tag); });
+    abouts.forEach(function (p) { p.hidden = p.dataset.for !== tag; });
+    history.replaceState(null, "", tag ? "?tag=" + tag : location.pathname);
+  }
+  buttons.forEach(function (b) { b.onclick = function () { show(b.dataset.tag); }; });
+  show(new URLSearchParams(location.search).get("tag") || "");
+})();
+</script>"""
+
+
+def software(tags, projects):
+    """A card for every project with one of the tags; ?tag=chasm shows one tag only."""
+    order = {t["tag"]: i for i, t in enumerate(tags)}
+    by = {t["tag"]: t for t in tags}
+    cards = sorted((p for p in projects if set(p["topics"]) & order.keys()),
+                   key=lambda p: (min(order[t] for t in p["topics"] if t in order), p["name"].lower()))
+    out = [f'<nav class="sw-filter">\n<button data-tag="">All <span>{len(cards)}</span></button>']
+    about = [f'<div class="sw-about">\n<p data-for="">{len(cards)} programs. Pick a tag to see only those.</p>']
+    for t in tags:
+        n = sum(t["tag"] in p["topics"] for p in cards)
+        colour = f' style="--c:{attr(t["color"])}"' if t.get("color") else ""
+        out.append(f'<button data-tag="{attr(t["tag"])}"{colour}>{esc(t["name"])} <span>{n}</span></button>')
+        more = f' <a href="{attr(t["link"])}">More about {esc(t["name"])}</a>' if t.get("link") else ""
+        about.append(f'<p data-for="{attr(t["tag"])}" hidden>{esc(t["about"])}{more}</p>')
+    out.append("</nav>")
+    out += about + ["</div>", '<div class="sw-cards">']
+    for p in cards:
+        mine = sorted((t for t in p["topics"] if t in order), key=order.get)
+        colour = next((by[t]["color"] for t in mine if by[t].get("color")), "var(--rule)")
+        links = [f'<a href="{attr(p["url"])}">Code</a>']
+        if p["release"]:
+            links.append(f'<a href="{attr(p["url"])}/releases/latest">Download</a>')
+        links += [f'<a href="{attr(url)}">{kind}: {esc(name)}</a>' for kind, name, url in p["packages"]]
+        out.append(f"""<div class="sw-card" data-tags="{attr(" ".join(mine))}" style="--c:{attr(colour)}">
+  <h4><a href="{attr(p["url"])}">{esc(p["name"])}</a></h4>
+  <p>{esc(p["description"] or "")}</p>
+  <p class="sw-links">{" · ".join(links)}</p>
+  <p class="sw-tags">{esc(" · ".join(by[t]["name"] for t in mine))}</p>
+</div>""")
+    out.append("</div>")
+    return "\n".join(out) + "\n" + SOFTWARE_JS
+
+
 def copy_static(done):
     for root, dirs, files in os.walk(ROOT):
         rel = pathlib.Path(root).relative_to(ROOT)
@@ -443,6 +527,10 @@ def copy_static(done):
 
 def main():
     now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
+    if "--projects" in sys.argv:
+        refresh_projects()
+    path = ROOT / "_projects.json"
+    projects = json.loads(path.read_text()) if path.exists() else []
     if OUT.exists():
         for f in OUT.rglob("*.html"):
             f.unlink()
@@ -475,6 +563,8 @@ def main():
         tags = [str(t) for t in meta.get("tags") or []]
         about = [p for p in posts if set(p.tags) & set(tags)]
         body_html = markdown(body, meta)
+        if meta.get("software"):
+            body_html += software(meta["software"], projects)
         main_html = f"""<article>
     <h1>{esc(title)}</h1>
     <div class="entry-content">
@@ -493,9 +583,7 @@ def main():
         for old in meta.get("redirect_from") or []:
             redirect(old, url)
 
-    projects = ROOT / "_projects.json"
-    if projects.exists():
-        find += [[r["name"], r["url"], r["description"] or "Project"] for r in json.loads(projects.read_text())]
+    find += [[r["name"], r["url"], r["description"] or "Project"] for r in projects]
     find = [[label, href, notes.get(href, "")] for href, label in menu] + find
     find += [[p.title, p.url, f"{p.date.year} · {', '.join(p.tags)}"] for p in posts]
     (OUT / "find.json").write_text(json.dumps(find, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

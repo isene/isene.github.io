@@ -1,1 +1,1984 @@
-[{"description":"Looking out onto the web: a keyboard-driven browser in Rust around WebKitGTK","name":"gaze","url":"https://github.com/isene/gaze"},{"description":"","name":"fleet","url":"https://github.com/isene/fleet"},{"description":"Rust unified messaging hub. Feature clone of Heathrow for multi-source email and messaging.","name":"kastrup","url":"https://github.com/isene/kastrup"},{"description":"A game engine for the terminal, in Rust","name":"funkey","url":"https://github.com/isene/funkey"},{"description":"Claude Code answers rendered as HyperList. A MessageDisplay hook in pure x86_64 assembly, part of the CHasm suite.","name":"hyperlist-display","url":"https://github.com/isene/hyperlist-display"},{"description":"Fe2O3 — a suite of fast terminal tools in Rust. Landing page: https://isene.github.io/fe2o3/","name":"fe2o3","url":"https://github.com/isene/fe2o3"},{"description":"","name":"isene.github.io","url":"https://github.com/isene/isene.github.io"},{"description":"Pure assembly terminal emulator. x86_64 Linux, no libc, X11 wire protocol. Part of CHasm.","name":"glass","url":"https://github.com/isene/glass"},{"description":"Pure assembly TrueType font rasterizer. x86_64 Linux, no libc. Handles composite glyphs, UTF-8, OpenType variable fonts. Part of CHasm.","name":"glyph","url":"https://github.com/isene/glyph"},{"description":"Fe2O3 on the phone: Android mobile suite (Rust core + Kotlin/Compose shells). tasks, hyperlist, relay, astro, watchit, amardice, xrpn.","name":"nomad","url":"https://github.com/isene/nomad"},{"description":"Pure-asm tiling window manager (CHasm suite). x86_64 Linux, no libc, X11 wire protocol, single static binary.","name":"tile","url":"https://github.com/isene/tile"},{"description":"Terminal PDF reader: pages as text, as images, or both at once. Part of the Fe2O3 suite.","name":"folio","url":"https://github.com/isene/folio"},{"description":"CHasm — CHange to ASM. Pure x86_64 assembly Linux tools (bare, show, glass, tile).","name":"chasm","url":"https://github.com/isene/chasm"},{"description":"Pure-asm X11 display server for the CHasm desktop. No libc, no Mesa, no Xlib — just NASM, syscalls, and the X11 wire protocol.","name":"frame","url":"https://github.com/isene/frame"},{"description":"Interactive shell in x86_64 Linux assembly. No libc, no runtime, pure syscalls.","name":"bare","url":"https://github.com/isene/bare"},{"description":"Rust terminal calendar app. Feature clone of Timely with day/week/month views.","name":"tock","url":"https://github.com/isene/tock"},{"description":"Modal text editor for writers — vim-like core, single binary. Part of the Fe2O3 Rust terminal suite.","name":"scribe","url":"https://github.com/isene/scribe"},{"description":"Rust terminal image display (kitty/sixel/w3m). Feature clone of termpix. Part of Fe2O3 suite.","name":"glow","url":"https://github.com/isene/glow"},{"description":"Rust TUI library. Feature clone of rcurses for terminal pane management, input, colors, and Unicode.","name":"crust","url":"https://github.com/isene/crust"},{"description":"Standard Model explorer for the terminal: the fundamental particles, and a zoom from an atom down to the quarks. Rust, part of the Fe2O3 suite.","name":"particles","url":"https://github.com/isene/particles"},{"description":"Every scale of the universe, from the quantum foam to the cosmic web, in your terminal","name":"universe","url":"https://github.com/isene/universe"},{"description":"Terminal Petri net player: fire transitions, watch conflicts, find deadlocks. Built on crust, part of the Fe2O3 suite.","name":"petri","url":"https://github.com/isene/petri"},{"description":"Terminal melody maker: play, record and edit a piano line, export WAV as a song starting point. Built on crust, part of the Fe2O3 suite.","name":"melody","url":"https://github.com/isene/melody"},{"description":"TUI configuration tool for the strip status bar","name":"stripconf","url":"https://github.com/isene/stripconf"},{"description":"TUI configuration tool for the glass terminal emulator (Rust + crust)","name":"glassconf","url":"https://github.com/isene/glassconf"},{"description":"Periodic table explorer with full Wikipedia article for every element - part of the Fe2O3 terminal suite","name":"elements","url":"https://github.com/isene/elements"},{"description":"Chess against a language model, in the terminal. Part of the Fe2O3 Rust terminal suite.","name":"gambit","url":"https://github.com/isene/gambit"},{"description":"Hertzsprung-Russell diagram explorer for the terminal - part of the Fe2O3 suite","name":"stars","url":"https://github.com/isene/stars"},{"description":"Amar RPG companion — Fe2O3 suite TUI for the 3-tier O6 system (d6gaming.org)","name":"amar","url":"https://github.com/isene/amar"},{"description":"Rust terminal browser for IMDb Top 250 movies and series. Part of the Fe2O3 suite.","name":"watchit","url":"https://github.com/isene/watchit"},{"description":"Comprehensive amateur astronomy app: sky panel + telescope/eyepiece catalog. Merger of nova and scope.","name":"astro","url":"https://github.com/isene/astro"},{"description":"TUI RGB color picker. Two slots, R/G/B + H/S/V sliders, hex input, live sample text, WCAG contrast. Member of the Fe2O3 suite.","name":"prism","url":"https://github.com/isene/prism"},{"description":"The chart of the nuclides in your terminal: 3,386 isotopes, their decay modes, half-lives and decay chains (Fe2O3 suite)","name":"isotopes","url":"https://github.com/isene/isotopes"},{"description":"Desktop notifications: small boxes at the top right, and nothing running while none arrive","name":"herald","url":"https://github.com/isene/herald"},{"description":"Your everyday helpers and every program on the PATH in one window, found as you type","name":"launch","url":"https://github.com/isene/launch"},{"description":"Wi-Fi and VPN in the terminal, straight to NetworkManager, and nothing running while you are not looking","name":"roam","url":"https://github.com/isene/roam"},{"description":"A chemistry bench in the terminal: pour reagents together and watch what happens. Colours, precipitates, salts, flame tests and the iodine clock.","name":"alchemy","url":"https://github.com/isene/alchemy"},{"description":"The known exoplanets in your terminal: 6,309 worlds by orbit and size, their systems and habitable zones. Part of the Fe2O3 suite.","name":"exoplanets","url":"https://github.com/isene/exoplanets"},{"description":"Clipboard history that pastes back where you were (Fe2O3 suite)","name":"yank","url":"https://github.com/isene/yank"},{"description":"Remote control for the presentation workspace (Fe2O3 suite)","name":"beam","url":"https://github.com/isene/beam"},{"description":"","name":"hl2web","url":"https://github.com/isene/hl2web"},{"description":"Terminal touch-typing tutor. Part of the Fe2O3 suite.","name":"typo","url":"https://github.com/isene/typo"},{"description":"Universal TUI file viewer — read-only preview of any office/text/data file, launches the right editor. Config-driven, expandable. Part of the Fe2O3 Rust terminal suite.","name":"viewer","url":"https://github.com/isene/viewer"},{"description":"AI-native TUI spreadsheet — view/edit csv/xlsx/ods, formula engine, Claude-powered editing. Part of the Fe2O3 Rust terminal suite.","name":"grid","url":"https://github.com/isene/grid"},{"description":"Generative personal library TUI — curate a shelf of books that should exist, then have them written on demand. Part of the Fe2O3 suite.","name":"library","url":"https://github.com/isene/library"},{"description":"Battery-drain triage TUI for Linux. Catches the polling loop you didn't mean to write. Part of the Fe₂O₃ Rust terminal suite.","name":"drain","url":"https://github.com/isene/drain"},{"description":"TUI font picker with live previews (glyph + glow). Returns family + size; launchable as a picker like prism. Part of Fe2O3.","name":"fonts","url":"https://github.com/isene/fonts"},{"description":"Captive-portal listener for NetworkManager. Replaces Firefox's removed login-page banner. Member of the Fe2O3 Rust terminal suite.","name":"torii","url":"https://github.com/isene/torii"},{"description":"Terminal reader for your personal daily news digest. Part of the Fe2O3 Rust terminal suite.","name":"gazette","url":"https://github.com/isene/gazette"},{"description":"Rust terminal file manager. Feature clone of RTFM with two-pane view, preview, and image display.","name":"pointer","url":"https://github.com/isene/pointer"},{"description":"Build circuits in the terminal and watch them work, with challenges that teach (Fe2O3 suite)","name":"circuit","url":"https://github.com/isene/circuit"},{"description":"Chaos and fractals in your terminal: the Mandelbrot set, Julia sets, the logistic map, and the Lorenz and Henon attractors, drawn in braille. Part of the Fe2O3 suite.","name":"fractal","url":"https://github.com/isene/fractal"},{"description":"Terminal RPN / XRPN scientific calculator: HP-41 stack, cycling shift pages, runs XRPN programs. Part of the Fe2O3 suite.","name":"rpnx","url":"https://github.com/isene/rpnx"},{"description":"Tiny per-segment programs for the strip status bar (CHasm suite)","name":"chasm-bits","url":"https://github.com/isene/chasm-bits"},{"description":"Pure-asm screen locker for the CHasm desktop suite (x86_64 NASM, no libc)","name":"bolt","url":"https://github.com/isene/bolt"},{"description":"The Moon as it looks tonight, in the terminal (Fe2O3 suite)","name":"moon","url":"https://github.com/isene/moon"},{"description":"RPN / XRPN calculator engine (HP-41 stack, command set, FOCAL runner) shared by the rpnx TUI and the RPNx phone app. Part of the Fe2O3 suite.","name":"rpnx-core","url":"https://github.com/isene/rpnx-core"},{"description":"Watt — The Lean Desktop Project: meta-landing page above CHasm (asm) and Fe2O3 (Rust).","name":"watt","url":"https://github.com/isene/watt"},{"description":"The naked-eye sky in braille: 9,096 stars with distances, constellation figures, two projections, and an interactive star picker (Fe2O3 suite)","name":"starmap","url":"https://github.com/isene/starmap"},{"description":"The Amar RPG: rules, Amar Lite and the world of Amar as a static site (d6gaming.org)","name":"amar-site","url":"https://github.com/isene/amar-site"},{"description":"For AMAR RPG: A complete set of tools - random encounters, NPCs, castles/villages/towns/cities with relationship maps for inhabitants, random name generator, dice roller","name":"Amar-Tools","url":"https://github.com/isene/Amar-Tools"},{"description":"Moon phases, ephemeris, sun/planet positions. Shared by Fe2O3 apps (nova, tock).","name":"orbit","url":"https://github.com/isene/orbit"},{"description":"Pure assembly file viewer with syntax highlighting. Part of CHasm.","name":"show","url":"https://github.com/isene/show"},{"description":"Spotify Connect controller TUI. Part of the Fe2O3 Rust terminal suite.","name":"tune","url":"https://github.com/isene/tune"},{"description":"Rust terminal web browser. Feature clone of brrowser with vim keys, images, tabs, and forms.","name":"scroll","url":"https://github.com/isene/scroll"},{"description":"Interactive TUI configuration app for rush shell","name":"crush","url":"https://github.com/isene/crush"},{"description":"A voice call that sends nothing while you are quiet","name":"hush","url":"https://github.com/isene/hush"},{"description":"Email plumbing for the Fe2O3 suite: MIME decoding, HTML to text, and cross-device read state","name":"mail","url":"https://github.com/isene/mail"},{"description":"Embedded SQL database in Rust, built to beat SQLite at small reads and writes. Part of the Fe2O3 suite.","name":"ferrite","url":"https://github.com/isene/ferrite"},{"description":"Fast terminal shell written in Rust. Feature clone of rsh with 26ms startup, syntax highlighting, tab completion, nick aliases, and bookmarks.","name":"rush","url":"https://github.com/isene/rush"},{"description":"","name":"CC-sessions","url":"https://github.com/isene/CC-sessions"},{"description":"Query every HyperList you own from one command","name":"hl","url":"https://github.com/isene/hl"},{"description":"Graphing HyperListS","name":"hypergraph","url":"https://github.com/isene/hypergraph"},{"description":"Lightweight syntax highlighter for the Fe2O3 terminal suite (source code, email, HyperList, Markdown, LaTeX)","name":"highlight","url":"https://github.com/isene/highlight"},{"description":"The Simple OS - based on the Forth programming language","name":"SimplicityOS","url":"https://github.com/isene/SimplicityOS"},{"description":"A powerful Terminal User Interface (TUI) application for creating, editing, and managing HyperLists - a methodology for describing anything in a hierarchical, structured format.","name":"HyperList","url":"https://github.com/isene/HyperList"},{"description":"This VIM plugin makes it easy to create and manage HyperLists using VIM","name":"hyperlist.vim","url":"https://github.com/isene/hyperlist.vim"},{"description":"RSS and Atom parsing for the Fe2O3 suite. Pure logic, no I/O.","name":"feed","url":"https://github.com/isene/feed"},{"description":"Rust terminal charting library (bar, line, sparkline). Feature clone of termchart. Part of Fe2O3 suite.","name":"plot","url":"https://github.com/isene/plot"},{"description":"TUI configuration tool for the tile window manager","name":"tileconf","url":"https://github.com/isene/tileconf"},{"description":"NetHack 5.0 for Android (archived; superseded by JodiJodington/NetHack-Android)","name":"NetHack-Android","url":"https://github.com/isene/NetHack-Android"},{"description":"Presenter spotlight overlay for Linux — pure x86_64 assembly, ~14 KB. Click-through, screen-share-safe, follows the pointer via SHAPE.","name":"spot","url":"https://github.com/isene/spot"},{"description":"A programming language whose only goal is to be simple.","name":"simpler","url":"https://github.com/isene/simpler"},{"description":"TUI configuration tool for the bare shell, built on crust","name":"bareconf","url":"https://github.com/isene/bareconf"},{"description":"The eXtended RPN programming language","name":"xrpn","url":"https://github.com/isene/xrpn"},{"description":"Sideload-only Android app for editing a hyperlist todo.hl synced from your laptop. Part of the Fe2O3 suite.","name":"tasks","url":"https://github.com/isene/tasks"},{"description":"","name":"ClaudeCode","url":"https://github.com/isene/ClaudeCode"},{"description":"Git(hub) TUI application","name":"GiTerm","url":"https://github.com/isene/GiTerm"},{"description":"Fetch Gmail accounts to local IMAP server","name":"gmailfetch","url":"https://github.com/isene/gmailfetch"},{"description":"A unified TUI for all your messaging - email, chat, RSS and more","name":"heathrow","url":"https://github.com/isene/heathrow"},{"description":"Ruby SHell","name":"rsh","url":"https://github.com/isene/rsh"},{"description":"Ruby Terminal File Manager","name":"RTFM","url":"https://github.com/isene/RTFM"},{"description":"Terminal calendar app - companion to Heathrow","name":"timely","url":"https://github.com/isene/timely"},{"description":"Rust terminal viewer for the HyperList outline format. Part of the Fe2O3 suite.","name":"hyper","url":"https://github.com/isene/hyper"},{"description":"Rust terminal tool for amateur astronomers: telescope + eyepiece properties and combinations. Part of the Fe2O3 suite.","name":"scope","url":"https://github.com/isene/scope"},{"description":"Rust terminal panel for amateur astronomers. Weather, ephemeris, astronomical events, starchart, APOD. Part of the Fe2O3 suite.","name":"nova","url":"https://github.com/isene/nova"},{"description":"A terminal interface for OpenAI","name":"openai","url":"https://github.com/isene/openai"},{"description":"Terminal web browser with vim-style keys, inline images, tabs, forms, and AI summaries. Built on rcurses.","name":"brrowser","url":"https://github.com/isene/brrowser"},{"description":"A simple rcurses date picker","name":"datepick","url":"https://github.com/isene/datepick"},{"description":"Terminal program for amateur astronomers with weather forcast","name":"astropanel","url":"https://github.com/isene/astropanel"},{"description":"T-REX - Terminal Rpn calculator EXperiment","name":"T-REX","url":"https://github.com/isene/T-REX"},{"description":"A terminal/curses program to aid amateur astronomers (telescopes and eyepiece calculations)","name":"telescope","url":"https://github.com/isene/telescope"},{"description":"Narrow down your preferences from a 1000 movies and almost 500 series. Select a minimum IMDB rating, range of production years, genres you like and dislike to get your preferred list.  Get detailed information on movies and series and where you can stream them. Even the movie poster in the terminal.","name":"IMDB","url":"https://github.com/isene/IMDB"},{"description":"An alternative curses library written in pure Ruby","name":"rcurses","url":"https://github.com/isene/rcurses"},{"description":"","name":"termpix","url":"https://github.com/isene/termpix"},{"description":"","name":"termchart","url":"https://github.com/isene/termchart"},{"description":"VCAL viewer for MUTT","name":"VcalView","url":"https://github.com/isene/VcalView"},{"description":"Converts plain text (file or from STDIN) to pdf via pdflatex","name":"txt2pdf","url":"https://github.com/isene/txt2pdf"},{"description":"HP-41 calculator tools for the Amar Role-Playing Game: O6 dice roller and random encounter generator","name":"hp-41_amar","url":"https://github.com/isene/hp-41_amar"},{"description":"","name":"conky","url":"https://github.com/isene/conky"},{"description":"The swiss army knife of Git","name":"gitmagic","url":"https://github.com/isene/gitmagic"},{"description":"Ruby Class::Ephemeris","name":"ephemeris","url":"https://github.com/isene/ephemeris"},{"description":"The program extracts an ASCII XM file from a DM41X state file.","name":"dm41xm","url":"https://github.com/isene/dm41xm"},{"description":"Control your PC with your phone by voice","name":"speak2pc","url":"https://github.com/isene/speak2pc"},{"description":"Extending the Ruby Curses module with some obvious functionality","name":"Ruby-Curses-Class-Extension","url":"https://github.com/isene/Ruby-Curses-Class-Extension"},{"description":"","name":"rcalc","url":"https://github.com/isene/rcalc"},{"description":"For the HP-41 calculator: Facilitating serial/USB connection to an HP-41. With this program you can use your PC as a printer for an HP-41 (with Diego Diaz' USB41 module) or transfer modules/data to/from an HP-41CL (with the serial interface)","name":"pc41","url":"https://github.com/isene/pc41"},{"description":"A treatise on the subject of free will, of consciousness, subjective reality, including an interpretation of quantum mechanics - a Subjective Collapse Theory.","name":"on_will","url":"https://github.com/isene/on_will"},{"description":"Open-ended D6 rolls","name":"O6","url":"https://github.com/isene/O6"},{"description":"Collect mail from various accounts, filter and store locally","name":"mailfetch","url":"https://github.com/isene/mailfetch"},{"description":"Client-side tools for imap","name":"imaptools","url":"https://github.com/isene/imaptools"},{"description":"Converts html documents to plain text, formatted text, latex, ps or pdf","name":"htmlconvert","url":"https://github.com/isene/htmlconvert"},{"description":"HP-41: This program calculates the W Lambert function","name":"hp-41_wlambert","url":"https://github.com/isene/hp-41_wlambert"},{"description":"HP-41: Syntax and filetype plugin","name":"hp-41_vim","url":"https://github.com/isene/hp-41_vim"},{"description":"HP-41: The Ultimate Alarm Clock","name":"hp-41_uac","url":"https://github.com/isene/hp-41_uac"},{"description":"A complete gladiator arena fighting game for the HP-41 calculator.","name":"hp-41_SWORDS.ROM","url":"https://github.com/isene/hp-41_SWORDS.ROM"},{"description":"HP-41: Simple program for calculating IP subnets","name":"hp-41_subn","url":"https://github.com/isene/hp-41_subn"},{"description":"A spreadsheet program for the HP-41 calculator","name":"hp-41_SpreadSheet","url":"https://github.com/isene/hp-41_SpreadSheet"},{"description":"Advanced SOLVE for the HP-41 calculator","name":"hp-41_solve","url":"https://github.com/isene/hp-41_solve"},{"description":"HP-41: Calculate guaranteed uptimes for a system composed of serial and paralell components.","name":"hp-41_sla","url":"https://github.com/isene/hp-41_sla"},{"description":"HP-41: Telescope and observational utilities","name":"hp-41_scope","url":"https://github.com/isene/hp-41_scope"},{"description":"HP-41: REMembering (event manager)","name":"hp-41_rem","url":"https://github.com/isene/hp-41_rem"},{"description":"The periodic table chemical elements for the HP-41 with much details","name":"hp-41_period","url":"https://github.com/isene/hp-41_period"},{"description":"HP-41: Break-even analysis for outsourcing","name":"hp-41_outsrc","url":"https://github.com/isene/hp-41_outsrc"},{"description":"Observation logging for the amateur astronomer","name":"hp-41_obsrv","url":"https://github.com/isene/hp-41_obsrv"},{"description":"Control your telescope via the HP-41! Create observation lists, start observing, control the telescope mount via an INDI server","name":"hp-41_observe","url":"https://github.com/isene/hp-41_observe"},{"description":"An HP-41 rom enhancing the family of NoVRAM modules","name":"HP-41_NOVCHAP.ROM","url":"https://github.com/isene/HP-41_NOVCHAP.ROM"},{"description":"HP-41: Taking notes on the calculator","name":"hp-41_notes","url":"https://github.com/isene/hp-41_notes"},{"description":"A collection of tools for MCODE (assembly) programming on the Coconut processor (HP-41 calculator)","name":"hp-41_mcode-tools","url":"https://github.com/isene/hp-41_mcode-tools"},{"description":"Maidenhead <-> Location conversion ","name":"hp-41_maidenhead","url":"https://github.com/isene/hp-41_maidenhead"},{"description":"This program validates credit cards numbers and other numbers conforming to the Luhn algorithm","name":"hp-41_luhn","url":"https://github.com/isene/hp-41_luhn"},{"description":"Using Little's Law to calculate resolution (throughput) time in a queue - e.g. resolution time for IT Service Desk tickets","name":"hp-41_LittlesLaw","url":"https://github.com/isene/hp-41_LittlesLaw"},{"description":"HP-41: LIF to ASCII read/write","name":"hp-41_lif_ascii_rw","url":"https://github.com/isene/hp-41_lif_ascii_rw"},{"description":"HP-41: Libraries for handling XM and HEPAX files","name":"hp-41_libs_xm_hepax","url":"https://github.com/isene/hp-41_libs_xm_hepax"},{"description":"The most useful of my FOCAL programs","name":"hp-41_isene-rom","url":"https://github.com/isene/hp-41_isene-rom"},{"description":"HP-41: The ICEBOX rom","name":"hp-41_icebox","url":"https://github.com/isene/hp-41_icebox"},{"description":"A tool to update read the HP-41 HOURSF file (hours registration for consultants)","name":"HP-41_HOURS.rb","url":"https://github.com/isene/HP-41_HOURS.rb"},{"description":"A customized program for tracking hours worked on projects","name":"hp-41_hours","url":"https://github.com/isene/hp-41_hours"},{"description":"A collection of HP-41 software that I deem most essential into one ROM","name":"hp-41_GEIR.ROM","url":"https://github.com/isene/hp-41_GEIR.ROM"},{"description":"HP-41: File management system","name":"hp-41_fileman","url":"https://github.com/isene/hp-41_fileman"},{"description":"HP-41: Simplifies the evaluation of cases against a requirement specification","name":"hp-41_eval","url":"https://github.com/isene/hp-41_eval"},{"description":"HP-41: Simple date-to-weeknumber-to-date converter","name":"hp-41_dwd","url":"https://github.com/isene/hp-41_dwd"},{"description":"Comprehensive statistical analysis of data sets on the HP-41 calculator","name":"hp-41_DSTAT.ROM","url":"https://github.com/isene/hp-41_DSTAT.ROM"},{"description":"HP-41: STATistical analysis galore","name":"hp-41_data_stat","url":"https://github.com/isene/hp-41_data_stat"},{"description":"HP-41: Cryptography","name":"hp-41_crypt","url":"https://github.com/isene/hp-41_crypt"},{"description":"Calculate the luminosity of an RGB color","name":"hp-41_colorluminosity","url":"https://github.com/isene/hp-41_colorluminosity"},{"description":"A tool to update ROMS on the HP-41CL calculator via HP-IL","name":"hp-41cl_update","url":"https://github.com/isene/hp-41cl_update"},{"description":"My basic clear routine for the HP-41 calculator","name":"hp_41_clr","url":"https://github.com/isene/hp_41_clr"},{"description":"Renames files matched by regexp","name":"subst","url":"https://github.com/isene/subst"},{"description":"Tools for the HP-41CL by Systemyde (http://www.systemyde.com/hp41/index.html)","name":"hp-41_CL","url":"https://github.com/isene/hp-41_CL"},{"description":"HP-41: Calculate various properties of a sail boat","name":"hp-41_boat","url":"https://github.com/isene/hp-41_boat"},{"description":"HP-41: A user interface for the ASTRO2010 module","name":"hp-41_astro","url":"https://github.com/isene/hp-41_astro"},{"description":"Creates a 4 level \"Alpha stack\" for the HP-41 and supplies the routines APUSH and APOP","name":"hp-41_astack","url":"https://github.com/isene/hp-41_astack"},{"description":"The amature astronomy rom for the HP-41 calculator","name":"hp-41_AMASTRO.ROM","url":"https://github.com/isene/hp-41_AMASTRO.ROM"},{"description":"A Gregorian Date to Julian Date converter for the HP-29","name":"HP-29E_JulianDate","url":"https://github.com/isene/HP-29E_JulianDate"},{"description":"HP-25: Syntax and filetype plugin (for programming the HP-25 calculator)","name":"hp-25_vim","url":"https://github.com/isene/hp-25_vim"},{"description":"Turning the HP-25E into the ultimate amateur astronomy calculator","name":"hp-25E_astro","url":"https://github.com/isene/hp-25E_astro"},{"description":"My Navi Cheats","name":"cheats","url":"https://github.com/isene/cheats"}]
+[
+ {
+  "name": "alchemy",
+  "description": "A chemistry bench in the terminal: pour reagents together and watch what happens. Colours, precipitates, salts, flame tests and the iodine clock.",
+  "url": "https://github.com/isene/alchemy",
+  "topics": [
+   "fe2o3",
+   "science"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "amar",
+  "description": "Amar RPG companion — Fe2O3 suite TUI for the 3-tier O6 system (d6gaming.org)",
+  "url": "https://github.com/isene/amar",
+  "topics": [
+   "amar",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "amar-site",
+  "description": "The Amar RPG: rules, Amar Lite and the world of Amar as a static site (d6gaming.org)",
+  "url": "https://github.com/isene/amar-site",
+  "topics": [
+   "amar"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "Amar-Tools",
+  "description": "For AMAR RPG: A complete set of tools - random encounters, NPCs, castles/villages/towns/cities with relationship maps for inhabitants, random name generator, dice roller",
+  "url": "https://github.com/isene/Amar-Tools",
+  "topics": [
+   "amar",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "amar-tui",
+    "https://rubygems.org/gems/amar-tui"
+   ],
+   [
+    "gem",
+    "amar-rpg",
+    "https://rubygems.org/gems/amar-rpg"
+   ]
+  ]
+ },
+ {
+  "name": "astro",
+  "description": "Comprehensive amateur astronomy app: sky panel + telescope/eyepiece catalog. Merger of nova and scope.",
+  "url": "https://github.com/isene/astro",
+  "topics": [
+   "astronomy",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "astropanel",
+  "description": "Terminal program for amateur astronomers with weather forcast",
+  "url": "https://github.com/isene/astropanel",
+  "topics": [
+   "astronomy",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "astropanel",
+    "https://rubygems.org/gems/astropanel"
+   ]
+  ]
+ },
+ {
+  "name": "bare",
+  "description": "Interactive shell in x86_64 Linux assembly. No libc, no runtime, pure syscalls.",
+  "url": "https://github.com/isene/bare",
+  "topics": [
+   "chasm"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "bareconf",
+  "description": "TUI configuration tool for the bare shell, built on crust",
+  "url": "https://github.com/isene/bareconf",
+  "topics": [
+   "chasm"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "beam",
+  "description": "Remote control for the presentation workspace (Fe2O3 suite)",
+  "url": "https://github.com/isene/beam",
+  "topics": [
+   "desktop",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "bolt",
+  "description": "Pure-asm screen locker for the CHasm desktop suite (x86_64 NASM, no libc)",
+  "url": "https://github.com/isene/bolt",
+  "topics": [
+   "chasm",
+   "desktop"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "brrowser",
+  "description": "Terminal web browser with vim-style keys, inline images, tabs, forms, and AI summaries. Built on rcurses.",
+  "url": "https://github.com/isene/brrowser",
+  "topics": [
+   "ai",
+   "ruby"
+  ],
+  "release": false,
+  "packages": [
+   [
+    "gem",
+    "brrowser",
+    "https://rubygems.org/gems/brrowser"
+   ]
+  ]
+ },
+ {
+  "name": "CC-sessions",
+  "description": "Bookmark and resume Claude Code sessions with tags.",
+  "url": "https://github.com/isene/CC-sessions",
+  "topics": [
+   "claude-code",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "cc-sessions",
+    "https://rubygems.org/gems/cc-sessions"
+   ]
+  ]
+ },
+ {
+  "name": "cc-smooth",
+  "description": "One plugin for a smoother, safer Claude Code.",
+  "url": "https://github.com/isene/cc-smooth",
+  "topics": [
+   "claude-code"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "chasm",
+  "description": "CHasm — CHange to ASM. Pure x86_64 assembly Linux tools (bare, show, glass, tile).",
+  "url": "https://github.com/isene/chasm",
+  "topics": [],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "chasm-bits",
+  "description": "Tiny per-segment programs for the strip status bar (CHasm suite)",
+  "url": "https://github.com/isene/chasm-bits",
+  "topics": [
+   "chasm"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "cheats",
+  "description": "My Navi Cheats",
+  "url": "https://github.com/isene/cheats",
+  "topics": [],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "circuit",
+  "description": "Build circuits in the terminal and watch them work, with challenges that teach (Fe2O3 suite)",
+  "url": "https://github.com/isene/circuit",
+  "topics": [
+   "fe2o3",
+   "science"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "ClaudeCode",
+  "description": "Claude Code skills: knowledge and workflows that switch on when needed.",
+  "url": "https://github.com/isene/ClaudeCode",
+  "topics": [
+   "claude-code"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "conky",
+  "description": "",
+  "url": "https://github.com/isene/conky",
+  "topics": [],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "crush",
+  "description": "Interactive TUI configuration app for rush shell",
+  "url": "https://github.com/isene/crush",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "crust",
+  "description": "Rust TUI library. Feature clone of rcurses for terminal pane management, input, colors, and Unicode.",
+  "url": "https://github.com/isene/crust",
+  "topics": [
+   "fe2o3",
+   "library"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "crate",
+    "fe2o3-crust",
+    "https://crates.io/crates/fe2o3-crust"
+   ]
+  ]
+ },
+ {
+  "name": "datepick",
+  "description": "A simple rcurses date picker",
+  "url": "https://github.com/isene/datepick",
+  "topics": [
+   "library",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "datepick",
+    "https://rubygems.org/gems/datepick"
+   ]
+  ]
+ },
+ {
+  "name": "dm41xm",
+  "description": "The program extracts an ASCII XM file from a DM41X state file.",
+  "url": "https://github.com/isene/dm41xm",
+  "topics": [
+   "hp-41",
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "drain",
+  "description": "Battery-drain triage TUI for Linux. Catches the polling loop you didn't mean to write. Part of the Fe₂O₃ Rust terminal suite.",
+  "url": "https://github.com/isene/drain",
+  "topics": [
+   "desktop",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "elements",
+  "description": "Periodic table explorer with full Wikipedia article for every element - part of the Fe2O3 terminal suite",
+  "url": "https://github.com/isene/elements",
+  "topics": [
+   "fe2o3",
+   "science"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "ephemeris",
+  "description": "Ruby Class::Ephemeris",
+  "url": "https://github.com/isene/ephemeris",
+  "topics": [
+   "astronomy",
+   "library",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "ruby-ephemeris",
+    "https://rubygems.org/gems/ruby-ephemeris"
+   ]
+  ]
+ },
+ {
+  "name": "exoplanets",
+  "description": "The known exoplanets in your terminal: 6,309 worlds by orbit and size, their systems and habitable zones. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/exoplanets",
+  "topics": [
+   "astronomy",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "fe2o3",
+  "description": "Fe2O3 — a suite of fast terminal tools in Rust. Landing page: https://isene.github.io/fe2o3/",
+  "url": "https://github.com/isene/fe2o3",
+  "topics": [],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "feed",
+  "description": "RSS and Atom parsing for the Fe2O3 suite. Pure logic, no I/O.",
+  "url": "https://github.com/isene/feed",
+  "topics": [
+   "fe2o3",
+   "library",
+   "messaging"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "ferrite",
+  "description": "Embedded SQL database in Rust, built to beat SQLite at small reads and writes. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/ferrite",
+  "topics": [
+   "fe2o3",
+   "library"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "fleet",
+  "description": "Claude Code mission control: one screen for every session on the machine.",
+  "url": "https://github.com/isene/fleet",
+  "topics": [
+   "claude-code",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "folio",
+  "description": "Terminal PDF reader: pages as text, as images, or both at once. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/folio",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "fonts",
+  "description": "TUI font picker with live previews (glyph + glow). Returns family + size; launchable as a picker like prism. Part of Fe2O3.",
+  "url": "https://github.com/isene/fonts",
+  "topics": [
+   "desktop",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "fractal",
+  "description": "Chaos and fractals in your terminal: the Mandelbrot set, Julia sets, the logistic map, and the Lorenz and Henon attractors, drawn in braille. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/fractal",
+  "topics": [
+   "fe2o3",
+   "science"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "frame",
+  "description": "Pure-asm X11 display server for the CHasm desktop. No libc, no Mesa, no Xlib — just NASM, syscalls, and the X11 wire protocol.",
+  "url": "https://github.com/isene/frame",
+  "topics": [
+   "chasm"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "funkey",
+  "description": "A game engine for the terminal, in Rust",
+  "url": "https://github.com/isene/funkey",
+  "topics": [
+   "fe2o3",
+   "games"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "gambit",
+  "description": "Chess against a language model, in the terminal. Part of the Fe2O3 Rust terminal suite.",
+  "url": "https://github.com/isene/gambit",
+  "topics": [
+   "ai",
+   "fe2o3",
+   "games"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "gaze",
+  "description": "Looking out onto the web: a keyboard-driven browser in Rust around WebKitGTK",
+  "url": "https://github.com/isene/gaze",
+  "topics": [
+   "desktop",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "gazette",
+  "description": "Terminal reader for your personal daily news digest. Part of the Fe2O3 Rust terminal suite.",
+  "url": "https://github.com/isene/gazette",
+  "topics": [
+   "fe2o3",
+   "messaging"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "GiTerm",
+  "description": "Git(hub) TUI application",
+  "url": "https://github.com/isene/GiTerm",
+  "topics": [
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "giterm",
+    "https://rubygems.org/gems/giterm"
+   ]
+  ]
+ },
+ {
+  "name": "gitmagic",
+  "description": "The swiss army knife of Git",
+  "url": "https://github.com/isene/gitmagic",
+  "topics": [
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "gitmagical",
+    "https://rubygems.org/gems/gitmagical"
+   ]
+  ]
+ },
+ {
+  "name": "glass",
+  "description": "Pure assembly terminal emulator. x86_64 Linux, no libc, X11 wire protocol. Part of CHasm.",
+  "url": "https://github.com/isene/glass",
+  "topics": [
+   "chasm"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "glassconf",
+  "description": "TUI configuration tool for the glass terminal emulator (Rust + crust)",
+  "url": "https://github.com/isene/glassconf",
+  "topics": [
+   "chasm"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "glow",
+  "description": "Rust terminal image display (kitty/sixel/w3m). Feature clone of termpix. Part of Fe2O3 suite.",
+  "url": "https://github.com/isene/glow",
+  "topics": [
+   "fe2o3",
+   "library"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "crate",
+    "fe2o3-glow",
+    "https://crates.io/crates/fe2o3-glow"
+   ]
+  ]
+ },
+ {
+  "name": "glyph",
+  "description": "Pure assembly TrueType font rasterizer. x86_64 Linux, no libc. Handles composite glyphs, UTF-8, OpenType variable fonts. Part of CHasm.",
+  "url": "https://github.com/isene/glyph",
+  "topics": [
+   "chasm"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "gmailfetch",
+  "description": "Fetch Gmail accounts to local IMAP server",
+  "url": "https://github.com/isene/gmailfetch",
+  "topics": [
+   "messaging",
+   "ruby"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "grid",
+  "description": "AI-native TUI spreadsheet — view/edit csv/xlsx/ods, formula engine, Claude-powered editing. Part of the Fe2O3 Rust terminal suite.",
+  "url": "https://github.com/isene/grid",
+  "topics": [
+   "ai",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "heathrow",
+  "description": "A unified TUI for all your messaging - email, chat, RSS and more",
+  "url": "https://github.com/isene/heathrow",
+  "topics": [
+   "messaging",
+   "ruby"
+  ],
+  "release": false,
+  "packages": [
+   [
+    "gem",
+    "heathrow",
+    "https://rubygems.org/gems/heathrow"
+   ]
+  ]
+ },
+ {
+  "name": "herald",
+  "description": "Desktop notifications: small boxes at the top right, and nothing running while none arrive",
+  "url": "https://github.com/isene/herald",
+  "topics": [
+   "desktop",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "highlight",
+  "description": "Lightweight syntax highlighter for the Fe2O3 terminal suite (source code, email, HyperList, Markdown, LaTeX)",
+  "url": "https://github.com/isene/highlight",
+  "topics": [
+   "fe2o3",
+   "library"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "crate",
+    "fe2o3-highlight",
+    "https://crates.io/crates/fe2o3-highlight"
+   ]
+  ]
+ },
+ {
+  "name": "hl",
+  "description": "Query every HyperList you own from one command",
+  "url": "https://github.com/isene/hl",
+  "topics": [
+   "fe2o3",
+   "hyperlist"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hl2web",
+  "description": "Render a HyperList as one self-contained interactive HTML page.",
+  "url": "https://github.com/isene/hl2web",
+  "topics": [
+   "fe2o3",
+   "hyperlist"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "hp-25_vim",
+  "description": "HP-25: Syntax and filetype plugin (for programming the HP-25 calculator)",
+  "url": "https://github.com/isene/hp-25_vim",
+  "topics": [
+   "hp-41",
+   "vim"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-25E_astro",
+  "description": "Turning the HP-25E into the ultimate amateur astronomy calculator",
+  "url": "https://github.com/isene/hp-25E_astro",
+  "topics": [
+   "astronomy",
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "HP-29E_JulianDate",
+  "description": "A Gregorian Date to Julian Date converter for the HP-29",
+  "url": "https://github.com/isene/HP-29E_JulianDate",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_amar",
+  "description": "HP-41 calculator tools for the Amar Role-Playing Game: O6 dice roller and random encounter generator",
+  "url": "https://github.com/isene/hp-41_amar",
+  "topics": [
+   "amar",
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_AMASTRO.ROM",
+  "description": "The amature astronomy rom for the HP-41 calculator",
+  "url": "https://github.com/isene/hp-41_AMASTRO.ROM",
+  "topics": [
+   "astronomy",
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_astack",
+  "description": "Creates a 4 level \"Alpha stack\" for the HP-41 and supplies the routines APUSH and APOP",
+  "url": "https://github.com/isene/hp-41_astack",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_astro",
+  "description": "HP-41: A user interface for the ASTRO2010 module",
+  "url": "https://github.com/isene/hp-41_astro",
+  "topics": [
+   "astronomy",
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_boat",
+  "description": "HP-41: Calculate various properties of a sail boat",
+  "url": "https://github.com/isene/hp-41_boat",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_CL",
+  "description": "Tools for the HP-41CL by Systemyde (http://www.systemyde.com/hp41/index.html)",
+  "url": "https://github.com/isene/hp-41_CL",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_colorluminosity",
+  "description": "Calculate the luminosity of an RGB color",
+  "url": "https://github.com/isene/hp-41_colorluminosity",
+  "topics": [
+   "hp-41",
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_crypt",
+  "description": "HP-41: Cryptography",
+  "url": "https://github.com/isene/hp-41_crypt",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_data_stat",
+  "description": "HP-41: STATistical analysis galore",
+  "url": "https://github.com/isene/hp-41_data_stat",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_DSTAT.ROM",
+  "description": "Comprehensive statistical analysis of data sets on the HP-41 calculator",
+  "url": "https://github.com/isene/hp-41_DSTAT.ROM",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_dwd",
+  "description": "HP-41: Simple date-to-weeknumber-to-date converter",
+  "url": "https://github.com/isene/hp-41_dwd",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_eval",
+  "description": "HP-41: Simplifies the evaluation of cases against a requirement specification",
+  "url": "https://github.com/isene/hp-41_eval",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_fileman",
+  "description": "HP-41: File management system",
+  "url": "https://github.com/isene/hp-41_fileman",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_GEIR.ROM",
+  "description": "A collection of HP-41 software that I deem most essential into one ROM",
+  "url": "https://github.com/isene/hp-41_GEIR.ROM",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_hours",
+  "description": "A customized program for tracking hours worked on projects",
+  "url": "https://github.com/isene/hp-41_hours",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "HP-41_HOURS.rb",
+  "description": "A tool to update read the HP-41 HOURSF file (hours registration for consultants)",
+  "url": "https://github.com/isene/HP-41_HOURS.rb",
+  "topics": [
+   "hp-41",
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_icebox",
+  "description": "HP-41: The ICEBOX rom",
+  "url": "https://github.com/isene/hp-41_icebox",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_isene-rom",
+  "description": "The most useful of my FOCAL programs",
+  "url": "https://github.com/isene/hp-41_isene-rom",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_libs_xm_hepax",
+  "description": "HP-41: Libraries for handling XM and HEPAX files",
+  "url": "https://github.com/isene/hp-41_libs_xm_hepax",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_lif_ascii_rw",
+  "description": "HP-41: LIF to ASCII read/write",
+  "url": "https://github.com/isene/hp-41_lif_ascii_rw",
+  "topics": [
+   "hp-41",
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_LittlesLaw",
+  "description": "Using Little's Law to calculate resolution (throughput) time in a queue - e.g. resolution time for IT Service Desk tickets",
+  "url": "https://github.com/isene/hp-41_LittlesLaw",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_luhn",
+  "description": "This program validates credit cards numbers and other numbers conforming to the Luhn algorithm",
+  "url": "https://github.com/isene/hp-41_luhn",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_maidenhead",
+  "description": "Maidenhead <-> Location conversion ",
+  "url": "https://github.com/isene/hp-41_maidenhead",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_mcode-tools",
+  "description": "A collection of tools for MCODE (assembly) programming on the Coconut processor (HP-41 calculator)",
+  "url": "https://github.com/isene/hp-41_mcode-tools",
+  "topics": [
+   "hp-41",
+   "vim"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_notes",
+  "description": "HP-41: Taking notes on the calculator",
+  "url": "https://github.com/isene/hp-41_notes",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "HP-41_NOVCHAP.ROM",
+  "description": "An HP-41 rom enhancing the family of NoVRAM modules",
+  "url": "https://github.com/isene/HP-41_NOVCHAP.ROM",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_observe",
+  "description": "Control your telescope via the HP-41! Create observation lists, start observing, control the telescope mount via an INDI server",
+  "url": "https://github.com/isene/hp-41_observe",
+  "topics": [
+   "astronomy",
+   "hp-41",
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_obsrv",
+  "description": "Observation logging for the amateur astronomer",
+  "url": "https://github.com/isene/hp-41_obsrv",
+  "topics": [
+   "astronomy",
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_outsrc",
+  "description": "HP-41: Break-even analysis for outsourcing",
+  "url": "https://github.com/isene/hp-41_outsrc",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_period",
+  "description": "The periodic table chemical elements for the HP-41 with much details",
+  "url": "https://github.com/isene/hp-41_period",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_rem",
+  "description": "HP-41: REMembering (event manager)",
+  "url": "https://github.com/isene/hp-41_rem",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_scope",
+  "description": "HP-41: Telescope and observational utilities",
+  "url": "https://github.com/isene/hp-41_scope",
+  "topics": [
+   "astronomy",
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_sla",
+  "description": "HP-41: Calculate guaranteed uptimes for a system composed of serial and paralell components.",
+  "url": "https://github.com/isene/hp-41_sla",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_solve",
+  "description": "Advanced SOLVE for the HP-41 calculator",
+  "url": "https://github.com/isene/hp-41_solve",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_SpreadSheet",
+  "description": "A spreadsheet program for the HP-41 calculator",
+  "url": "https://github.com/isene/hp-41_SpreadSheet",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_subn",
+  "description": "HP-41: Simple program for calculating IP subnets",
+  "url": "https://github.com/isene/hp-41_subn",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_SWORDS.ROM",
+  "description": "A complete gladiator arena fighting game for the HP-41 calculator.",
+  "url": "https://github.com/isene/hp-41_SWORDS.ROM",
+  "topics": [
+   "games",
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_uac",
+  "description": "HP-41: The Ultimate Alarm Clock",
+  "url": "https://github.com/isene/hp-41_uac",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_vim",
+  "description": "HP-41: Syntax and filetype plugin",
+  "url": "https://github.com/isene/hp-41_vim",
+  "topics": [
+   "hp-41",
+   "vim"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41_wlambert",
+  "description": "HP-41: This program calculates the W Lambert function",
+  "url": "https://github.com/isene/hp-41_wlambert",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hp-41cl_update",
+  "description": "A tool to update ROMS on the HP-41CL calculator via HP-IL",
+  "url": "https://github.com/isene/hp-41cl_update",
+  "topics": [
+   "hp-41",
+   "ruby"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "hp_41_clr",
+  "description": "My basic clear routine for the HP-41 calculator",
+  "url": "https://github.com/isene/hp_41_clr",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "htmlconvert",
+  "description": "Converts html documents to plain text, formatted text, latex, ps or pdf",
+  "url": "https://github.com/isene/htmlconvert",
+  "topics": [
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hush",
+  "description": "A voice call that sends nothing while you are quiet",
+  "url": "https://github.com/isene/hush",
+  "topics": [
+   "desktop",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "hyper",
+  "description": "Rust terminal viewer for the HyperList outline format. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/hyper",
+  "topics": [],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "hypergraph",
+  "description": "Graphing HyperListS",
+  "url": "https://github.com/isene/hypergraph",
+  "topics": [
+   "hyperlist",
+   "ruby"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "HyperList",
+  "description": "A powerful Terminal User Interface (TUI) application for creating, editing, and managing HyperLists - a methodology for describing anything in a hierarchical, structured format.",
+  "url": "https://github.com/isene/HyperList",
+  "topics": [
+   "hyperlist",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "hyperlist",
+    "https://rubygems.org/gems/hyperlist"
+   ]
+  ]
+ },
+ {
+  "name": "hyperlist-display",
+  "description": "Claude Code answers rendered as HyperList. A MessageDisplay hook in pure x86_64 assembly, part of the CHasm suite.",
+  "url": "https://github.com/isene/hyperlist-display",
+  "topics": [
+   "chasm",
+   "claude-code",
+   "hyperlist"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "hyperlist.vim",
+  "description": "This VIM plugin makes it easy to create and manage HyperLists using VIM",
+  "url": "https://github.com/isene/hyperlist.vim",
+  "topics": [
+   "hyperlist",
+   "vim"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "imaptools",
+  "description": "Client-side tools for imap",
+  "url": "https://github.com/isene/imaptools",
+  "topics": [
+   "messaging",
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "IMDB",
+  "description": "Narrow down your preferences from a 1000 movies and almost 500 series. Select a minimum IMDB rating, range of production years, genres you like and dislike to get your preferred list.  Get detailed information on movies and series and where you can stream them. Even the movie poster in the terminal.",
+  "url": "https://github.com/isene/IMDB",
+  "topics": [
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "imdb-terminal",
+    "https://rubygems.org/gems/imdb-terminal"
+   ]
+  ]
+ },
+ {
+  "name": "isene.github.io",
+  "description": "",
+  "url": "https://github.com/isene/isene.github.io",
+  "topics": [],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "isotopes",
+  "description": "The chart of the nuclides in your terminal: 3,386 isotopes, their decay modes, half-lives and decay chains (Fe2O3 suite)",
+  "url": "https://github.com/isene/isotopes",
+  "topics": [
+   "fe2o3",
+   "science"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "kastrup",
+  "description": "Rust unified messaging hub. Feature clone of Heathrow for multi-source email and messaging.",
+  "url": "https://github.com/isene/kastrup",
+  "topics": [
+   "fe2o3",
+   "messaging"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "launch",
+  "description": "Your everyday helpers and every program on the PATH in one window, found as you type",
+  "url": "https://github.com/isene/launch",
+  "topics": [
+   "desktop",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "library",
+  "description": "Generative personal library TUI — curate a shelf of books that should exist, then have them written on demand. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/library",
+  "topics": [
+   "books",
+   "claude",
+   "fe2o3",
+   "generative",
+   "rust",
+   "terminal",
+   "tui",
+   "ai"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "mail",
+  "description": "Email plumbing for the Fe2O3 suite: MIME decoding, HTML to text, and cross-device read state",
+  "url": "https://github.com/isene/mail",
+  "topics": [
+   "fe2o3",
+   "library",
+   "messaging"
+  ],
+  "release": false,
+  "packages": [
+   [
+    "crate",
+    "fe2o3-mail",
+    "https://crates.io/crates/fe2o3-mail"
+   ]
+  ]
+ },
+ {
+  "name": "mailfetch",
+  "description": "Collect mail from various accounts, filter and store locally",
+  "url": "https://github.com/isene/mailfetch",
+  "topics": [
+   "messaging",
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "melody",
+  "description": "Terminal melody maker: play, record and edit a piano line, export WAV as a song starting point. Built on crust, part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/melody",
+  "topics": [
+   "fe2o3",
+   "music",
+   "rust",
+   "suno",
+   "terminal",
+   "tui"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "moon",
+  "description": "The Moon as it looks tonight, in the terminal (Fe2O3 suite)",
+  "url": "https://github.com/isene/moon",
+  "topics": [
+   "astronomy",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "NetHack-Android",
+  "description": "NetHack 5.0 for Android (archived; superseded by JodiJodington/NetHack-Android)",
+  "url": "https://github.com/isene/NetHack-Android",
+  "topics": [],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "nomad",
+  "description": "Fe2O3 on the phone: Android mobile suite (Rust core + Kotlin/Compose shells). tasks, hyperlist, relay, astro, watchit, amardice, xrpn.",
+  "url": "https://github.com/isene/nomad",
+  "topics": [
+   "android",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "nova",
+  "description": "Rust terminal panel for amateur astronomers. Weather, ephemeris, astronomical events, starchart, APOD. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/nova",
+  "topics": [],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "O6",
+  "description": "Open-ended D6 rolls",
+  "url": "https://github.com/isene/O6",
+  "topics": [
+   "amar"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "on_will",
+  "description": "A treatise on the subject of free will, of consciousness, subjective reality, including an interpretation of quantum mechanics - a Subjective Collapse Theory.",
+  "url": "https://github.com/isene/on_will",
+  "topics": [],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "openai",
+  "description": "A terminal interface for OpenAI",
+  "url": "https://github.com/isene/openai",
+  "topics": [
+   "ai",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "openai-term",
+    "https://rubygems.org/gems/openai-term"
+   ]
+  ]
+ },
+ {
+  "name": "orbit",
+  "description": "Moon phases, ephemeris, sun/planet positions. Shared by Fe2O3 apps (nova, tock).",
+  "url": "https://github.com/isene/orbit",
+  "topics": [
+   "astronomy",
+   "fe2o3",
+   "library"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "crate",
+    "fe2o3-orbit",
+    "https://crates.io/crates/fe2o3-orbit"
+   ]
+  ]
+ },
+ {
+  "name": "particles",
+  "description": "Standard Model explorer for the terminal: the fundamental particles, and a zoom from an atom down to the quarks. Rust, part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/particles",
+  "topics": [
+   "fe2o3",
+   "science"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "pc41",
+  "description": "For the HP-41 calculator: Facilitating serial/USB connection to an HP-41. With this program you can use your PC as a printer for an HP-41 (with Diego Diaz' USB41 module) or transfer modules/data to/from an HP-41CL (with the serial interface)",
+  "url": "https://github.com/isene/pc41",
+  "topics": [
+   "hp-41",
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "petri",
+  "description": "Terminal Petri net player: fire transitions, watch conflicts, find deadlocks. Built on crust, part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/petri",
+  "topics": [
+   "concurrency",
+   "fe2o3",
+   "petri-net",
+   "rust",
+   "terminal",
+   "tui",
+   "science"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "plot",
+  "description": "Rust terminal charting library (bar, line, sparkline). Feature clone of termchart. Part of Fe2O3 suite.",
+  "url": "https://github.com/isene/plot",
+  "topics": [
+   "fe2o3",
+   "library"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "crate",
+    "fe2o3-plot",
+    "https://crates.io/crates/fe2o3-plot"
+   ]
+  ]
+ },
+ {
+  "name": "pointer",
+  "description": "Rust terminal file manager. Feature clone of RTFM with two-pane view, preview, and image display.",
+  "url": "https://github.com/isene/pointer",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "prism",
+  "description": "TUI RGB color picker. Two slots, R/G/B + H/S/V sliders, hex input, live sample text, WCAG contrast. Member of the Fe2O3 suite.",
+  "url": "https://github.com/isene/prism",
+  "topics": [
+   "color-picker",
+   "fe2o3",
+   "rust",
+   "terminal",
+   "tui",
+   "desktop"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "rcalc",
+  "description": "RPN calculator for the command line.",
+  "url": "https://github.com/isene/rcalc",
+  "topics": [
+   "hp-41"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "rcurses",
+  "description": "An alternative curses library written in pure Ruby",
+  "url": "https://github.com/isene/rcurses",
+  "topics": [
+   "library",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "rcurses",
+    "https://rubygems.org/gems/rcurses"
+   ]
+  ]
+ },
+ {
+  "name": "roam",
+  "description": "Wi-Fi and VPN in the terminal, straight to NetworkManager, and nothing running while you are not looking",
+  "url": "https://github.com/isene/roam",
+  "topics": [
+   "desktop",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "rpnx",
+  "description": "Terminal RPN / XRPN scientific calculator: HP-41 stack, cycling shift pages, runs XRPN programs. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/rpnx",
+  "topics": [
+   "fe2o3",
+   "hp-41"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "rpnx-core",
+  "description": "RPN / XRPN calculator engine (HP-41 stack, command set, FOCAL runner) shared by the rpnx TUI and the RPNx phone app. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/rpnx-core",
+  "topics": [
+   "fe2o3",
+   "hp-41",
+   "library"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "rsh",
+  "description": "Ruby SHell",
+  "url": "https://github.com/isene/rsh",
+  "topics": [
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "ruby-shell",
+    "https://rubygems.org/gems/ruby-shell"
+   ]
+  ]
+ },
+ {
+  "name": "RTFM",
+  "description": "Ruby Terminal File Manager",
+  "url": "https://github.com/isene/RTFM",
+  "topics": [
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "rtfm-filemanager",
+    "https://rubygems.org/gems/rtfm-filemanager"
+   ]
+  ]
+ },
+ {
+  "name": "Ruby-Curses-Class-Extension",
+  "description": "Extending the Ruby Curses module with some obvious functionality",
+  "url": "https://github.com/isene/Ruby-Curses-Class-Extension",
+  "topics": [
+   "library",
+   "ruby"
+  ],
+  "release": false,
+  "packages": [
+   [
+    "gem",
+    "curses-extension",
+    "https://rubygems.org/gems/curses-extension"
+   ]
+  ]
+ },
+ {
+  "name": "rush",
+  "description": "Fast terminal shell written in Rust. Feature clone of rsh with 26ms startup, syntax highlighting, tab completion, nick aliases, and bookmarks.",
+  "url": "https://github.com/isene/rush",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "scope",
+  "description": "Rust terminal tool for amateur astronomers: telescope + eyepiece properties and combinations. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/scope",
+  "topics": [],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "scribe",
+  "description": "Modal text editor for writers — vim-like core, single binary. Part of the Fe2O3 Rust terminal suite.",
+  "url": "https://github.com/isene/scribe",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "scroll",
+  "description": "Rust terminal web browser. Feature clone of brrowser with vim keys, images, tabs, and forms.",
+  "url": "https://github.com/isene/scroll",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "show",
+  "description": "Pure assembly file viewer with syntax highlighting. Part of CHasm.",
+  "url": "https://github.com/isene/show",
+  "topics": [
+   "chasm"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "simpler",
+  "description": "A programming language whose only goal is to be simple.",
+  "url": "https://github.com/isene/simpler",
+  "topics": [
+   "compiler",
+   "language-design",
+   "programming-language",
+   "rust",
+   "transpiler",
+   "unlicense",
+   "languages"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "SimplicityOS",
+  "description": "The Simple OS - based on the Forth programming language",
+  "url": "https://github.com/isene/SimplicityOS",
+  "topics": [
+   "languages"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "speak2pc",
+  "description": "Control your PC with your phone by voice",
+  "url": "https://github.com/isene/speak2pc",
+  "topics": [
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "spot",
+  "description": "Presenter spotlight overlay for Linux — pure x86_64 assembly, ~14 KB. Click-through, screen-share-safe, follows the pointer via SHAPE.",
+  "url": "https://github.com/isene/spot",
+  "topics": [
+   "chasm",
+   "desktop"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "starmap",
+  "description": "The naked-eye sky in braille: 9,096 stars with distances, constellation figures, two projections, and an interactive star picker (Fe2O3 suite)",
+  "url": "https://github.com/isene/starmap",
+  "topics": [
+   "astronomy",
+   "fe2o3"
+  ],
+  "release": false,
+  "packages": [
+   [
+    "crate",
+    "fe2o3-starmap",
+    "https://crates.io/crates/fe2o3-starmap"
+   ]
+  ]
+ },
+ {
+  "name": "stars",
+  "description": "Hertzsprung-Russell diagram explorer for the terminal - part of the Fe2O3 suite",
+  "url": "https://github.com/isene/stars",
+  "topics": [
+   "astronomy",
+   "fe2o3",
+   "science"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "stripconf",
+  "description": "TUI configuration tool for the strip status bar",
+  "url": "https://github.com/isene/stripconf",
+  "topics": [
+   "chasm"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "subst",
+  "description": "Renames files matched by regexp",
+  "url": "https://github.com/isene/subst",
+  "topics": [
+   "ruby"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "T-REX",
+  "description": "T-REX - Terminal Rpn calculator EXperiment",
+  "url": "https://github.com/isene/T-REX",
+  "topics": [
+   "hp-41",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "t-rex",
+    "https://rubygems.org/gems/t-rex"
+   ]
+  ]
+ },
+ {
+  "name": "tasks",
+  "description": "Sideload-only Android app for editing a hyperlist todo.hl synced from your laptop. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/tasks",
+  "topics": [
+   "android",
+   "hyperlist"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "telescope",
+  "description": "A terminal/curses program to aid amateur astronomers (telescopes and eyepiece calculations)",
+  "url": "https://github.com/isene/telescope",
+  "topics": [
+   "astronomy",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "telescope-term",
+    "https://rubygems.org/gems/telescope-term"
+   ]
+  ]
+ },
+ {
+  "name": "termchart",
+  "description": "Sparklines, line, candlestick and bar charts in the terminal. Pure Ruby.",
+  "url": "https://github.com/isene/termchart",
+  "topics": [
+   "library",
+   "ruby"
+  ],
+  "release": false,
+  "packages": [
+   [
+    "gem",
+    "termchart",
+    "https://rubygems.org/gems/termchart"
+   ]
+  ]
+ },
+ {
+  "name": "termpix",
+  "description": "Show images in the terminal with the best protocol it has.",
+  "url": "https://github.com/isene/termpix",
+  "topics": [
+   "library",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "termpix",
+    "https://rubygems.org/gems/termpix"
+   ]
+  ]
+ },
+ {
+  "name": "tile",
+  "description": "Pure-asm tiling window manager (CHasm suite). x86_64 Linux, no libc, X11 wire protocol, single static binary.",
+  "url": "https://github.com/isene/tile",
+  "topics": [
+   "chasm"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "tileconf",
+  "description": "TUI configuration tool for the tile window manager",
+  "url": "https://github.com/isene/tileconf",
+  "topics": [
+   "chasm"
+  ],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "timely",
+  "description": "Terminal calendar app - companion to Heathrow",
+  "url": "https://github.com/isene/timely",
+  "topics": [
+   "ruby"
+  ],
+  "release": false,
+  "packages": [
+   [
+    "gem",
+    "timely-calendar",
+    "https://rubygems.org/gems/timely-calendar"
+   ]
+  ]
+ },
+ {
+  "name": "tock",
+  "description": "Rust terminal calendar app. Feature clone of Timely with day/week/month views.",
+  "url": "https://github.com/isene/tock",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "torii",
+  "description": "Captive-portal listener for NetworkManager. Replaces Firefox's removed login-page banner. Member of the Fe2O3 Rust terminal suite.",
+  "url": "https://github.com/isene/torii",
+  "topics": [
+   "captive-portal",
+   "dbus",
+   "linux",
+   "networkmanager",
+   "rust",
+   "fe2o3",
+   "desktop"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "tune",
+  "description": "Spotify Connect controller TUI. Part of the Fe2O3 Rust terminal suite.",
+  "url": "https://github.com/isene/tune",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "txt2pdf",
+  "description": "Converts plain text (file or from STDIN) to pdf via pdflatex",
+  "url": "https://github.com/isene/txt2pdf",
+  "topics": [
+   "ruby"
+  ],
+  "release": false,
+  "packages": [
+   [
+    "gem",
+    "txt2pdf",
+    "https://rubygems.org/gems/txt2pdf"
+   ]
+  ]
+ },
+ {
+  "name": "typo",
+  "description": "Terminal touch-typing tutor. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/typo",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "universe",
+  "description": "Every scale of the universe, from the quantum foam to the cosmic web, in your terminal",
+  "url": "https://github.com/isene/universe",
+  "topics": [
+   "fe2o3",
+   "science"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "VcalView",
+  "description": "VCAL viewer for MUTT",
+  "url": "https://github.com/isene/VcalView",
+  "topics": [
+   "messaging",
+   "ruby"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "viewer",
+  "description": "Universal TUI file viewer — read-only preview of any office/text/data file, launches the right editor. Config-driven, expandable. Part of the Fe2O3 Rust terminal suite.",
+  "url": "https://github.com/isene/viewer",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "watchit",
+  "description": "Rust terminal browser for IMDb Top 250 movies and series. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/watchit",
+  "topics": [
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ },
+ {
+  "name": "watt",
+  "description": "Watt — The Lean Desktop Project: meta-landing page above CHasm (asm) and Fe2O3 (Rust).",
+  "url": "https://github.com/isene/watt",
+  "topics": [],
+  "release": false,
+  "packages": []
+ },
+ {
+  "name": "xrpn",
+  "description": "The eXtended RPN programming language",
+  "url": "https://github.com/isene/xrpn",
+  "topics": [
+   "hp-41",
+   "languages",
+   "ruby"
+  ],
+  "release": true,
+  "packages": [
+   [
+    "gem",
+    "xrpn",
+    "https://rubygems.org/gems/xrpn"
+   ]
+  ]
+ },
+ {
+  "name": "yank",
+  "description": "Clipboard history that pastes back where you were (Fe2O3 suite)",
+  "url": "https://github.com/isene/yank",
+  "topics": [
+   "desktop",
+   "fe2o3"
+  ],
+  "release": true,
+  "packages": []
+ }
+]
