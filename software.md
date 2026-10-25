@@ -8,7 +8,7 @@ software:
   - {tag: fe2o3, name: Fe2O3, color: "#b5521f", link: "https://isene.org/fe2o3/", about: "Fast terminal tools in Rust, one file each."}
   - {tag: ruby, name: Ruby, color: "#cc342d", about: "The Ruby tools and gems, built by hand before 2025. Many live on in Fe2O3."}
   - {tag: hp-41, name: HP-41, color: "#b8962e", link: "/hp-41/", about: "Programs, ROMs and tools for the HP-41 calculator, and RPN calculators like it."}
-  - {tag: android, name: Android, color: "#3ddc84", link: "https://isene.org/nomad/", about: "Apps for the phone."}
+  - {tag: nomad, name: nomad, color: "#3ddc84", link: "https://isene.org/nomad/", about: "Android apps for the phone. Most of them pair with an Fe2O3 tool."}
   - {tag: amar, name: Amar, color: "#b0478f", link: "https://d6gaming.org", about: "The Amar role-playing game and its tools."}
   - {tag: hyperlist, name: HyperList, color: "#2f9fd8", link: "/hyperlist/", about: "HyperList editors, viewers and converters."}
   - {tag: claude-code, name: Claude Code, color: "#d97757", about: "Tools that make Claude Code smoother."}
@@ -17,7 +17,7 @@ software:
   - {tag: astronomy, name: Astronomy, link: "/astronomy/", about: "Sky, telescopes, the Moon, stars and exoplanets."}
   - {tag: science, name: Science, about: "Chemistry, physics and maths to play with."}
   - {tag: messaging, name: Messaging, about: "Mail, chat and feeds."}
-  - {tag: games, name: Games, link: "/games/", about: "Games to play."}
+  - {tag: games, name: Games, color: "#14a3a3", link: "/games/", about: "Games to play."}
   - {tag: ai, name: AI, about: "Tools with an AI model inside."}
   - {tag: library, name: Libraries, about: "Building blocks for other programmers."}
   - {tag: vim, name: Vim, about: "Vim plugins."}

@@ -426,8 +426,13 @@ def redirect(old, new):
 """, encoding="utf-8")
 
 
+# Landing pages with a card per program inside one repo, and the tags those programs get.
+SUBPROGRAMS = [("https://isene.org/funkey/", ["games"]), ("https://isene.org/nomad/", ["nomad"])]
+
+
 def refresh_projects():
-    """Rewrite _projects.json from GitHub, with each project's gems and crates."""
+    """Rewrite _projects.json from GitHub, with each project's gems and crates,
+    and the games and apps from the landing pages in SUBPROGRAMS."""
     import subprocess
     import urllib.request
     repos = json.loads(subprocess.run(
@@ -435,10 +440,13 @@ def refresh_projects():
          "--json", "name,description,url,repositoryTopics,latestRelease"],
         capture_output=True, text=True, check=True).stdout)
 
-    def get(url):
+    def fetch(url):
         req = urllib.request.Request(url, headers={"User-Agent": "isene.org build (https://isene.org)"})
         with urllib.request.urlopen(req, timeout=30) as r:
-            return json.load(r)
+            return r.read().decode()
+
+    def get(url):
+        return json.loads(fetch(url))
 
     def repo_of(url):
         m = re.search(r"github\.com/isene/([\w.-]+)", url or "", re.I)
@@ -453,8 +461,23 @@ def refresh_projects():
             ["crate", c["name"], f"https://crates.io/crates/{c['name']}"])
     out = [{"name": r["name"], "description": r["description"], "url": r["url"],
             "topics": [t["name"] for t in r["repositoryTopics"] or []],
-            "release": bool(r["latestRelease"]), "packages": packages.get(r["name"].lower(), [])}
+            "download": r["latestRelease"] and r["url"] + "/releases/latest",
+            "packages": packages.get(r["name"].lower(), [])}
            for r in sorted(repos, key=lambda r: r["name"].lower())]
+    for page_url, topics in SUBPROGRAMS:
+        for card in fetch(page_url).split('<div class="card"')[1:]:
+            link = re.search(r'class="card-link" href="(https://github\.com/isene/([^/"]+)[^"]*)">([^<]+)<', card)
+            if not link:
+                continue
+            kind = re.search(r'class="card-kind">([^<]*)<', card)
+            desc = re.search(r'class="card-desc">(.*?)</p>', card, re.S)
+            first = re.split(r"(?<=[.!?])\s", " ".join(plain(desc[1]).split()))[0] if desc else ""
+            version = re.search(r'class="card-version">([^<]+)<', card)
+            get_link = re.search(r'class="get" href="([^"]+)"', card)
+            download = (get_link[1] if get_link else
+                        version and f"https://github.com/isene/{link[2]}/releases/tag/{version[1]}")
+            out.append({"name": link[3], "description": " ".join(x for x in (kind and kind[1] + ".", first) if x),
+                        "url": link[1], "topics": topics, "download": download, "packages": []})
     (ROOT / "_projects.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n")
     print(f"{len(out)} projects -> _projects.json")
 
@@ -496,8 +519,8 @@ def software(tags, projects):
         mine = sorted((t for t in p["topics"] if t in order), key=order.get)
         colour = next((by[t]["color"] for t in mine if by[t].get("color")), "var(--rule)")
         links = [f'<a href="{attr(p["url"])}">Code</a>']
-        if p["release"]:
-            links.append(f'<a href="{attr(p["url"])}/releases/latest">Download</a>')
+        if p["download"]:
+            links.append(f'<a href="{attr(p["download"])}">Download</a>')
         links += [f'<a href="{attr(url)}">{kind}: {esc(name)}</a>' for kind, name, url in p["packages"]]
         out.append(f"""<div class="sw-card" data-tags="{attr(" ".join(mine))}" style="--c:{attr(colour)}">
   <h4><a href="{attr(p["url"])}">{esc(p["name"])}</a></h4>
