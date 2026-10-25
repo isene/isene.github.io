@@ -28,7 +28,7 @@ Over half an hour of mushroom is slow listening. I sped it up six and a half tim
 
 ## The song
 
-Then I gave those six minutes to [Suno](https://suno.com) and had it turn them into a song with something aking to a slow progressive psytrance theme.
+Then I gave those six minutes to [Suno](https://suno.com) and had it turn them into a song with something akin to a slow progressive psytrance theme.
 
 <p><audio src="/assets/music/mushroom-song.mp3" controls preload="metadata" style="width:100%"></audio></p>
 
