@@ -527,6 +527,18 @@
   ]
  },
  {
+  "name": "gluon",
+  "description": "Mail, calendar, tasks and Claude in one terminal app: kastrup, tock and deck as tabs (Fe2O3 suite)",
+  "url": "https://github.com/isene/gluon",
+  "topics": [
+   "ai",
+   "fe2o3",
+   "messaging"
+  ],
+  "download": null,
+  "packages": []
+ },
+ {
   "name": "glyph",
   "description": "Pure assembly TrueType font rasterizer. x86_64 Linux, no libc. Handles composite glyphs, UTF-8, OpenType variable fonts. Part of CHasm.",
   "url": "https://github.com/isene/glyph",
