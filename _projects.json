@@ -267,6 +267,18 @@
   ]
  },
  {
+  "name": "deck",
+  "description": "A paned front for Claude Code in the terminal: answers, a tool log and a status line (Fe2O3 suite)",
+  "url": "https://github.com/isene/deck",
+  "topics": [
+   "ai",
+   "claude-code",
+   "fe2o3"
+  ],
+  "download": null,
+  "packages": []
+ },
+ {
   "name": "dm41xm",
   "description": "The program extracts an ASCII XM file from a DM41X state file.",
   "url": "https://github.com/isene/dm41xm",
