@@ -499,12 +499,24 @@ SOFTWARE_JS = """<script>
 </script>"""
 
 
+# Repos with no card: the landing pages, the site itself, archived apps,
+# writing, and other people's software kept here.
+NO_CARD = {
+    "chasm", "fe2o3", "watt", "isene.github.io", "hyper", "nova", "scope", "tasks",
+    "NetHack-Android", "cheats", "conky", "on_will",
+}
+
+
 def software(tags, projects):
     """A card for every project with one of the tags; ?tag=chasm shows one tag only."""
     order = {t["tag"]: i for i, t in enumerate(tags)}
     by = {t["tag"]: t for t in tags}
     cards = sorted((p for p in projects if set(p["topics"]) & order.keys()),
                    key=lambda p: (min(order[t] for t in p["topics"] if t in order), p["name"].lower()))
+    # A project with none of the tags as a GitHub topic shows nowhere, so say which.
+    left = sorted(p["name"] for p in projects if not set(p["topics"]) & order.keys() and p["name"] not in NO_CARD)
+    if left:
+        print(f"software: {len(left)} in no section, give each a GitHub topic: {' '.join(left)}")
     out = [f'<nav class="sw-filter">\n<button data-tag="">All <span>{len(cards)}</span></button>']
     about = [f'<div class="sw-about">\n<p data-for="">{len(cards)} programs. Pick a tag to see only those.</p>']
     for t in tags:
