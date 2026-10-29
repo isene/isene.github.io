@@ -2194,13 +2194,13 @@
   "packages": []
  },
  {
-  "name": "tasks",
-  "description": "HyperList todo. Editor + Glance home-screen widget for the same ~/.tasks/todo.hl hyperlist that scribe edits and kastrup's z triage appends to.",
-  "url": "https://github.com/isene/nomad/tree/master/apps/tasks",
+  "name": "gluon",
+  "description": "Mail, calendar and tasks. One app with four tabs: Home shows the unread mail, the coming week and the tasks on one screen; Mail searches all of Gmail; three home-screen widgets.",
+  "url": "https://github.com/isene/nomad/tree/master/apps/gluon",
   "topics": [
    "nomad"
   ],
-  "download": "https://github.com/isene/nomad/releases/download/apk/tasks.apk",
+  "download": "https://github.com/isene/nomad/releases/download/apk/gluon.apk",
   "packages": []
  },
  {
@@ -2351,26 +2351,6 @@
    "nomad"
   ],
   "download": "https://github.com/isene/nomad/releases/download/apk/onepage.apk",
-  "packages": []
- },
- {
-  "name": "kastrup",
-  "description": "Mail reader. Your Gmail inboxes on the phone, decoded by the same crate kastrup uses.",
-  "url": "https://github.com/isene/nomad/tree/master/apps/mail",
-  "topics": [
-   "nomad"
-  ],
-  "download": "https://github.com/isene/nomad/releases/download/apk/mail.apk",
-  "packages": []
- },
- {
-  "name": "tock",
-  "description": "Calendar. The calendars your phone already keeps in sync, as a month with dots for each day's events and an agenda below it.",
-  "url": "https://github.com/isene/nomad/tree/master/apps/tock",
-  "topics": [
-   "nomad"
-  ],
-  "download": "https://github.com/isene/nomad/releases/download/apk/tock.apk",
   "packages": []
  },
  {
