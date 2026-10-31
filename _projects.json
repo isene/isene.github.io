@@ -436,6 +436,17 @@
   "packages": []
  },
  {
+  "name": "fx",
+  "description": "The views and effects of the desktop, each with a tick box (Fe2O3 suite)",
+  "url": "https://github.com/isene/fx",
+  "topics": [
+   "desktop",
+   "fe2o3"
+  ],
+  "download": null,
+  "packages": []
+ },
+ {
   "name": "gambit",
   "description": "Chess against a language model, in the terminal. Part of the Fe2O3 Rust terminal suite.",
   "url": "https://github.com/isene/gambit",
