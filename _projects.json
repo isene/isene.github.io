@@ -233,6 +233,20 @@
   "try": null
  },
  {
+  "name": "computer",
+  "description": "Hold a key, speak, and Claude does it on your desktop",
+  "url": "https://github.com/isene/computer",
+  "topics": [
+   "ai",
+   "desktop",
+   "fe2o3",
+   "voice"
+  ],
+  "download": "https://github.com/isene/computer/releases/latest",
+  "packages": [],
+  "try": null
+ },
+ {
   "name": "conky",
   "description": "",
   "url": "https://github.com/isene/conky",
