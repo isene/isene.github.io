@@ -31,7 +31,7 @@ Free software, all of it public domain. Built by hand from 1978 till 2025. Most 
 Everything. Concise and precise. A way to describe anything, from a todo list to a whole process, in a plain text tree. [Read about HyperList](/hyperlist).
 
 ### GitHub
-Some 160 repositories at [github.com/isene](https://github.com/isene). Every program among them is in the list below.
+Some 170 public repositories at [github.com/isene](https://github.com/isene). Every program among them is in the list below.
 
 The public ones as a galaxy, a star for each. Click in, then the arrows move between stars.
 
