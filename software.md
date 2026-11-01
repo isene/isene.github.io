@@ -33,6 +33,10 @@ Everything. Concise and precise. A way to describe anything, from a todo list to
 ### GitHub
 Some 160 repositories at [github.com/isene](https://github.com/isene). Every program among them is in the list below.
 
+The public ones as a galaxy, a star for each. Click in, then the arrows move between stars.
+
+<iframe class="galaxy" src="https://isene.org/fe2o3/try/app.html?a=galaxy&amp;embed" title="My public repos as a spiral galaxy" loading="lazy"></iframe>
+
 ### HP-41
 For years I collected and programmed the HP-41, the ultimate calculator. I sold the collection in 2026. The programs, ROM modules and MCODE stay on [the HP-41 page](/hp-41) for anyone who still runs one.
 
