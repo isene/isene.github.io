@@ -459,10 +459,14 @@ def refresh_projects():
     for c in get("https://crates.io/api/v1/crates?user_id=425598&per_page=100")["crates"]:
         packages.setdefault(repo_of(c.get("repository")), []).append(
             ["crate", c["name"], f"https://crates.io/crates/{c['name']}"])
+    # The apps and games that also run in the browser, by repo.
+    tries = {repo.lower(): "https://isene.org/fe2o3/try/" + href for href, repo in re.findall(
+        r'class="try" href="([^"]+)">Try</a><a href="https://github\.com/isene/([^"/]+)"',
+        fetch("https://isene.org/fe2o3/try/"))}
     out = [{"name": r["name"], "description": r["description"], "url": r["url"],
             "topics": [t["name"] for t in r["repositoryTopics"] or []],
             "download": r["latestRelease"] and r["url"] + "/releases/latest",
-            "packages": packages.get(r["name"].lower(), [])}
+            "packages": packages.get(r["name"].lower(), []), "try": tries.get(r["name"].lower())}
            for r in sorted(repos, key=lambda r: r["name"].lower())]
     for page_url, topics in SUBPROGRAMS:
         for card in fetch(page_url).split('<div class="card"')[1:]:
@@ -531,6 +535,8 @@ def software(tags, projects):
         mine = sorted((t for t in p["topics"] if t in order), key=order.get)
         colour = next((by[t]["color"] for t in mine if by[t].get("color")), "var(--rule)")
         links = [f'<a href="{attr(p["url"])}">Code</a>']
+        if p.get("try"):
+            links.append(f'<a href="{attr(p["try"])}">Try</a>')
         if p["download"]:
             links.append(f'<a href="{attr(p["download"])}">Download</a>')
         links += [f'<a href="{attr(url)}">{kind}: {esc(name)}</a>' for kind, name, url in p["packages"]]

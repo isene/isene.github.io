@@ -8,7 +8,8 @@
    "science"
   ],
   "download": "https://github.com/isene/alchemy/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=alchemy"
  },
  {
   "name": "amar",
@@ -19,7 +20,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/amar/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "amar-site",
@@ -29,7 +31,8 @@
    "amar"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "Amar-Tools",
@@ -51,7 +54,8 @@
     "amar-rpg",
     "https://rubygems.org/gems/amar-rpg"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "astro",
@@ -62,7 +66,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/astro/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "astropanel",
@@ -79,7 +84,8 @@
     "astropanel",
     "https://rubygems.org/gems/astropanel"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "bare",
@@ -89,7 +95,8 @@
    "chasm"
   ],
   "download": "https://github.com/isene/bare/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "bareconf",
@@ -99,7 +106,8 @@
    "chasm"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "beam",
@@ -110,7 +118,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/beam/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "bolt",
@@ -121,7 +130,8 @@
    "desktop"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "brrowser",
@@ -138,7 +148,8 @@
     "brrowser",
     "https://rubygems.org/gems/brrowser"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "CC-sessions",
@@ -155,7 +166,8 @@
     "cc-sessions",
     "https://rubygems.org/gems/cc-sessions"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "cc-smooth",
@@ -165,7 +177,8 @@
    "claude-code"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "chasm",
@@ -173,7 +186,8 @@
   "url": "https://github.com/isene/chasm",
   "topics": [],
   "download": "https://github.com/isene/chasm/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "chasm-bits",
@@ -183,7 +197,8 @@
    "chasm"
   ],
   "download": "https://github.com/isene/chasm-bits/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "cheats",
@@ -191,7 +206,8 @@
   "url": "https://github.com/isene/cheats",
   "topics": [],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "circuit",
@@ -202,7 +218,8 @@
    "science"
   ],
   "download": "https://github.com/isene/circuit/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=circuit"
  },
  {
   "name": "ClaudeCode",
@@ -212,7 +229,8 @@
    "claude-code"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "conky",
@@ -220,7 +238,8 @@
   "url": "https://github.com/isene/conky",
   "topics": [],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "crush",
@@ -230,7 +249,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/crush/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "crust",
@@ -247,7 +267,8 @@
     "fe2o3-crust",
     "https://crates.io/crates/fe2o3-crust"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "datepick",
@@ -264,7 +285,8 @@
     "datepick",
     "https://rubygems.org/gems/datepick"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "deck",
@@ -275,8 +297,9 @@
    "claude-code",
    "fe2o3"
   ],
-  "download": null,
-  "packages": []
+  "download": "https://github.com/isene/deck/releases/latest",
+  "packages": [],
+  "try": null
  },
  {
   "name": "dm41xm",
@@ -287,7 +310,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "drain",
@@ -298,7 +322,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/drain/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "elements",
@@ -309,7 +334,8 @@
    "science"
   ],
   "download": "https://github.com/isene/elements/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=elements"
  },
  {
   "name": "ephemeris",
@@ -327,7 +353,8 @@
     "ruby-ephemeris",
     "https://rubygems.org/gems/ruby-ephemeris"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "exoplanets",
@@ -338,7 +365,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/exoplanets/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=exoplanets"
  },
  {
   "name": "fe2o3",
@@ -346,7 +374,8 @@
   "url": "https://github.com/isene/fe2o3",
   "topics": [],
   "download": "https://github.com/isene/fe2o3/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "feed",
@@ -358,7 +387,8 @@
    "messaging"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "ferrite",
@@ -369,7 +399,8 @@
    "library"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "fleet",
@@ -380,7 +411,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/fleet/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "folio",
@@ -390,7 +422,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/folio/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "fonts",
@@ -401,7 +434,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/fonts/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "fractal",
@@ -412,7 +446,8 @@
    "science"
   ],
   "download": "https://github.com/isene/fractal/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=fractal"
  },
  {
   "name": "frame",
@@ -422,7 +457,8 @@
    "chasm"
   ],
   "download": "https://github.com/isene/frame/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "funkey",
@@ -433,7 +469,8 @@
    "games"
   ],
   "download": "https://github.com/isene/funkey/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/funkeys/"
  },
  {
   "name": "fx",
@@ -443,8 +480,9 @@
    "desktop",
    "fe2o3"
   ],
-  "download": null,
-  "packages": []
+  "download": "https://github.com/isene/fx/releases/latest",
+  "packages": [],
+  "try": null
  },
  {
   "name": "galaxy",
@@ -455,8 +493,9 @@
    "git",
    "visualization"
   ],
-  "download": null,
-  "packages": []
+  "download": "https://github.com/isene/galaxy/releases/latest",
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=galaxy"
  },
  {
   "name": "gambit",
@@ -468,7 +507,8 @@
    "games"
   ],
   "download": "https://github.com/isene/gambit/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "gaze",
@@ -479,7 +519,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/gaze/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "gazette",
@@ -490,7 +531,8 @@
    "messaging"
   ],
   "download": "https://github.com/isene/gazette/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "GiTerm",
@@ -506,7 +548,8 @@
     "giterm",
     "https://rubygems.org/gems/giterm"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "gitmagic",
@@ -522,7 +565,8 @@
     "gitmagical",
     "https://rubygems.org/gems/gitmagical"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "glass",
@@ -532,7 +576,8 @@
    "chasm"
   ],
   "download": "https://github.com/isene/glass/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "glassconf",
@@ -542,7 +587,8 @@
    "chasm"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "glow",
@@ -559,7 +605,8 @@
     "fe2o3-glow",
     "https://crates.io/crates/fe2o3-glow"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "gluon",
@@ -570,8 +617,9 @@
    "fe2o3",
    "messaging"
   ],
-  "download": null,
-  "packages": []
+  "download": "https://github.com/isene/gluon/releases/latest",
+  "packages": [],
+  "try": null
  },
  {
   "name": "glyph",
@@ -581,7 +629,8 @@
    "chasm"
   ],
   "download": "https://github.com/isene/glyph/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "gmailfetch",
@@ -592,7 +641,8 @@
    "ruby"
   ],
   "download": "https://github.com/isene/gmailfetch/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "grid",
@@ -603,7 +653,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/grid/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "heathrow",
@@ -620,7 +671,8 @@
     "heathrow",
     "https://rubygems.org/gems/heathrow"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "herald",
@@ -631,7 +683,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/herald/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "highlight",
@@ -648,7 +701,8 @@
     "fe2o3-highlight",
     "https://crates.io/crates/fe2o3-highlight"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "hl",
@@ -659,7 +713,8 @@
    "hyperlist"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hl2web",
@@ -670,7 +725,8 @@
    "hyperlist"
   ],
   "download": "https://github.com/isene/hl2web/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-25_vim",
@@ -681,7 +737,8 @@
    "vim"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-25E_astro",
@@ -692,7 +749,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "HP-29E_JulianDate",
@@ -702,7 +760,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_amar",
@@ -713,7 +772,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_AMASTRO.ROM",
@@ -724,7 +784,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_astack",
@@ -734,7 +795,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_astro",
@@ -745,7 +807,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_boat",
@@ -755,7 +818,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_CL",
@@ -765,7 +829,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_colorluminosity",
@@ -776,7 +841,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_crypt",
@@ -786,7 +852,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_data_stat",
@@ -796,7 +863,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_DSTAT.ROM",
@@ -806,7 +874,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_dwd",
@@ -816,7 +885,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_eval",
@@ -826,7 +896,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_fileman",
@@ -836,7 +907,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_GEIR.ROM",
@@ -846,7 +918,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_hours",
@@ -856,7 +929,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "HP-41_HOURS.rb",
@@ -867,7 +941,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_icebox",
@@ -877,7 +952,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_isene-rom",
@@ -887,7 +963,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_libs_xm_hepax",
@@ -897,7 +974,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_lif_ascii_rw",
@@ -908,7 +986,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_LittlesLaw",
@@ -918,7 +997,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_luhn",
@@ -928,7 +1008,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_maidenhead",
@@ -938,7 +1019,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_mcode-tools",
@@ -949,7 +1031,8 @@
    "vim"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_notes",
@@ -959,7 +1042,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "HP-41_NOVCHAP.ROM",
@@ -969,7 +1053,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_observe",
@@ -981,7 +1066,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_obsrv",
@@ -992,7 +1078,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_outsrc",
@@ -1002,7 +1089,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_period",
@@ -1012,7 +1100,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_rem",
@@ -1022,7 +1111,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_scope",
@@ -1033,7 +1123,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_sla",
@@ -1043,7 +1134,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_solve",
@@ -1053,7 +1145,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_SpreadSheet",
@@ -1063,7 +1156,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_subn",
@@ -1073,7 +1167,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_SWORDS.ROM",
@@ -1084,7 +1179,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_uac",
@@ -1094,7 +1190,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_vim",
@@ -1105,7 +1202,8 @@
    "vim"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41_wlambert",
@@ -1115,7 +1213,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp-41cl_update",
@@ -1126,7 +1225,8 @@
    "ruby"
   ],
   "download": "https://github.com/isene/hp-41cl_update/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hp_41_clr",
@@ -1136,7 +1236,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "htmlconvert",
@@ -1146,7 +1247,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hush",
@@ -1157,7 +1259,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/hush/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hyper",
@@ -1165,7 +1268,8 @@
   "url": "https://github.com/isene/hyper",
   "topics": [],
   "download": "https://github.com/isene/hyper/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hypergraph",
@@ -1176,7 +1280,8 @@
    "ruby"
   ],
   "download": "https://github.com/isene/hypergraph/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "HyperList",
@@ -1193,7 +1298,8 @@
     "hyperlist",
     "https://rubygems.org/gems/hyperlist"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "hyperlist-display",
@@ -1205,7 +1311,8 @@
    "hyperlist"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "hyperlist.vim",
@@ -1216,7 +1323,8 @@
    "vim"
   ],
   "download": "https://github.com/isene/hyperlist.vim/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "imaptools",
@@ -1227,7 +1335,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "IMDB",
@@ -1243,7 +1352,8 @@
     "imdb-terminal",
     "https://rubygems.org/gems/imdb-terminal"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "isene.github.io",
@@ -1251,7 +1361,8 @@
   "url": "https://github.com/isene/isene.github.io",
   "topics": [],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "isotopes",
@@ -1262,7 +1373,8 @@
    "science"
   ],
   "download": "https://github.com/isene/isotopes/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=isotopes"
  },
  {
   "name": "kastrup",
@@ -1273,7 +1385,8 @@
    "messaging"
   ],
   "download": "https://github.com/isene/kastrup/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "launch",
@@ -1284,7 +1397,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/launch/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "library",
@@ -1301,7 +1415,8 @@
    "ai"
   ],
   "download": "https://github.com/isene/library/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "mail",
@@ -1319,7 +1434,8 @@
     "fe2o3-mail",
     "https://crates.io/crates/fe2o3-mail"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "mailfetch",
@@ -1330,7 +1446,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "melody",
@@ -1345,7 +1462,8 @@
    "tui"
   ],
   "download": "https://github.com/isene/melody/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "moon",
@@ -1356,7 +1474,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/moon/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=moon"
  },
  {
   "name": "NetHack-Android",
@@ -1364,7 +1483,8 @@
   "url": "https://github.com/isene/NetHack-Android",
   "topics": [],
   "download": "https://github.com/isene/NetHack-Android/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "nomad",
@@ -1375,7 +1495,8 @@
    "nomad"
   ],
   "download": "https://github.com/isene/nomad/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "nova",
@@ -1383,7 +1504,8 @@
   "url": "https://github.com/isene/nova",
   "topics": [],
   "download": "https://github.com/isene/nova/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "O6",
@@ -1393,7 +1515,8 @@
    "amar"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "on_will",
@@ -1401,7 +1524,8 @@
   "url": "https://github.com/isene/on_will",
   "topics": [],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "openai",
@@ -1418,7 +1542,8 @@
     "openai-term",
     "https://rubygems.org/gems/openai-term"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "orbit",
@@ -1436,7 +1561,8 @@
     "fe2o3-orbit",
     "https://crates.io/crates/fe2o3-orbit"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "particles",
@@ -1447,7 +1573,8 @@
    "science"
   ],
   "download": "https://github.com/isene/particles/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=particles"
  },
  {
   "name": "pc41",
@@ -1458,7 +1585,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "petri",
@@ -1474,7 +1602,8 @@
    "science"
   ],
   "download": "https://github.com/isene/petri/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "plot",
@@ -1491,7 +1620,8 @@
     "fe2o3-plot",
     "https://crates.io/crates/fe2o3-plot"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "pointer",
@@ -1501,7 +1631,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/pointer/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "prism",
@@ -1516,7 +1647,8 @@
    "desktop"
   ],
   "download": "https://github.com/isene/prism/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "rcalc",
@@ -1526,7 +1658,8 @@
    "hp-41"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "rcurses",
@@ -1543,7 +1676,8 @@
     "rcurses",
     "https://rubygems.org/gems/rcurses"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "roam",
@@ -1554,7 +1688,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/roam/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "rpnx",
@@ -1566,7 +1701,8 @@
    "science"
   ],
   "download": "https://github.com/isene/rpnx/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=rpnx"
  },
  {
   "name": "rpnx-core",
@@ -1578,7 +1714,8 @@
    "library"
   ],
   "download": "https://github.com/isene/rpnx-core/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "rsh",
@@ -1594,7 +1731,8 @@
     "ruby-shell",
     "https://rubygems.org/gems/ruby-shell"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "RTFM",
@@ -1610,7 +1748,8 @@
     "rtfm-filemanager",
     "https://rubygems.org/gems/rtfm-filemanager"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "Ruby-Curses-Class-Extension",
@@ -1627,7 +1766,8 @@
     "curses-extension",
     "https://rubygems.org/gems/curses-extension"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "rush",
@@ -1637,7 +1777,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/rush/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "scope",
@@ -1645,7 +1786,8 @@
   "url": "https://github.com/isene/scope",
   "topics": [],
   "download": "https://github.com/isene/scope/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "scribe",
@@ -1655,7 +1797,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/scribe/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "scroll",
@@ -1665,7 +1808,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/scroll/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "show",
@@ -1675,7 +1819,8 @@
    "chasm"
   ],
   "download": "https://github.com/isene/show/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "simpler",
@@ -1691,7 +1836,8 @@
    "languages"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "SimplicityOS",
@@ -1701,7 +1847,8 @@
    "languages"
   ],
   "download": "https://github.com/isene/SimplicityOS/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "speak2pc",
@@ -1711,7 +1858,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "spot",
@@ -1722,7 +1870,8 @@
    "desktop"
   ],
   "download": "https://github.com/isene/spot/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "starmap",
@@ -1739,7 +1888,8 @@
     "fe2o3-starmap",
     "https://crates.io/crates/fe2o3-starmap"
    ]
-  ]
+  ],
+  "try": "https://isene.org/fe2o3/try/app.html?a=sky"
  },
  {
   "name": "stars",
@@ -1751,7 +1901,8 @@
    "science"
   ],
   "download": "https://github.com/isene/stars/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=stars"
  },
  {
   "name": "stripconf",
@@ -1761,7 +1912,8 @@
    "chasm"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "subst",
@@ -1771,7 +1923,8 @@
    "ruby"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "T-REX",
@@ -1788,7 +1941,8 @@
     "t-rex",
     "https://rubygems.org/gems/t-rex"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "tasks",
@@ -1796,7 +1950,8 @@
   "url": "https://github.com/isene/tasks",
   "topics": [],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "telescope",
@@ -1813,7 +1968,8 @@
     "telescope-term",
     "https://rubygems.org/gems/telescope-term"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "termchart",
@@ -1830,7 +1986,8 @@
     "termchart",
     "https://rubygems.org/gems/termchart"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "termpix",
@@ -1847,7 +2004,8 @@
     "termpix",
     "https://rubygems.org/gems/termpix"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "tile",
@@ -1857,7 +2015,8 @@
    "chasm"
   ],
   "download": "https://github.com/isene/tile/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "tileconf",
@@ -1867,7 +2026,8 @@
    "chasm"
   ],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "timely",
@@ -1883,7 +2043,8 @@
     "timely-calendar",
     "https://rubygems.org/gems/timely-calendar"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "tock",
@@ -1893,7 +2054,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/tock/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "torii",
@@ -1909,7 +2071,8 @@
    "desktop"
   ],
   "download": "https://github.com/isene/torii/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "tune",
@@ -1919,7 +2082,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/tune/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "txt2pdf",
@@ -1935,7 +2099,8 @@
     "txt2pdf",
     "https://rubygems.org/gems/txt2pdf"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "typo",
@@ -1945,7 +2110,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/typo/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "universe",
@@ -1956,7 +2122,8 @@
    "science"
   ],
   "download": "https://github.com/isene/universe/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": "https://isene.org/fe2o3/try/app.html?a=universe"
  },
  {
   "name": "VcalView",
@@ -1967,7 +2134,8 @@
    "ruby"
   ],
   "download": "https://github.com/isene/VcalView/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "viewer",
@@ -1977,7 +2145,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/viewer/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "watchit",
@@ -1987,7 +2156,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/watchit/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "watt",
@@ -1995,7 +2165,8 @@
   "url": "https://github.com/isene/watt",
   "topics": [],
   "download": null,
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "xrpn",
@@ -2013,7 +2184,8 @@
     "xrpn",
     "https://rubygems.org/gems/xrpn"
    ]
-  ]
+  ],
+  "try": null
  },
  {
   "name": "yank",
@@ -2024,7 +2196,8 @@
    "fe2o3"
   ],
   "download": "https://github.com/isene/yank/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "wargame",
@@ -2218,7 +2391,7 @@
  },
  {
   "name": "gluon",
-  "description": "Mail, calendar and tasks. One app with four tabs: Home shows the unread mail, the coming week and the tasks on one screen; Mail searches all of Gmail; three home-screen widgets.",
+  "description": "Mail, calendar and tasks. One app with four tabs.",
   "url": "https://github.com/isene/nomad/tree/master/apps/gluon",
   "topics": [
    "nomad"
