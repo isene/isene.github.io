@@ -447,6 +447,18 @@
   "packages": []
  },
  {
+  "name": "galaxy",
+  "description": "Your repos as a spiral galaxy in the terminal: a star per repo, sized by its code, coloured by its language, flaring on a commit. Part of Fe2O3.",
+  "url": "https://github.com/isene/galaxy",
+  "topics": [
+   "fe2o3",
+   "git",
+   "visualization"
+  ],
+  "download": null,
+  "packages": []
+ },
+ {
   "name": "gambit",
   "description": "Chess against a language model, in the terminal. Part of the Fe2O3 Rust terminal suite.",
   "url": "https://github.com/isene/gambit",
