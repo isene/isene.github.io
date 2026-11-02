@@ -156,6 +156,7 @@
   "description": "Bookmark and resume Claude Code sessions with tags.",
   "url": "https://github.com/isene/CC-sessions",
   "topics": [
+   "ai",
    "claude-code",
    "fe2o3"
   ],
@@ -421,6 +422,7 @@
   "description": "Claude Code mission control: one screen for every session on the machine.",
   "url": "https://github.com/isene/fleet",
   "topics": [
+   "ai",
    "claude-code",
    "fe2o3"
   ],
