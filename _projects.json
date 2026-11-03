@@ -1435,6 +1435,18 @@
   "try": null
  },
  {
+  "name": "lookout",
+  "description": "Server checks as statuses and graphs, in the terminal. Part of the Fe2O3 suite.",
+  "url": "https://github.com/isene/lookout",
+  "topics": [
+   "desktop",
+   "fe2o3",
+   "monitoring"
+  ],
+  "download": "https://github.com/isene/lookout/releases/latest",
+  "packages": []
+ },
+ {
   "name": "mail",
   "description": "Email plumbing for the Fe2O3 suite: MIME decoding, HTML to text, and cross-device read state",
   "url": "https://github.com/isene/mail",
