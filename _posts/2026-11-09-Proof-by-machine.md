@@ -37,7 +37,7 @@ The three papers are coming soon to a PhilPapers near you.
 - [Lean](https://lean-lang.org): the proof assistant
 - [Gödel's proof in Lean](https://arxiv.org/abs/2609.26806): Benzmüller, 2026
 - [The first machine check](https://ebooks.iospress.nl/pdf/doi/10.3233/978-1-61499-419-0-93): Benzmüller and Woltzenlogel Paleo, 2014
-- [Claude Code](https://claude.com/claude-code): wrote the Lean files
+- [Claude Code](https://claude.com/claude-code): wrote the Lean files, verified by me
 - [TEG](https://isene.com/freewill): my work on Free Will
 
 ---
