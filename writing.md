@@ -19,7 +19,7 @@ Free PDFs:
 - [Processes, Automation and Human Potential](https://www.dropbox.com/s/ku3dl8rcoxfra2j/process.pdf?raw=1) - What should be automated and what should be left to people
 - [Hard Core to Soft Core](https://www.dropbox.com/s/ud3z96vp67ne1e3/core.pdf?raw=1) - Hard vs. soft values in an organization
 - [LiQUiD](https://www.dropbox.com/s/65zhvg58j96s8tv/liquid.pdf?raw=1) - Organizing human talent
-- [ITIL](https://www.dropbox.com/s/dw9c71whf1nz5lj/itil.pdf?raw=1) - Pragmatic and simple guide to IT Service Management
+- [ITIL](/assets/files/itil.pdf) - Pragmatic and simple guide to IT Service Management
 - [Risk in outsourcing IT](https://www.dropbox.com/s/1sgrbau2t9ub9i7/outsourcing.pdf?raw=1) - A mathematical foundation for break-even and risk analysis of outsourcing
 
 ### Scientology
