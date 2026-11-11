@@ -2154,6 +2154,18 @@
   "try": "https://isene.org/fe2o3/try/app.html?a=universe"
  },
  {
+  "name": "vault",
+  "description": "Every password in one encrypted file: a terminal program to find, copy and change them, shared with the gaze browser and its phone half",
+  "url": "https://github.com/isene/vault",
+  "topics": [
+   "desktop",
+   "fe2o3",
+   "security"
+  ],
+  "download": null,
+  "packages": []
+ },
+ {
   "name": "VcalView",
   "description": "VCAL viewer for MUTT",
   "url": "https://github.com/isene/VcalView",
