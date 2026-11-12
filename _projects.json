@@ -234,6 +234,16 @@
   "try": null
  },
  {
+  "name": "coaching",
+  "description": "The people you coach, in the terminal: a card, goals, a roadmap, a timeline of notes and the tock calendar for each",
+  "url": "https://github.com/isene/coaching",
+  "topics": [
+   "fe2o3"
+  ],
+  "download": null,
+  "packages": []
+ },
+ {
   "name": "computer",
   "description": "Hold a key, speak, and Claude does it on your desktop",
   "url": "https://github.com/isene/computer",
