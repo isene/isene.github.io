@@ -2471,7 +2471,7 @@
  },
  {
   "name": "astro",
-  "description": "Astronomy companion. Ephemeris, met.no weather + observing conditions, in-the-sky events, APOD, starchart, and a telescope/eyepiece gear catalog: the gear.json shared with desktop astro.",
+  "description": "Astronomy companion. Ephemeris, met.no weather + observing conditions, in-the-sky events, APOD, starchart, the Moon lit for the day with a named map, and a telescope/eyepiece gear catalog: the gear.json shared with desktop astro.",
   "url": "https://github.com/isene/nomad/tree/master/apps/astro",
   "topics": [
    "nomad"
@@ -2607,6 +2607,16 @@
    "nomad"
   ],
   "download": "https://github.com/isene/nomad/releases/download/apk/prism.apk",
+  "packages": []
+ },
+ {
+  "name": "science",
+  "description": "Six sciences in tabs. The periodic table, 3,386 isotopes, the Standard Model, 461 stars on the HR diagram, 6,309 exoplanets, and 37 steps from the quantum foam to the whole universe.",
+  "url": "https://github.com/isene/nomad/tree/master/apps/science",
+  "topics": [
+   "nomad"
+  ],
+  "download": "https://github.com/isene/nomad/releases/download/apk/science.apk",
   "packages": []
  },
  {
