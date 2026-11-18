@@ -156,9 +156,9 @@
   "description": "Bookmark and resume Claude Code sessions with tags.",
   "url": "https://github.com/isene/CC-sessions",
   "topics": [
-   "ai",
    "claude-code",
-   "fe2o3"
+   "fe2o3",
+   "ai"
   ],
   "download": "https://github.com/isene/CC-sessions/releases/latest",
   "packages": [
@@ -240,8 +240,9 @@
   "topics": [
    "fe2o3"
   ],
-  "download": null,
-  "packages": []
+  "download": "https://github.com/isene/coaching/releases/latest",
+  "packages": [],
+  "try": null
  },
  {
   "name": "computer",
@@ -432,9 +433,9 @@
   "description": "Claude Code mission control: one screen for every session on the machine.",
   "url": "https://github.com/isene/fleet",
   "topics": [
-   "ai",
    "claude-code",
-   "fe2o3"
+   "fe2o3",
+   "ai"
   ],
   "download": "https://github.com/isene/fleet/releases/latest",
   "packages": [],
@@ -1415,6 +1416,15 @@
   "try": null
  },
  {
+  "name": "lanes",
+  "description": "A kanban board for any team: columns, swimlanes, and cards that show only what matters. Public domain.",
+  "url": "https://github.com/isene/lanes",
+  "topics": [],
+  "download": null,
+  "packages": [],
+  "try": null
+ },
+ {
   "name": "launch",
   "description": "Your everyday helpers and every program on the PATH in one window, found as you type",
   "url": "https://github.com/isene/launch",
@@ -1454,7 +1464,8 @@
    "monitoring"
   ],
   "download": "https://github.com/isene/lookout/releases/latest",
-  "packages": []
+  "packages": [],
+  "try": null
  },
  {
   "name": "mail",
@@ -1808,6 +1819,15 @@
   "try": null
  },
  {
+  "name": "ruby-indi",
+  "description": "Ruby client for the INDI protocol, with a terminal app for telescopes and focusers. Public domain.",
+  "url": "https://github.com/isene/ruby-indi",
+  "topics": [],
+  "download": null,
+  "packages": [],
+  "try": null
+ },
+ {
   "name": "rush",
   "description": "Fast terminal shell written in Rust. Feature clone of rsh with 26ms startup, syntax highlighting, tab completion, nick aliases, and bookmarks.",
   "url": "https://github.com/isene/rush",
@@ -1862,7 +1882,7 @@
  },
  {
   "name": "simpler",
-  "description": "A programming language whose only goal is to be simple.",
+  "description": "The AI safe programming language. Its only goal is to be simple.",
   "url": "https://github.com/isene/simpler",
   "topics": [
    "compiler",
@@ -1885,6 +1905,15 @@
    "languages"
   ],
   "download": "https://github.com/isene/SimplicityOS/releases/latest",
+  "packages": [],
+  "try": null
+ },
+ {
+  "name": "spare",
+  "description": "A simple monthly budget on coloured cards: how much can I still spend this month?",
+  "url": "https://github.com/isene/spare",
+  "topics": [],
+  "download": null,
   "packages": [],
   "try": null
  },
@@ -1941,6 +1970,27 @@
   "download": "https://github.com/isene/stars/releases/latest",
   "packages": [],
   "try": "https://isene.org/fe2o3/try/app.html?a=stars"
+ },
+ {
+  "name": "still",
+  "description": "Test what a terminal program costs while it waits: CPU time, wake-ups, and whether it ends when its terminal is gone",
+  "url": "https://github.com/isene/still",
+  "topics": [
+   "battery",
+   "fe2o3",
+   "rust",
+   "testing",
+   "tui"
+  ],
+  "download": null,
+  "packages": [
+   [
+    "crate",
+    "fe2o3-still",
+    "https://crates.io/crates/fe2o3-still"
+   ]
+  ],
+  "try": null
  },
  {
   "name": "stripconf",
@@ -2172,8 +2222,9 @@
    "fe2o3",
    "security"
   ],
-  "download": null,
-  "packages": []
+  "download": "https://github.com/isene/vault/releases/latest",
+  "packages": [],
+  "try": null
  },
  {
   "name": "VcalView",
@@ -2248,6 +2299,26 @@
   "download": "https://github.com/isene/yank/releases/latest",
   "packages": [],
   "try": null
+ },
+ {
+  "name": "bigger",
+  "description": "A dot eats dots, then the picture pulls back. Eat the small, flee the big.",
+  "url": "https://github.com/isene/funkey/blob/master/examples/bigger.rs",
+  "topics": [
+   "games"
+  ],
+  "download": "https://github.com/isene/funkey/releases/tag/bigger-v1.1",
+  "packages": []
+ },
+ {
+  "name": "dust",
+  "description": "A cave where every pixel is a grain. A descent through caves drawn anew for every run.",
+  "url": "https://github.com/isene/funkey/blob/master/examples/dust.rs",
+  "topics": [
+   "games"
+  ],
+  "download": "https://github.com/isene/funkey/releases/tag/dust-v1.0",
+  "packages": []
  },
  {
   "name": "wargame",
@@ -2611,7 +2682,7 @@
  },
  {
   "name": "science",
-  "description": "Six sciences in tabs. The periodic table, 3,386 isotopes, the Standard Model, 461 stars on the HR diagram, 6,309 exoplanets, and 37 steps from the quantum foam to the whole universe.",
+  "description": "Six sciences in tabs. The periodic table, 3,386 isotopes coloured by how they decay, the Standard Model, 461 stars on the HR diagram, 6,309 exoplanets, and 37 steps from the quantum foam to the whole universe.",
   "url": "https://github.com/isene/nomad/tree/master/apps/science",
   "topics": [
    "nomad"
@@ -2627,6 +2698,16 @@
    "nomad"
   ],
   "download": "https://github.com/isene/nomad/releases/download/apk/fleet.apk",
+  "packages": []
+ },
+ {
+  "name": "vault",
+  "description": "Passwords. Every password from the laptop's encrypted file, shared over Syncthing.",
+  "url": "https://github.com/isene/nomad/tree/master/apps/vault",
+  "topics": [
+   "nomad"
+  ],
+  "download": "https://github.com/isene/nomad/releases/download/apk/vault.apk",
   "packages": []
  }
 ]
