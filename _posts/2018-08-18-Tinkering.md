@@ -4,6 +4,7 @@ comments: true
 title: Tinkering
 image: /assets/img/niklas_hedgehog.jpg
 tags: [Geekery, Amar RPG]
+thread: isene.org
 ---
 It's been a real pleasure to [move from Wordpress to Jekyll](https://isene.org/2018/08/Welcome.html). Feeling like a kid again, learning this neat web platform. It lends itself beautifully to my interest in programming in general and coding in Ruby in particular. I'm tinkering, adding plugins, exploring some scripting to automate the workflow for writing and publishing. Yeah, it's cool.
 

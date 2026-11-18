@@ -4,6 +4,7 @@ comments: true
 title: Podcast 3 - What is Scientology?
 image: /assets/posts/scientology.jpg
 tags: [Podcast, Scientology]
+thread: Scientology
 ---
 
 <iframe src="https://anchor.fm/isene/embed/episodes/Episode-3---What-is-Scientology-e29d42" width="100%" frameborder="0" scrolling="no"></iframe>

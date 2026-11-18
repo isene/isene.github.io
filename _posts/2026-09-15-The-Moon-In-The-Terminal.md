@@ -4,6 +4,7 @@ comments: true
 title: The Moon in the terminal
 image: /assets/posts/moon.png
 tags: [Geekery, Technology, Astronomy]
+thread: astronomy
 ---
 
 ![moon: tonight's Moon and the days around it](/assets/posts/moon.png)

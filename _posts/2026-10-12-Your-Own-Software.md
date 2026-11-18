@@ -4,6 +4,7 @@ comments: true
 title: "Your own software, just like you imagine it"
 image: /assets/posts/your-own-software.png
 tags: [Geekery, Technology, Personal, AI]
+thread: [owning my software, AI]
 ---
 
 I meet a lot of AI resistance. "AI can't be trusted with code." "AI makes lots of mistakes." "AI slop."

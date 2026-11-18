@@ -4,6 +4,7 @@ comments: true
 title: Podcast 9 - Do you actually need your goals and ambitions?
 image: /assets/posts/ambitions.jpg
 tags: [Podcast, Philosophy, Coaching]
+thread: goals
 ---
 
 <iframe src="https://anchor.fm/isene/embed/episodes/Episode-9-607---Do-you-actually-need-your-goals-and-ambitions-e2cbnt" width="100%" frameborder="0" scrolling="no"></iframe>

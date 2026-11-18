@@ -4,6 +4,7 @@ comments: true
 title: "More games in the browser"
 image: /assets/posts/raid-web.png
 tags: [Geekery, Technology, Personal, Games]
+thread: games
 ---
 
 ![A gunship over a green hill at dusk, a flak gun firing at it](/assets/posts/raid-web.png)

@@ -4,6 +4,7 @@ comments: true
 title: Astropanel - Astronomy program for the terminal 
 image: /assets/posts/astropanel.png
 tags: [Geekery, Technology, Video, Astronomy]
+thread: astronomy
 ---
 
 I am proud to present my latest project - the Astropanel.

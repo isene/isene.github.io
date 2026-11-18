@@ -4,6 +4,7 @@ comments: true
 title: "I'm with Linus"
 image: /assets/posts/ai-as-a-tool.jpg
 tags: [Geekery, Technology, AI]
+thread: AI
 ---
 
 ![Old tools on a workshop wall, with one new tool glowing among them](/assets/posts/ai-as-a-tool.jpg)

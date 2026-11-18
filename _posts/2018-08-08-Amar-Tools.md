@@ -4,6 +4,7 @@ comments: true
 title: Amar Tools reaches v1.0
 image: /assets/img/amarcover.jpg
 tags: [Amar RPG]
+thread: Amar
 ---
 After 15 years in the making, finally Amar Tools is 'feature complete' and deserving the 1.0 release mark (and just recently jumped to v1.1).
 

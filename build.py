@@ -11,6 +11,10 @@ else that is not excluded below is copied as it is.
 A page with tags: in its front matter ends with a list of every post
 that has one of those tags. The menu is in template.html.
 
+A post with thread: in its front matter (one name, or a list as for tags)
+starts with a line that links to the later posts of that thread. So a new
+post on a theme only needs the thread line; the older posts get the link.
+
 The find box reads find.json: the menu, the pages and their headings,
 the projects in _projects.json, and the posts. A page with software: in
 its front matter shows a card for every project tagged (as a GitHub
@@ -193,6 +197,8 @@ class Post:
         self.url = f"/{m[1]}/{m[2]}/{self.slug}.html"
         self.title = str(self.meta.get("title", self.slug))
         self.tags = [str(t) for t in self.meta.get("tags") or []]
+        th = self.meta.get("thread") or []
+        self.threads = [str(t) for t in (th if isinstance(th, list) else [th])]
         self.image = self.meta.get("image")
         self.html = markdown(body, self.meta)
         self.key = (self.date, path.name)
@@ -242,7 +248,18 @@ def post_list(title, items):
             f'      <ul class="post-list">\n      {rows}</ul>\n    </div>')
 
 
-def post_page(p, older, newer, by_tag):
+def later_line(p, by_thread):
+    # One line per thread: the posts of the thread that came after this one, oldest first.
+    out = ""
+    for t in p.threads:
+        later = sorted((q for q in by_thread[t] if q.key > p.key), key=lambda q: q.key)
+        if later:
+            links = " &nbsp;·&nbsp; ".join(f'<a href="{q.url}">{esc(q.title)}</a>' for q in later)
+            out += f'<p class="later">Later posts on {esc(t)}: {links}</p>\n      '
+    return out
+
+
+def post_page(p, older, newer, by_tag, by_thread):
     words = len(plain(p.html).split())
     meta = f'<time datetime="{p.date.isoformat()}">{date_long(p.date)}</time>'
     if p.tags:
@@ -261,7 +278,7 @@ def post_page(p, older, newer, by_tag):
     <h1>{esc(p.title)}</h1>
     <p class="post-meta">{meta}</p>
     <div class="entry-content">
-      {p.html}
+      {later_line(p, by_thread)}{p.html}
     </div>
     <nav class="post-nav">
       {nav}
@@ -581,8 +598,12 @@ def main():
     for p in posts:
         for t in p.tags:
             by_tag.setdefault(t, []).append(p)
+    by_thread = {}
+    for p in posts:
+        for t in p.threads:
+            by_thread.setdefault(t, []).append(p)
     for i, p in enumerate(posts):
-        post_page(p, posts[i + 1] if i + 1 < len(posts) else None, posts[i - 1] if i else None, by_tag)
+        post_page(p, posts[i + 1] if i + 1 < len(posts) else None, posts[i - 1] if i else None, by_tag, by_thread)
     index_page(posts)
     archive_page(posts)
     tags_page(by_tag)

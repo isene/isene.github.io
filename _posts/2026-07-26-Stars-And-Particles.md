@@ -4,6 +4,7 @@ comments: true
 title: Stars and particles
 image: /assets/posts/fe2o3-science.png
 tags: [Geekery, Technology, Astronomy]
+thread: science apps
 ---
 
 ![Stars and particles](/assets/posts/fe2o3-science.png)

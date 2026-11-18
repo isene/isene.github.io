@@ -4,6 +4,7 @@ comments: true
 title: "A smooth ride for Claude Code"
 image: /assets/posts/smooth.jpg
 tags: [Technology, AI, Geekery]
+thread: my Claude Code tools
 ---
 
 ![A hooded figure hands a lantern to a young sailor, while small boats with screens glide over a fjord](/assets/posts/smooth.jpg)

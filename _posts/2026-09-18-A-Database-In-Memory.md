@@ -4,6 +4,7 @@ comments: true
 title: A database in memory
 image: /assets/posts/ferrite.png
 tags: [Geekery, Technology]
+thread: Fe₂O₃
 ---
 
 ![ferrite: a plane of core memory with one bit set](/assets/posts/ferrite.png)

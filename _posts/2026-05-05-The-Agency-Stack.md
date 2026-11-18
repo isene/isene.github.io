@@ -4,6 +4,7 @@ comments: true
 title: The agency stack
 image: /assets/posts/agency-stack.png
 tags: [Geekery, Philosophy, Technology]
+thread: owning my software
 ---
 
 ![The agency stack](/assets/posts/agency-stack.png)

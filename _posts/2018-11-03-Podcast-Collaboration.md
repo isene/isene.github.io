@@ -4,6 +4,7 @@ comments: true
 title: Podcast 13 - Can collaboration be good business? Shipping, ant hills and the crazy fashion industry
 image: /assets/posts/collaboration.jpg
 tags: [Podcast, Business, Shipping]
+thread: shipping
 ---
 <iframe src="https://anchor.fm/isene/embed/episodes/Episode-13-3920---Can-collaboration-be-good-business-e2h8u8" width="100%" frameborder="0" scrolling="no"></iframe>
 

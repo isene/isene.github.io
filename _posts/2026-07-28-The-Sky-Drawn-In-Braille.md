@@ -4,6 +4,7 @@ comments: true
 title: The sky, drawn in braille
 image: /assets/posts/astro-sky.png
 tags: [Geekery, Technology, Astronomy]
+thread: astronomy
 ---
 
 ![The sky chart in astro](/assets/posts/astro-sky.png)

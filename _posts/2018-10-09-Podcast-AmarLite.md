@@ -4,6 +4,7 @@ comments: true
 title: Podcast 8 - Launching a really simple Role-Playing Game
 image: /assets/img/amarcover.jpg
 tags: [Podcast, Amar RPG]
+thread: Amar
 ---
 
 <iframe src="https://anchor.fm/isene/embed/episodes/Episode-8-531---The-really-simple-Role-Playing-Game-e2c64l" width="100%" frameborder="0" scrolling="no"></iframe>

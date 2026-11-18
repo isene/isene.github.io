@@ -4,6 +4,7 @@ comments: true
 title: Podcast 16 - Mental Training
 image: /assets/onepagebooks/2-mentaltraining/cover.jpg
 tags: [Podcast, Coaching]
+thread: mental training
 ---
 <center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-16-644---Mental-Training-e2kgtv" width="100%" frameborder="0" scrolling="no"></iframe></center>
 

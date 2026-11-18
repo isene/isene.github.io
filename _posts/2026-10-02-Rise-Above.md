@@ -4,6 +4,7 @@ comments: true
 title: "Rise Above: my new album"
 image: /assets/posts/riseabove.jpg
 tags: [Music, Art]
+thread: my music
 ---
 
 ![Rise Above](/assets/posts/riseabove.jpg)

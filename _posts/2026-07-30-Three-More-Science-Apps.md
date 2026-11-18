@@ -4,6 +4,7 @@ comments: true
 title: Three more science apps
 image: /assets/posts/fe2o3-science2.png
 tags: [Geekery, Technology]
+thread: science apps
 ---
 
 ![Three more science apps](/assets/posts/fe2o3-science2.png)

@@ -4,6 +4,7 @@ comments: true
 title: The key principle - simplicity
 image: /assets/posts/simplicity.jpg
 tags: [Personal, Coaching]
+thread: simplicity
 ---
 
 I could boil everything I do down to one simple principle:

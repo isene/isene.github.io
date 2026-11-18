@@ -4,6 +4,7 @@ comments: true
 title: How to be kick-ass on stage 
 image: /assets/posts/stage.jpg
 tags: [Coaching, Philosophy]
+thread: public speaking
 ---
 
 The ["Å" team](https://a-circle.no/) shares all the secrets to doing great presentations.

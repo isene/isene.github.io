@@ -4,6 +4,7 @@ comments: true
 title: Chris Cook shares stories and insights
 image: /assets/posts/chris.jpg
 tags: [Coaching, Video]
+thread: Chris Cook
 ---
 
 We had a special guest on our webinar this week - the Olympic swimmer Chris

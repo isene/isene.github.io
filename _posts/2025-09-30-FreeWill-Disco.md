@@ -4,6 +4,7 @@ comments: true
 title: Free Will (deep disco version) - by Geir Isene
 image: /assets/posts/freewill-disco.png
 tags: [Art, Music, Philosophy, Technology]
+thread: [free will, my music]
 ---
 
 This is a teaser for my upcoming book, "Freedom Proof" that in turn is based on my TEG framework - the mathematical framwork leading to the necessity of free will.

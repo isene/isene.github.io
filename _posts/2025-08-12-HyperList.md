@@ -4,6 +4,7 @@ comments: true
 title: HyperList Ruby TUI - Because Lists Should Be Hyper
 image: /assets/posts/hyperlist-logo.svg
 tags: [Geekery, Technology, Ruby, HyperList]
+thread: HyperList
 ---
 
 After 14 years of HyperList evolution and thousands of users leveraging the VIM plugin, it's time for HyperList to break free from VIM and become a standalone terminal application. 

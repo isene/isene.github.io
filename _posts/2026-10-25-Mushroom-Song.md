@@ -4,6 +4,7 @@ comments: true
 title: "A mushroom's song"
 image: /assets/posts/mushroom-song.jpg
 tags: [Music, Art, Technology]
+thread: my music
 ---
 
 ![A fly agaric in an autumn birch forest, wired to a small circuit board, with music notes rising from its cap](/assets/posts/mushroom-song.jpg)

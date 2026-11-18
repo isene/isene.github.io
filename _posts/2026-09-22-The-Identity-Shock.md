@@ -4,6 +4,7 @@ comments: true
 title: The identity shock
 image: /assets/posts/identity-shock.jpg
 tags: [AI, Philosophy, Free Will, Technology]
+thread: [free will, AI]
 ---
 
 ![The identity shock](/assets/posts/identity-shock.jpg)

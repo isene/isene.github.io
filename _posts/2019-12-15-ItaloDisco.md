@@ -4,6 +4,7 @@ comments: true
 title: Midnight Magic defintive Italo Disco Collection
 image: /assets/posts/italo.jpg
 tags: [Music]
+thread: my music
 ---
 
 [Midnight Magic](https://books.google.no/books?id=M91HDwAAQBAJ&pg=PT61&lpg=PT61&dq=%22Midnight+Magic%22+radio&source=bl&ots=qDkoA7soxl&sig=ACfU3U0HnptxlzSHv__PDiAtXiXvT0KBvA&hl=no&sa=X&ved=2ahUKEwiAotuElLjmAhV066YKHeYuB-84ChDoATAGegQICRAB#v=onepage&q=%22Midnight%20Magic%22%20radio&f=false) was a local radio station show running from 1987 until 1990 on Radio City/Oslo and Radio Oslofjord. It is the only radio show in Norway that had a boot leg black market with cassette tapes selling for as much as USD 50 at the time. It brought [role-playing](http://d6gaming.org/index.php/Main_Page) to the air and we got to the second spot in the ratings, only beaten by Coca Cola Top 30.

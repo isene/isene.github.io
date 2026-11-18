@@ -4,6 +4,7 @@ comments: true
 title: Ja, vi elsker — a heavier take on the anthem
 image: /assets/posts/javielsker.png
 tags: [Music, Norway]
+thread: my music
 ---
 
 <video controls poster="/assets/posts/javielsker.png" preload="metadata" style="width:100%;max-width:720px;display:block;margin:1em auto;">

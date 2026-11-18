@@ -4,6 +4,7 @@ comments: true
 title: A font for Amar
 image: /assets/posts/amarfont.png
 tags: [Geekery, Technology, Amar RPG]
+thread: Amar
 ---
 
 ![A font for Amar](/assets/posts/amarfont.png)

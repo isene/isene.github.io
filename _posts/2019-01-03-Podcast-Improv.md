@@ -4,6 +4,7 @@ comments: true
 title: Podcast 18 - The value of improvisation in Role-Playing Games
 image: /assets/art/random.jpg
 tags: [Podcast, Amar RPG]
+thread: Amar
 ---
 <center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-18-1754---The-value-of-improvisation-in-Role-Playing-Games-e2sdlq" width="100%" frameborder="0" scrolling="no"></iframe></center>
 

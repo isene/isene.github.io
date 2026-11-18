@@ -4,6 +4,7 @@ comments: true
 title: Realise impressive goals
 image: /assets/img/lighthouse_o.jpg
 tags: [Business, Coaching]
+thread: goals
 ---
 
 Inspired by my collegue [Brendan Martin](https://www.brendanmartin.com/) who made a methodology based on his name, I decided to do the same.

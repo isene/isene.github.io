@@ -4,6 +4,7 @@ comments: true
 title: Pictures out of text
 image: /assets/posts/glow-lighthouse.png
 tags: [Geekery, Technology]
+thread: Fe₂O₃
 ---
 
 Been doing digital art since the mid-90s. Since I am living in the terminal, I decided to improve the ascii part of image displays. Usually I get images to show inline in the terminal via the kitty protocol, but now and then I am on a server via ssh and still want to see some images - or at least what they look like. Hence an update to my graphics engine.

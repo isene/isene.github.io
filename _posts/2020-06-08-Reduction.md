@@ -4,6 +4,7 @@ comments: true
 title: Simple principles
 image: /assets/photos/oslofjordsunset.jpg
 tags: [Personal, Philosophy, Coaching]
+thread: simplicity
 ---
 
 I'm on a quest to reduce my principles in life to utter simplicity.

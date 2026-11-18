@@ -4,6 +4,7 @@ comments: true
 title: Bloatware
 image: /assets/posts/bloatware.png
 tags: [Geekery, Technology]
+thread: battery life
 ---
 
 ![The lumbering machine and the one who travels light](/assets/posts/bloatware.png)

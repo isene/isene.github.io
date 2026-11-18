@@ -4,6 +4,7 @@ comments: true
 title: Motivation - a silly short how-to
 image: /assets/posts/motivation.jpg
 tags: [Coaching]
+thread: motivation
 ---
 
 If you have something you should do - for any reason - and you struggle to

@@ -4,6 +4,7 @@ comments: true
 title: Programming - what I've been up to lately
 image: /assets/posts/rubycode.png
 tags: [Geekery, Personal]
+thread: astronomy
 ---
   
 Few things gets me going like programming. After a rush of coding in the

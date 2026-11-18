@@ -4,6 +4,7 @@ comments: true
 title: Five new Rust tools
 image: /assets/posts/fe2o3-new.png
 tags: [Geekery, Technology]
+thread: Fe₂O₃
 ---
 
 ![Five new Fe2O3 tools](/assets/posts/fe2o3-new.png)

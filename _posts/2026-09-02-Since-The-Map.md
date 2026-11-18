@@ -4,6 +4,7 @@ comments: true
 title: Seven apps since the map
 image: /assets/posts/since-the-map.jpg
 tags: [Geekery, Technology]
+thread: owning my software
 ---
 
 [![A map with seven new towns drawn in fresh orange ink](/assets/posts/since-the-map.jpg)](/assets/posts/since-the-map.jpg)

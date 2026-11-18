@@ -4,6 +4,7 @@ comments: true
 title: Podcast 15 - Learn better public speaking, even without slides
 image: /assets/posts/publicspeaking.jpg
 tags: [Podcast, Business, Coaching]
+thread: public speaking
 ---
 
 <iframe src="https://anchor.fm/isene/embed/episodes/Episode-15-1609---Learn-better-public-speaking--even-without-slides-e2jrc9" width="100%" frameborder="0" scrolling="no"></iframe>

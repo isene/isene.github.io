@@ -4,6 +4,7 @@ comments: true
 title: A desktop made for one
 image: /assets/posts/audience-of-one.png
 tags: [Geekery, Technology]
+thread: owning my software
 ---
 
 ![A desktop made for one](/assets/posts/audience-of-one.png)

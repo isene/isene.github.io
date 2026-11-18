@@ -4,6 +4,7 @@ comments: true
 title: Fable to the rescue
 image: /assets/posts/fable.png
 tags: [Geekery, Technology]
+thread: CHasm and assembly
 ---
 
 ![Fable to the rescue](/assets/posts/fable.png)

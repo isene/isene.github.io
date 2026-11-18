@@ -4,6 +4,7 @@ comments: true
 title: Podcast 2 - What are Role-Playing Games?
 image: /assets/img/amarcover.jpg
 tags: [Podcast, Amar RPG]
+thread: Amar
 ---
 
 <iframe src="https://anchor.fm/isene/embed/episodes/Episode-2---What-are-Role-Playing-Games-e25si7" width="100%" frameborder="0" scrolling="no"></iframe>

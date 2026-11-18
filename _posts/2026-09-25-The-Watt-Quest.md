@@ -4,6 +4,7 @@ comments: true
 title: The Watt quest
 image: /assets/posts/watt-quest.png
 tags: [Geekery, Technology]
+thread: battery life
 ---
 
 ![Where the watts go at idle](/assets/posts/watt-quest.png)

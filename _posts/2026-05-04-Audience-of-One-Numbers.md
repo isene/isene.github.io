@@ -4,6 +4,7 @@ comments: true
 title: An audience of one - by the numbers
 image: /assets/posts/audience-of-one-numbers.png
 tags: [Geekery, Technology]
+thread: owning my software
 ---
 
 ![An audience of one - by the numbers](/assets/posts/audience-of-one-numbers.png)

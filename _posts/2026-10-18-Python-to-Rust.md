@@ -4,6 +4,7 @@ comments: true
 title: "From Python to Rust"
 image: /assets/posts/python-to-rust.png
 tags: [Geekery, Technology, Rust, AI]
+thread: Fe₂O₃
 ---
 
 ![The Rust crab walks away from a shed python skin](/assets/posts/python-to-rust.png)

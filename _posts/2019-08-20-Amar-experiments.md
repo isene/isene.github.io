@@ -4,6 +4,7 @@ comments: true
 title: Amar - experimenting with new combat and magic systems
 image: https://isene.org/assets/img/amarcover.jpg
 tags: [Amar RPG]
+thread: Amar
 ---
 
 A lot is happening over at the [Amar wiki](https://d6.gaming.org). With plenty

@@ -4,6 +4,7 @@ comments: true
 title: Mental training and Rocket League (w/GreyBeard)
 image: /assets/posts/GreyBeard.png
 tags: [Esport, Coaching, Video]
+thread: [mental training, esports]
 ---
 
 It was a real pleasure to talk to @GreyBeard (Ryan Hogarth) from South Africa.

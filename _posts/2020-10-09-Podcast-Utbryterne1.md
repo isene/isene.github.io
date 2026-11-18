@@ -4,6 +4,7 @@ comments: true
 title: Podcast (Utbryterne) - Scientologi 
 image: /assets/posts/utbryterne.jpg
 tags: [Podcast, Scientology]
+thread: Scientology
 ---
 
 <center><iframe src="https://anchor.fm/utbryterne/embed/episodes/06-Vi-snakker-med-Geir-om-hva-foregr-bak-lukkede-drer-i-Scientologikirken-ekqgdf/a-a3g4oer" width="100%" frameborder="0" scrolling="no"></iframe></center>

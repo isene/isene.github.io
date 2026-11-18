@@ -4,6 +4,7 @@ comments: true
 title: "Proof by machine"
 image: /assets/posts/lean.jpg
 tags: [Free Will, Philosophy, Mathematics, Technology]
+thread: [free will, proof by machine]
 ---
 
 ![Gödel and a god in the clouds, a laptop running a Lean proof, and the TEG circle with the words "A ground with no properties. Hence free will."](/assets/posts/lean.jpg)

@@ -4,6 +4,7 @@ comments: true
 title: Motivation webinar
 image: /assets/posts/pettersen.jpg
 tags: [Coaching, Video]
+thread: motivation
 ---
 
 Welcome to our first webinar of 2021 :-)

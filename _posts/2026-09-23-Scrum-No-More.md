@@ -4,6 +4,7 @@ comments: true
 title: Scrum no more
 image: /assets/posts/scrum.jpg
 tags: [Technology, Business, AI, Simplicity]
+thread: simplicity
 ---
 
 ![Scrum no more](/assets/posts/scrum.jpg)

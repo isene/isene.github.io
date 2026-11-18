@@ -4,6 +4,7 @@ comments: true
 title: Building a 64-bit OS from Scratch with Claude Code
 image: /assets/posts/SimplicityOS.png
 tags: [Technology, Programming, AI, Forth, Operating Systems]
+thread: CHasm and assembly
 ---
 
 It's getting cold in Oslo. Had a dinner with the boss two days ago, should

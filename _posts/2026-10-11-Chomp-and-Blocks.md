@@ -4,6 +4,7 @@ comments: true
 title: "Chomp and Blocks"
 image: /assets/posts/blocks-cats.png
 tags: [Geekery, Technology, Personal, Games]
+thread: games
 ---
 
 ![Two cats on the grass above a blue bay](/assets/posts/blocks-cats.png)

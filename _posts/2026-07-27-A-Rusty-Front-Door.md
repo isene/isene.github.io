@@ -4,6 +4,7 @@ comments: true
 title: A rusty front door
 image: /assets/posts/fe2o3-launcher.png
 tags: [Geekery, Technology]
+thread: Fe₂O₃
 ---
 
 ![The fe2o3 launcher](/assets/posts/fe2o3-launcher.png)

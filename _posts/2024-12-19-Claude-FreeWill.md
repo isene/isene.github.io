@@ -4,6 +4,7 @@ comments: true
 title: A discussion with Claude on Free Will
 image: /assets/art/humanfactor.jpg
 tags: [Philosophy, Simplicity]
+thread: free will
 ---
  
 I took up the subject of Free Will with [Claude](https://claude.ai). And here is the result:

@@ -4,6 +4,7 @@ comments: true
 title: Motivational workshop (video)
 image: /assets/posts/motivation.png
 tags: [Business, Coaching, Philosophy, Video]
+thread: motivation
 ---
 
 Here is an example of a motivational workshop we do in our company ["Å" (A-Circle)](https://a-circle.no).

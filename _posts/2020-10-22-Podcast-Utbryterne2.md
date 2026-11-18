@@ -4,6 +4,7 @@ comments: true
 title: Podcast (Utbryterne) - Scientologi - del 2
 image: /assets/posts/utbryterne.jpg
 tags: [Podcast, Scientology]
+thread: Scientology
 ---
 <center><iframe src="https://anchor.fm/utbryterne/embed/episodes/07-Vi-snakker-med-Geir-om-tankepoliti--pengepress-og-scientologis-syn-p-barn-og-psykiatri-ekqrnq/a-a3g63l6" width="100%" frameborder="0" scrolling="no"></iframe></center>
 

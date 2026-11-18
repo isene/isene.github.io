@@ -4,6 +4,7 @@ comments: true
 title: The Freedom Proof in four minutes
 image: /assets/posts/freedomproof.jpg
 tags: [Philosophy, Music]
+thread: [free will, my music]
 ---
 
 ![The Freedom Proof](/assets/posts/freedomproof.jpg)

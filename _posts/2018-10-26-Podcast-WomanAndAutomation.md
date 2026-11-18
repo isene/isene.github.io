@@ -4,6 +4,7 @@ comments: true
 title: Podcast 12 - Women will be last to be replaced by robots and AI
 image: /assets/posts/wista2.jpg
 tags: [Podcast, Business, Shipping]
+thread: [AI, shipping]
 ---
 <iframe src="https://anchor.fm/isene/embed/episodes/Eposide-12-2351---Women-will-be-last-to-be-replaced-by-robots-and-AI-e2g0m9" width="100%" frameborder="0" scrolling="no"></iframe>
 

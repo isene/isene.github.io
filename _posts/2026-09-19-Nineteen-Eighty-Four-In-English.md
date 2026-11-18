@@ -4,6 +4,7 @@ comments: true
 title: Nineteen Eighty-Four in English
 image: /assets/posts/1984-english.jpg
 tags: [Personal, Scientology]
+thread: Scientology
 ---
 
 ![Nineteen Eighty-Four, the English edition](/assets/posts/1984-english.jpg)

@@ -4,6 +4,7 @@ comments: true
 title: How Men Will Stay Significant...
 image: /assets/posts/relevantmen.png
 tags: [Technology, Shipping, Podcast]
+thread: [AI, shipping]
 ---
 
 I had the great pleasure talking to the wonderful [Annmarie Bhola](https://www.linkedin.com/in/annmariebhola/). Her combination of empathy and intelligence stands out. We had a cool session that is relevant way beyond the headline. In addition to covering some of the points from my earlier podcast ([Women will be last to be replaced by robots and AI](https://isene.org/2018/10/Podcast-WomanAndAutomation.html)), we covered fatherhood and men's future job situations. 

@@ -4,6 +4,7 @@ comments: true
 title: CHasm in three commands
 image: /assets/posts/chasm-desktop.png
 tags: [Geekery, Technology]
+thread: CHasm and assembly
 ---
 
 [![The CHasm desktop: tile, strip, glass and bare, all assembly](/assets/posts/chasm-desktop.png)](/assets/posts/chasm-desktop.png)

@@ -4,6 +4,7 @@ comments: true
 title: "Proving a process"
 image: /assets/posts/lean-itil.jpg
 tags: [Technology, Mathematics, AI]
+thread: proof by machine
 ---
 
 ![An ITIL flowchart on paper with a magnifying glass over a missing step, beside a laptop running a Lean proof](/assets/posts/lean-itil.jpg)

@@ -4,6 +4,7 @@ comments: true
 title: Free will should remain free - structures should be structured
 image: /assets/posts/bird.png
 tags: [Philosophy]
+thread: free will
 ---
 
 <i>You <b>manage</b> to get out of bed in the morning. You <b>manage</b> to

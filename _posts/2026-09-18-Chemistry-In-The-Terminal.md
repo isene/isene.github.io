@@ -4,6 +4,7 @@ comments: true
 title: Chemistry in the terminal
 image: /assets/posts/alchemy.png
 tags: [Geekery, Technology]
+thread: science apps
 ---
 
 ![alchemy: golden rain, iodine on starch, and salt left in the bottom of a tube](/assets/posts/alchemy.png)

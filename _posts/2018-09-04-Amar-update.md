@@ -4,6 +4,7 @@ comments: true
 title: Amar - Gods, GM screen, Campaign tracker
 image: /assets/img/wheel.jpg
 tags: [Amar RPG]
+thread: Amar
 ---
 
 Here are some neat updates for Game Masters of the [Amar Role-Playing Game](http://d6gaming.org).

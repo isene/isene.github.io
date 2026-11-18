@@ -4,6 +4,7 @@ comments: true
 title: Podcast 6 - Revenge of the calculator geek
 image: /assets/img/hp-41.png
 tags: [Podcast, Geekery, HP-41]
+thread: calculators
 ---
 
 <center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-6-1816---Revenge-of-the-calculator-geek-e2a5gs" width="100%" frameborder="0" scrolling="no"></iframe></center>

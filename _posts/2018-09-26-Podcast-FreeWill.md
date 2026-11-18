@@ -4,6 +4,7 @@ comments: true
 title: Podcast 4 - Free Will
 image: /assets/onepagebooks/3-freewill/cover.jpg
 tags: [Podcast, Philosophy]
+thread: free will
 ---
 
 <center><iframe src="https://anchor.fm/isene/embed/episodes/Episode-4---Free-will-e29rtt" width="100%" frameborder="0" scrolling="no"></iframe></center>

@@ -4,6 +4,7 @@ comments: true
 title: The Selection Gap
 image: /assets/posts/petrinets.png
 tags: [Geekery, Philosophy, Technology]
+thread: [free will, AI]
 ---
 
 ![The Selection Gap](/assets/posts/petrinets.png)

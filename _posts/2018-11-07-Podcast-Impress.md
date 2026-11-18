@@ -4,6 +4,7 @@ comments: true
 title: Podcast 14 - Impress with the Arrow->Box->Arrow method
 image: /assets/onepagebooks/10-impress/cover.jpg
 tags: [Podcast, Business, Shipping, Coaching]
+thread: [shipping, public speaking]
 ---
 <iframe src="https://anchor.fm/isene/embed/episodes/Episode-14-1313---Impress-with-the-Arrow-Box-Arrow-method-e2hsrf" width="100%" frameborder="0" scrolling="no"></iframe>
 

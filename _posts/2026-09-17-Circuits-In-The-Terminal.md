@@ -4,6 +4,7 @@ comments: true
 title: Circuits in the terminal
 image: /assets/posts/circuit.png
 tags: [Geekery, Technology]
+thread: science apps
 ---
 
 ![circuit: two transistors taking turns, the lit LED's loop in double lines](/assets/posts/circuit.png)
