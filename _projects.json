@@ -328,6 +328,18 @@
   "try": null
  },
  {
+  "name": "dm41",
+  "description": "A twin of the SwissMicros DM41X in the terminal: programs, registers, flags and X-Memory from its state file",
+  "url": "https://github.com/isene/dm41",
+  "topics": [
+   "calculator",
+   "fe2o3",
+   "hp-41"
+  ],
+  "download": null,
+  "packages": []
+ },
+ {
   "name": "dm41xm",
   "description": "The program extracts an ASCII XM file from a DM41X state file.",
   "url": "https://github.com/isene/dm41xm",
