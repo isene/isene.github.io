@@ -13,6 +13,10 @@ In more than three decades of coaching people, one thing stands out: There is a 
 
 Everything Is Perfectly Fine is out on [Spotify](https://open.spotify.com/album/1VkDBmDfZkVybNE3oWe1Fi) today. A jazz song with vocals, 3:20... the world ends, the wine runs out, the banker wants the house, and the band still plays. After all, it's just [Existence](https://isene.com/freewill).
 
+## Watch
+
+<center><iframe width="700" height="394" src="https://www.youtube.com/embed/tSpM0cGQ8k0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
 ## Listen
 
 <p><audio src="/assets/music/perfectly-fine.mp3" controls preload="metadata" style="width:100%"></audio></p>
