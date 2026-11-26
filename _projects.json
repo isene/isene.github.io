@@ -1395,6 +1395,17 @@
   "try": null
  },
  {
+  "name": "indi",
+  "description": "Telescope gear through an INDI server, in the terminal: focuser, mount, go-to by name, every driver property",
+  "url": "https://github.com/isene/indi",
+  "topics": [
+   "fe2o3",
+   "science"
+  ],
+  "download": "https://github.com/isene/indi/releases/latest",
+  "packages": []
+ },
+ {
   "name": "isene.github.io",
   "description": "",
   "url": "https://github.com/isene/isene.github.io",
