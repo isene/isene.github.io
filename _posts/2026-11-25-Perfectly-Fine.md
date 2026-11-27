@@ -9,7 +9,7 @@ thread: my music
 
 ![Everything Is Perfectly Fine](/assets/posts/perfectly-fine.jpg)
 
-In more than three decades of coaching people, one thing stands out: There is a tendency to take things a lot more serious than they really are. The skill of letting go, to not give a fuck should be practiced regularily. Or else life tends to become quite stressful.
+In more than three decades of coaching people, one thing stands out: There is a tendency to take things a lot more seriously than they really are. The skill of letting go, to not give a fuck should be practiced regularly. Or else life tends to become quite stressful.
 
 Everything Is Perfectly Fine is out on [Spotify](https://open.spotify.com/album/1VkDBmDfZkVybNE3oWe1Fi) today. A jazz song with vocals, 3:20... the world ends, the wine runs out, the banker wants the house, and the band still plays. After all, it's just [Existence](https://isene.com/freewill).
 
