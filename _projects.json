@@ -1550,6 +1550,17 @@
   "try": "https://isene.org/fe2o3/try/app.html?a=moon"
  },
  {
+  "name": "neon",
+  "description": "A folder as a neon city at night, in 3D: the 3D mode of the pointer file manager",
+  "url": "https://github.com/isene/neon",
+  "topics": [
+   "fe2o3",
+   "games"
+  ],
+  "download": null,
+  "packages": []
+ },
+ {
   "name": "NetHack-Android",
   "description": "NetHack 5.0 for Android (archived; superseded by JodiJodington/NetHack-Android)",
   "url": "https://github.com/isene/NetHack-Android",
